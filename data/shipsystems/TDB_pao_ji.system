@@ -1,0 +1,12 @@
+{
+    "id":"TDB_pao_ji",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.TDB_paojiAI",
+    "statsScript":"data.shipsystems.scripts.TDB_pao_ji",
+	
+	"weaponGlowColor":[50,140,255,255],
+	"weaponTypes":[MISSILE],
+
+    "runScriptWhileIdle":true,
+}

@@ -1,0 +1,47 @@
+{
+  "variantId": "TDB_chuan_yue_xue_zhe_variant",
+  "hullId": "TDB_chuan_yue_xue_zhe",
+  "displayName": "常规",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "TDB_foehn2",
+        "WS0008": "TDB_foehn2",
+        "WS0009": "TDB_foehn2"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyneedler",
+        "WS0002": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "TDB_Focuspd",
+        "WS0004": "TDB_Focuspd",
+        "WS0005": "TDB_Focuspd",
+        "WS0006": "TDB_Focuspd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,108 @@
+{
+  "hullName": "TDB_feng_xian",
+  "hullId": "TDB_feng_xian",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_feng_xian.png",
+  "style": "TDB_TECH",
+  "height": 104,
+  "width": 94,
+  "center": [48, 49.5],
+  "collisionRadius": 88,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, 15.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, -15.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-7, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-36.5, 17.5],
+      "length": 19.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-36.5, -17.5],
+      "length": 19.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-45, -0],
+      "length": 0,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    -45, -15.5,
+    -39.5, -24.5,
+    -11, -34,
+    -1.5, -34,
+    -8.5, -22.5,
+    5.5, -11,
+    19, -14.5,
+    34.5, -8,
+    54.5, -0,
+    34.5, 8,
+    19, 14.5,
+    5.5, 11,
+    -8.5, 22.5,
+    -1.5, 34,
+    -11, 34,
+    -39.5, 24.5,
+    -45, 15.5
+  ]
+}

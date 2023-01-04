@@ -1,0 +1,151 @@
+{
+  "hullName": "TDB_feng_ya",
+  "hullId": "TDB_feng_ya",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/TDB_feng_ya.png",
+  "style": "TDB_TECH",
+  "height": 150,
+  "width": 120,
+  "center": [60, 71.5],
+  "collisionRadius": 112,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 95.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_zi_dong_jian_chuan"
+  ],
+  "builtInWeapons": {
+    "WS0004": "TDB_hang_ji_deng_da",
+    "WS0005": "TDB_hang_ji_deng_da",
+    "WS0006": "TDB_hu_dun",
+    "WS0007": "TDB_hu_dun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 189,
+      "angle": -80,
+      "locations": [-23.5, -42]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 189,
+      "angle": 80,
+      "locations": [-23.5, 42]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 47]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -45]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-36, -31.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-36, 31.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32.5, -0],
+      "length": 64.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-32.5, -0],
+      "length": 0,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    -32.5, -6.5,
+    -21, -13,
+    -27.5, -20,
+    -38, -17,
+    -48.5, -16.5,
+    -52, -9.5,
+    -68.5, -13.5,
+    -52.5, -23.5,
+    -50.5, -33.5,
+    -61.5, -34,
+    -42.5, -43,
+    -31, -54,
+    5, -56,
+    10.5, -52,
+    3.5, -46.5,
+    18, -34.5,
+    15.5, -23,
+    28.5, -28,
+    49.5, -21.5,
+    54, -9,
+    76.5, -3,
+    76.5, 3,
+    54, 9,
+    49.5, 21.5,
+    28.5, 28,
+    15.5, 23,
+    18, 34.5,
+    3.5, 46.5,
+    10.5, 52,
+    5, 56,
+    -31, 54,
+    -42.5, 43,
+    -61.5, 34,
+    -50.5, 33.5,
+    -52.5, 23.5,
+    -68.5, 13.5,
+    -52, 9.5,
+    -48.5, 16.5,
+    -38, 17,
+    -27.5, 20,
+    -21, 13,
+    -32.5, 6.5
+  ]
+}

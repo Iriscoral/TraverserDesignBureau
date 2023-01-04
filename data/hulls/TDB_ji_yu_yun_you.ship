@@ -1,0 +1,192 @@
+{
+  "hullName": "TDB_ji_yu_yun_you",
+  "hullId": "TDB_ji_yu_yun_you",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/TDB_ji_yu_yun/TDB_ji_yu_yun_you.png",
+  "style": "TDB_TECH",
+  "height": 240,
+  "width": 230,
+  "center": [99.5, 113],
+  "collisionRadius": 151.5,
+  "shieldCenter": [-0.5, -0],
+  "shieldRadius": 141,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "TDB_ji_yu_yun",
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "builtInWeapons": {
+    "WS0004": "TDB_hang_ji_deng_da",
+    "WS0005": "TDB_hang_ji_deng",
+    "WS0006": "TDB_hang_ji_deng",
+    "WS0007": "TDB_hang_ji_deng",
+    "WS0008": "TDB_hang_ji_deng",
+    "WS0009": "TDB_hang_ji_deng",
+    "WS0010": "TDB_hang_ji_deng"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [66.5, -45]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0.5,
+      "locations": [11, 7.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -29.5,
+      "locations": [-9.5, -41]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [121.5, 32.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19.5, -57]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [31.5, -57]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [43.5, -57]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-79.5, -56]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-67.5, -56]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-55.5, -56]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        34.5, 17,
+        34, -1,
+        55.5, -1,
+        54.5, 17
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79, 21],
+      "length": 50,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-58.5, -33.5],
+      "length": 51.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-50.5, -48],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-50.5, -48],
+      "length": 0,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    92, 24.5,
+    88, -42.5,
+    109.5, -48.5,
+    110, -66,
+    74, -74,
+    62, -83.5,
+    -59.5, -89.5,
+    -108, -68.5,
+    -108, -56,
+    -49, -51.5,
+    -59, -41,
+    -60, -23,
+    -89.5, -20.5,
+    -80, 32.5,
+    -90, 42.5,
+    -107.5, 63.5,
+    -56, 59.5,
+    76, 69,
+    86, 62.5,
+    87, 53,
+    108, 42.5,
+    105.5, 27
+  ]
+}

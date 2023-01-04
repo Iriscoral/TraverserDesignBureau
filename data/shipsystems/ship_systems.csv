@@ -1,0 +1,24 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+#常规舰船技能,,,,,,,,,,,,,,,,,,,,,,,,,,,
+永续谐振无人机防御阵列,TDB_xie_zhen_jn,,,,,,,,9,0.4,0.2,,0.5,1,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+"""寒风""导弹系统",TDB_dao_dan,1,,,,,,,,0.05,0.25,6,0.25,7,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+全功率雷达扫描,TDB_SY,,,,,,,,,0.05,0.25,6,0.25,6,,,,,,,,,,,,,graphics/icons/relay.png
+现实透孔跃迁,TDB_yq,,,,,,,,,0.18,0.25,1,0.5,12,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+超时空加速器,TDB_targetingfeed,,,,,,0.5,,,,0.5,15,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+热幅环流线圈,TDB_wu_qi,1,,,,,,,,,0,3,1,13,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+炮台部署,TDB_turretdeploy,,,,,,,,2,0.03,1,,0.5,0.5,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+无序偏移,TDB_tuxi,1,,,,,,,,,0,2,1,15,,,,,TRUE,,TRUE,,TRUE,TRUE,,,graphics/icons/hullsys/maneuvering_jets.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#唯一舰,,,,,,,,,,,,,,,,,,,,,,,,,,,
+纳米重构,TDB_na_mi,1,,,,,,,,,0,2,1,13,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+花夜蝶,TDB_san_se_jin,1,,,,,,,,,0,4,0.25,10,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+预充能式离子长枪,TDB_li_zi_pao,1,,,,,,,,,0,2,1,7,,,,,,,,,,,,,
+归羽,TDB_yq_gugu,,,,,,,,,0.18,0.25,5,0.5,13,,,,,,,,,,,,,graphics/icons/hullsys/displacer.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#特殊系统,,,,,,,,,,,,,,,,,,,,,,,,,,,
+临近巡航,TDB_xun_hang,1,,,,,,,,,2,,2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+雨云守护[左],TDB_yu_yun,,,,,,,,2,0.3,0.2,,0.5,1,,,,,,,,,,,,,
+雨云守护[右],TDB_yu_yun1,,,,,,,,2,0.3,0.2,,0.5,1,,,,,,,,,,,,,
+炮击牵引系统[未完成],TDB_pao_ji,1,,,,,,,,,0.5,,0.5,1,TRUE,,,,,,,,,,,,
+伴飞子机,TDB_ban_fei,,,,,,,,2,0.4,1.3,,0.5,1,,,,,,,,,,,,,
+纳米机群,TDB_na_mi_ji_qun,,,,,,,,9,0.4,0.2,,0.5,1,,,,,,,,,,,,,

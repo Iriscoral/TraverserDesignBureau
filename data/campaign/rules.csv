@@ -1,0 +1,70 @@
+id,trigger,conditions,script,text,options,notes
+,,,,,,
+greetingTDBFriendly,OpenCommLink,"$faction.id == TDB
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""敌我识别完成,请问有什么需要帮助吗?我的朋友.""
+OR
+""敌我识别完成,指挥官 $personName 向您问好,很高兴见到你,我的朋友.""",,
+greetingTDBHostileWeaker,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""我们不是敌人吗?"" $personName 好奇的问道 ""向敌人发起通讯链接,你在期待什么?""。",cutCommLink:切断通讯链接,
+greetingTDBHostileWeakerDefiant,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""旅者,如果不想惹上麻烦的话,我建议你最好谨慎一些.""
+",cutCommLink:切断通讯链接,
+greetingTDBHostileStronger,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""多说无益,让你的舰队准备交火吧。""
+OR
+""身后就是我们的家园,我是不会让步的！""",cutCommLink:切断通讯链接,
+greetingTDBTOffNormal,OpenCommLink,"$faction.id == TDB
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength >= 0",,"""请立刻打开应答器,此星区内不允许关闭应答器航行.""","turnOnTransponder:开启通讯器
+cutCommLink:切断通讯链接",
+greetingTDBTOffWeaker,OpenCommLink,"$faction.id == TDB
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength < 0",,"""抱歉,此星区内不允许关闭应答器航行,如果有困难也许我们能帮到您。""","turnOnTransponder:开启通讯器
+cutCommLink:切断通讯链接 ",
+greetingTDBNeutral,OpenCommLink,"$faction.id == TDB
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""陌生的旅者,有何贵干?""
+OR
+""已确认身份,这位旅者,请核实你此行的目的.""",,
+,,,,,,
+,,,,,,
+,,,,,,
+aiCores_turnInOptionSelTDB,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == plsp",FireAll PopulateCoresTurnInOptions,"""如果您真的准备上交这种东西,我们会很高兴收下他的,当然,我们会准备一个让您满意的价格.""",,
+aiCores_turnInResponseTDB,AICoresTurnedIn,$faction.id == TDB,FireAll PopulateOptions,"""十分感谢您做出的贡献,这些核心可帮了我们大忙了!""",,
+,,,,,,
+,,,,,,
+,,,,,,
+relLevelNeutralTDB,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == TDB",,"你在 $theFaction 眼中只是一位陌生而匆忙的旅者,他们会为你提供在允许范围内的帮助,仅此而已。",,
+relLevelFavorableTDB,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == TDB",, $theFaction 已经认可了你的品行，这代表着你能获取一些来自 $theFaction 军用市场的货物...,,
+relLevelWelcomingTDB,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == TDB",,你的名号已经为大多数军官所熟知，$theFaction 也已经向你开放了特殊市场的权限，在星区内的舰队也十分乐意为你提供力所能及的帮助。,,
+relLevelFriendlyTDB,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == TDB",,作为朋友 $theFaction 十分看重你，大部分军官在与你相见时都会向你问好，或是回以一个微笑。,,
+relLevelCooperativeTDB,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == TDB",, $theFaction 十分看重与你的盟友关系，只要你有需要，星区内的巡逻舰队会不留余力的为你提供帮助，各种专属的证明也保证你可以进入各种常人无法触及的场所，据说拥有这种证明的人局长会亲自会见他。,,
+relLevelSuspiciousTDB,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == TDB",,你的行为已经引起了 $theFaction 的注意，虽然公开市场依旧允许你的进入，但繁杂的手续以及频繁的搜查还是让你烦不胜烦。,,
+relLevelInhospitableTDB,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == TDB",,你已经明确地感受到了来自 $theFaction 的不信任。所有的港口与市场都不再允许你的访问，星区内的巡逻队会严查你的行踪。,,
+relLevelHostileTDB,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == TDB",,你已经彻底被 $theFaction 列入了黑名单。 $theFaction 旗下的舰队会毫不留情的对你的舰队发起攻击。,,
+relLevelVengefulTDB,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == TDB",,你与 $theFaction 的关系已经彻底进入冰点。你的头像与舰队在赏金列表上已经被圈画了重点，也许不久之后就会有舰队来找你的麻烦了。,,
+,,,,,,
+flavorTextMarketTDB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == TDB","AddText ""街道上身穿墨蓝色制服的“人”随处可见，他们三五成群的伴随着无人机或是无人车不停的巡逻着并解答着周围来人的疑问。各式绚丽的广告与热情的叫卖声组成了街头日常的旋律。"" marketFlavorTextColor
+AddText ""通过严格的审查后，你被允许进入了更加官方的市场，整齐的布局与遍布各处的协会旗帜是这里的主色调。一名长着猫耳朵的军官与她的机械体同事为你提供了此处市场最新的物价表，并告知你在协会主星系的 Intersection 有特殊的开放市场存在。"" marketFlavorTextColor",,,
+,,,,,,
+greetingGuGuFleet,OpenCommLink,$entity.TDBGuGu score:1000,,"""Indulge的光芒总是太过灼目，身处阴影中时我才能听到来自故乡恒星的歌声。$playerName 舰长，你会想念自己的故乡吗？""",cutCommLink:切断通讯,
+,,,,,,
+,,,,,,

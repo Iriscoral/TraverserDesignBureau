@@ -1,0 +1,54 @@
+{
+  "hullName": "TDB_pao_tai",
+  "hullId": "TDB_pao_tai",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_pao_tai.png",
+  "style": "TDB_TECH",
+  "height": 70,
+  "width": 70,
+  "center": [36, 37],
+  "collisionRadius": 48,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 40.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "pointdefenseai",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25.5, -0],
+      "length": 9.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -26.5, -7,
+    -10, -16,
+    7, -16.5,
+    14, -21.5,
+    16.5, -27.5,
+    21.5, -24,
+    21.5, 24,
+    16.5, 27.5,
+    14, 21.5,
+    7, 16.5,
+    -10, 16,
+    -26.5, 7
+  ]
+}

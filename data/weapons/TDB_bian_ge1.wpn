@@ -1,0 +1,28 @@
+{
+	"id":"TDB_bian_ge1",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+
+    "turretSprite":"graphics/ships/TDB_Biange/TDB_bian_ge1.png",
+	"hardpointSprite":"graphics/ships/TDB_Biange/TDB_bian_ge1.png",
+	"turretOffsets":[18, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[29, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0,
+					   "particleSizeMin":0,
+					   "particleSizeRange":0,
+					   "particleDuration":0,
+					   "particleCount":0,
+					   "particleColor":[255,240,165,0]},	
+	"projectileSpecId":"chaingun_shot",  # projectile that will be fired
+	#"noImpactSounds":true,
+	#"noShieldImpactSounds":true,
+	#"noNonShieldImpactSounds":true,
+	#"fireSoundOne":"chaingun_intro",	
+	"fireSoundTwo":"chaingun_fire",	
+}

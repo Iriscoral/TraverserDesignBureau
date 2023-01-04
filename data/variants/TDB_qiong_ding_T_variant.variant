@@ -1,0 +1,50 @@
+{
+  "variantId": "TDB_qiong_ding_T_variant",
+  "hullId": "TDB_qiong_ding",
+  "displayName": "防御",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_cai_yu",
+        "WS0002": "TDB_cai_yu"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "TDB_changkongpod",
+        "WS0007": "TDB_changkongpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "TDB_Focuspd",
+        "WS0004": "TDB_Focuspd",
+        "WS0005": "TDB_Focuspd"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "TDB_fan_guang_yuan"
+  ]
+}

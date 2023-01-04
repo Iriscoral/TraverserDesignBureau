@@ -1,0 +1,27 @@
+{
+  "variantId": "TDB_feng_ya_variant",
+  "hullId": "TDB_feng_ya",
+  "displayName": "常规",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_ning_hua",
+        "WS0002": "TDB_Focuspd",
+        "WS0003": "TDB_Focuspd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

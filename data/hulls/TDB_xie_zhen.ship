@@ -1,0 +1,53 @@
+{
+  "hullName": "TDB_xie_zhen",
+  "hullId": "TDB_xie_zhen",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_xie_zhen/TDB_xie_zhen.png",
+  "style": "HIGH_TECH",
+  "height": 36,
+  "width": 58,
+  "center": [29, 18],
+  "collisionRadius": 45,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -0],
+      "length": 21,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -14, -7,
+    -6.5, -10,
+    2.5, -23,
+    7, -21,
+    8, -27,
+    13.5, -24,
+    13.5, 24,
+    8, 27,
+    7, 21,
+    2.5, 23,
+    -6.5, 10,
+    -14, 7
+  ]
+}

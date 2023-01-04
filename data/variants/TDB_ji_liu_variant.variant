@@ -1,0 +1,58 @@
+{
+  "variantId": "TDB_ji_liu_variant",
+  "hullId": "TDB_ji_liu",
+  "displayName": "常规",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 45,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_ning_hua",
+        "WS0002": "TDB_han_chao",
+        "WS0003": "TDB_jie_shuang_m",
+        "WS0006": "TDB_jie_shuang_m"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "TDB_yun_chui",
+        "WS0005": "TDB_yun_chui"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "TDB_Focuspd",
+        "WS0008": "TDB_Focuspd",
+        "WS0009": "TDB_Focuspd",
+        "WS0010": "TDB_Focuspd",
+        "WS0011": "TDB_Focuspd",
+        "WS0012": "TDB_Focuspd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,70 @@
+{
+  "hullName": "TDB_fan_guang_yuan",
+  "hullId": "TDB_fan_guang_yuan",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_fan_guang_yuan.png",
+  "style": "TDB_TECH",
+  "height": 29,
+  "width": 32,
+  "center": [16, 16],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0002": "TDB_hang_ji_deng"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, 3],
+      "length": 9.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-9.5, -3],
+      "length": 9.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -10, -5,
+    -12, -13,
+    0, -13,
+    10, -9,
+    9, -3,
+    9, 3,
+    10, 9,
+    0, 13,
+    -12, 13,
+    -10, 5
+  ]
+}

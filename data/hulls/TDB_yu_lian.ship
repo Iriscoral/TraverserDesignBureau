@@ -1,0 +1,150 @@
+{
+  "hullName": "TDB_yu_lian",
+  "hullId": "TDB_yu_lian",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/yu_lian.png",
+  "style": "TDB_TECH",
+  "height": 167,
+  "width": 110,
+  "center": [55, 83.5],
+  "collisionRadius": 129.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 109,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 130.5,
+      "locations": [-31.5, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -130.5,
+      "locations": [-31.5, -14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 204,
+      "angle": 0,
+      "locations": [16.5, -0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [32, -1]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [36.5, -1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, 18],
+      "length": 27.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-75, -20],
+      "length": 27,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-80, -1],
+      "length": 69.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-62, 38],
+      "length": 0,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "TDB_TECH2"
+    },
+    {
+      "location": [-62, -40],
+      "length": 0,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "TDB_TECH2"
+    },
+    {
+      "location": [-62.5, 38],
+      "length": 22.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-62, -40],
+      "length": 22.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -79.5, -27,
+    -68.5, -29,
+    -64.5, -47,
+    -46, -50,
+    -25.5, -45,
+    -15, -35,
+    -7.5, -35.5,
+    22, -35,
+    26.5, -27.5,
+    38, -26,
+    53, -23.5,
+    58, -19.5,
+    75.5, -17.5,
+    75.5, 17.5,
+    58, 19.5,
+    53, 23.5,
+    38, 26,
+    26.5, 27.5,
+    22, 35,
+    -7.5, 35.5,
+    -15, 35,
+    -25.5, 45,
+    -46, 50,
+    -64.5, 47,
+    -68.5, 29,
+    -79.5, 27
+  ]
+}

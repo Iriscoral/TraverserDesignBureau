@@ -1,0 +1,98 @@
+{
+  "hullName": "TDB_mi_san_guang",
+  "hullId": "TDB_mi_san_guang",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_mi_san_guang.png",
+  "style": "TDB_TECH",
+  "height": 57,
+  "width": 39,
+  "center": [19.5, 28.5],
+  "collisionRadius": 36,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0004": "TDB_hang_ji_deng",
+    "WS0005": "TDB_hang_ji_deng"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-14, 13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-14, -13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-16, 18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-16, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, -0],
+      "length": 19,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-27.5, -0],
+      "length": 0,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    -28.5, -10.5,
+    -22, -12.5,
+    -18.5, -8.5,
+    -18.5, -19.5,
+    -13.5, -18.5,
+    -3, -9.5,
+    28.5, -0,
+    -3, 9.5,
+    -13.5, 18.5,
+    -18.5, 19.5,
+    -18.5, 8.5,
+    -22, 12.5,
+    -28.5, 10.5
+  ]
+}

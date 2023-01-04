@@ -1,0 +1,248 @@
+{
+  "hullName": "TDB_chuan_yun",
+  "hullId": "TDB_chuan_yun",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/TDB_chuan_yun.png",
+  "style": "TDB_TECH",
+  "height": 178,
+  "width": 176,
+  "center": [88, 89],
+  "collisionRadius": 137,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 120.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_zi_dong_jian_chuan",
+    "TDB_lei_da"
+  ],
+  "builtInWeapons": {
+    "WS0004": "TDB_lei_da",
+    "WS0005": "TDB_hang_ji_deng_da",
+    "WS0006": "TDB_hang_ji_deng_da",
+    "WS0007": "TDB_hang_ji_deng",
+    "WS0008": "TDB_hang_ji_deng",
+    "WS0009": "blinker_red",
+    "WS0010": "blinker_red",
+    "WS0011": "TDB_hang_ji_deng",
+    "WS0012": "TDB_hang_ji_deng",
+    "WS0013": "blinker_red",
+    "WS0014": "blinker_red",
+    "WS0015": "TDB_hu_dun",
+    "WS0016": "TDB_hu_dun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [10, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 56.5,
+      "locations": [36, 33]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -56.5,
+      "locations": [36, -31]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-42, 1]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [75.5, -10]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [75.5, 14]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-58.5, -48]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-58.5, 50]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-55.5, -45.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-55.5, 47.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [84.5, 21]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [84.5, -19]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [81.5, -16.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [81.5, 18.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [42, 21]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [41.5, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, 32.5],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-35.5, -31],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-80, 1],
+      "length": 57.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-36, 32.5],
+      "length": 0,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH2"
+    },
+    {
+      "location": [-35.5, -31],
+      "length": 0,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    -83, -12,
+    -69, -21,
+    -37.5, -29.5,
+    -37, -36,
+    -61.5, -59.5,
+    -5, -59.5,
+    -10, -75.5,
+    5.5, -72,
+    46, -52,
+    81, -19.5,
+    66.5, -17,
+    76.5, -6,
+    76.5, 6,
+    66.5, 17,
+    81, 19.5,
+    46, 52,
+    5.5, 72,
+    -10, 75.5,
+    -5, 59.5,
+    -61.5, 59.5,
+    -37, 36,
+    -37.5, 29.5,
+    -69, 21,
+    -83, 12
+  ]
+}

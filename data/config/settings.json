@@ -1,0 +1,44 @@
+{
+    "plugins":{
+    },
+	
+    "designTypeColors":
+	{
+		"封存中【如果看见此项说明出BUG了,麻烦上报，感谢】":[163,0,0,255],
+		"穿越者设计局":[69,90,140,255],
+		"越空防壁":[69,90,140,255],
+		"北国芳华[唯一]":[251,121,200,255],
+		"灰色风暴[唯一]":[127,164,148,255],
+    },
+	"graphics":
+	{
+	   "intel":
+	   {
+	       "TDB_HanLiu":"graphics/portraits/TDB_HL.png",
+		   "TDB_HanLiu2":"graphics/portraits/TDB_HL2.png",
+		   "TDB_HuiFeng":"graphics/portraits/TDB_HF.png",
+		   "TDB_GuGu":"graphics/portraits/TDB_GG.png",
+		   "TDB_YiFu":"graphics/portraits/TDB_YF.png",
+		   "TDB_01":"graphics/portraits/TDB_01.png",
+		   "TDB_02":"graphics/portraits/TDB_02.png",
+		   "TDB_03":"graphics/portraits/TDB_03.png",
+	   },
+	   "fx":{
+		    "TDB_trail_5":"graphics/fx/TDB_trail_5.png",
+			"TDB_trail_4":"graphics/fx/TDB_trail_4.png",
+            "TDB_trail_3":"graphics/fx/TDB_trail_3.png",		
+            "TDB_trail_2":"graphics/fx/TDB_trail_2.png",		
+			"TDB_trail_0":"graphics/fx/TDB_trail_0.png",
+			"TDB_shields":"graphics/fx/TDB_shields.png",
+			"TDB_shao":"graphics/fx/TDB_shao_miao.png",
+			"TDB_shao2":"graphics/fx/TDB_shao_miao2.png",
+			"TDB_na_mi":"graphics/fx/TDB_na_mi.png",
+			"TDB_na_mi_map":"graphics/fx/TDB_na_mi.png",
+			"TDB_shuang_hen":"graphics/fx/TDB_shuang_hen.png",
+		},
+       "blueprint_packages":{
+			"TDB_package":"graphics/icons/cargo/TDB_package.png",
+			"TDB_caaw_package":"graphics/icons/cargo/TDB_caaw_package.png",
+		},		
+	}
+}

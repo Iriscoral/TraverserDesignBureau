@@ -1,0 +1,72 @@
+{
+  "variantId": "TDB_hengfeng_variant",
+  "hullId": "TDB_hengfeng",
+  "displayName": "常规",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "fluxcoil"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_ning_hua",
+        "WS0002": "TDB_ning_hua",
+        "WS0003": "TDB_yun_chui",
+        "WS0004": "TDB_yun_chui",
+        "WS0013": "TDB_Focuspd",
+        "WS0014": "TDB_Focuspd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "TDB_cai_yu",
+        "WS0006": "TDB_cai_yu"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "TDB_Focuspd",
+        "WS0008": "TDB_Focuspd",
+        "WS0009": "TDB_Focuspd",
+        "WS0010": "TDB_Focuspd",
+        "WS0011": "TDB_Focuspd",
+        "WS0012": "TDB_Focuspd",
+        "WS0015": "TDB_Focuspd",
+        "WS0016": "TDB_Focuspd"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "TDB_duanhen2",
+        "WS0018": "TDB_duanhen2",
+        "WS0019": "TDB_duanhen2",
+        "WS0020": "TDB_duanhen",
+        "WS0021": "TDB_duanhen",
+        "WS0022": "TDB_duanhen"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "TDB_fan_guang_yuan",
+    "TDB_fan_guang_yuan"
+  ]
+}

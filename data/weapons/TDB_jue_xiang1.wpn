@@ -1,0 +1,53 @@
+{
+  "id": "TDB_jue_xiang1",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_jue_xiang_shot",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/TDB_jue_xiang_turret_base.png",
+  "hardpointSprite": "graphics/weapons/TDB_jue_xiang_hardpoint_base.png",
+  "turretOffsets": [
+    7,
+    2,
+    4,
+    -2,
+    4,
+    2,
+    7,
+    -2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    10,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "autocharge": true,
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 14,
+    "cloudParticleCount": 2,
+    "cloudDuration": 1.4,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.30,
+    "blowbackLength": 25,
+    "blowbackSpread": 25,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "sabot_srm_fire"
+}

@@ -1,0 +1,13 @@
+{
+        "portraits":{
+		"standard_male":[
+			"graphics/portraits/TDB_01.png",
+			"graphics/portraits/TDB_02.png",
+			
+		],
+		"standard_female":[
+		    "graphics/portraits/TDB_04.png",
+			"graphics/portraits/TDB_03.png",
+		],
+	},
+},

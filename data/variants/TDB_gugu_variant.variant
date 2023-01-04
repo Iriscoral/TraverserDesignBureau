@@ -1,0 +1,30 @@
+{
+  "variantId": "TDB_gugu_variant",
+  "hullId": "TDB_gugu",
+  "displayName": "å¸¸è§",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heatseeker",
+        "WS0003": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

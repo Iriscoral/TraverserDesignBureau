@@ -1,0 +1,96 @@
+{
+  "hullName": "TDB_yu_ren",
+  "hullId": "TDB_yu_ren",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_yu_ren.png",
+  "style": "TDB_TECH",
+  "height": 141,
+  "width": 103,
+  "center": [51, 69],
+  "collisionRadius": 92.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 81.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_zi_dong_jian_chuan"
+  ],
+  "builtInWeapons": {
+    "WS0003": "TDB_hang_ji_deng_da",
+    "WS0004": "TDB_hang_ji_deng_da"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-2, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 257,
+      "angle": 0,
+      "locations": [39, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, -32]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43, -0],
+      "length": 45.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-42.5, -0],
+      "length": 0,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    -44, -6.5,
+    -35.5, -15.5,
+    -63, -17.5,
+    -36, -30,
+    -21, -46.5,
+    -10.5, -44.5,
+    -2, -34,
+    67, -4,
+    67, 4,
+    -2, 34,
+    -10.5, 44.5,
+    -21, 46.5,
+    -36, 30,
+    -63, 17.5,
+    -35.5, 15.5,
+    -44, 6.5
+  ]
+}

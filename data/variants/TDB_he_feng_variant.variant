@@ -1,0 +1,28 @@
+{
+  "variantId": "TDB_he_feng_variant",
+  "hullId": "TDB_he_feng",
+  "displayName": "常规",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_Focuspd",
+        "WS0002": "TDB_Focuspd",
+        "WS0003": "TDB_Focuspd",
+        "WS0004": "TDB_Focuspd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "TDB_yun_cheng_variant",
+  "hullId": "TDB_yun_cheng",
+  "displayName": "常规",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_cai_yu"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "TDB_hu_luo_bo",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_hu_luo_bo_shot",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.weapons.TDB_VerticalMissileAnimation",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/weapons/TDB_hu_luo_bo/TDB_hu_luo_bo00.png",
+  "hardpointSprite": "graphics/weapons/TDB_hu_luo_bo/TDB_hu_luo_bo00.png",
+  "turretOffsets": [
+    18,
+    0,
+    6,
+    0,
+    -6,
+    0,
+    -18,
+    0
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    10,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "autocharge":"true",
+  "animationType": "SMOKE",
+  "numFrames": 7,
+  "frameRate": 7,
+  "smokeSpec": {
+    "particleSizeMin": 15,
+    "particleSizeRange": 10,
+    "cloudParticleCount": 8,
+    "cloudDuration": 1.5,
+    "cloudRadius": 15,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 15,
+    "blowbackSpread": 10,
+    "particleColor": [
+      55,
+      70,
+      100,
+      105
+    ]
+  },
+  "fireSoundTwo": "TDB_CF"
+}

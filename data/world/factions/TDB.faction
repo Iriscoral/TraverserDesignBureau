@@ -1,0 +1,272 @@
+{
+  "id": "TDB",
+  "color": [69,90,140,255, 190],
+  "secondaryUIColor":[255,255,255,255],
+  "secondarySegments":8,
+  #"baseUIColor": [75, 200, 0, 255],
+  #"darkUIColor": [32, 85, 0, 175],
+  #"gridUIColor": [95, 255, 0, 75],
+  "displayName": "穿越者协会",
+  "displayNameWithArticle": "穿越者协会",
+  "displayNameLong": "穿越者协会",
+  "displayNameLongWithArticle": "穿越者协会",
+  "logo": "graphics/factions/TDBT.png",
+  "crest": "graphics/factions/TDB.png",
+  "shipNamePrefix": "TDB",
+	"shipNameSources":{
+		"HEGEMONY":1,
+		"BRITISH_NAVY":1,
+		"ROMAN":2,
+		"GREEK":1,
+		"SPACE":1,
+		"GENERAL":1,
+	},
+	"names":{
+		"old english":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"TDB_bp":2,
+		},
+		"hulls":{
+			"buffalo2":0, # just say no
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":[],
+		"hulls":[
+		"TDB_ji_yu_yun",
+		"TDB_ceng_ji_yun",
+		"TDB_qiong_ding",
+		"TDB_he_feng",
+		"TDB_hengfeng",
+		"TDB_feng_xian",
+		"TDB_yu_lian",
+		"TDB_shuang_hen",
+		"TDB_gu_yu",
+		"TDB_chuan_yue_xue_zhe",
+		"TDB_yun_cheng",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		"TDB_ji_yu_yun",
+		"TDB_ceng_ji_yun",
+		"TDB_he_feng",
+		"TDB_hengfeng",
+		"TDB_feng_xian",
+		"TDB_qiong_ding",
+		"TDB_yu_lian",
+		"TDB_shuang_hen",
+		"TDB_gu_yu",
+		"TDB_chuan_yue_xue_zhe",
+		"TDB_yun_cheng",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp"],
+		"fighters":[
+			"TDB_fan_guang_yuan",
+			"TDB_pian_zhen_guang1",
+			"TDB_man_fan_she",
+			"TDB_bian_ge",
+			"TDB_quan_fan_she",
+		],
+	},
+	"priorityFighters":{
+		"tags":["TDB_bp"],
+		"fighters":[
+			"TDB_fan_guang_yuan",
+			"TDB_pian_zhen_guang1",
+			"TDB_man_fan_she",
+			"TDB_bian_ge",
+			"TDB_quan_fan_she",
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp"],
+		"weapons":[
+			"TDB_Focuspd",
+			"TDB_changkongpod",
+			"TDB_changkongpod_l",
+			"TDB_foehn",
+			"TDB_lian_yi",
+			"TDB_shuang_jiang",
+			"TDB_jie_shuang_m",
+			"TDB_ning_hua",
+			"TDB_cai_yu",
+			"TDB_jie_shuang",
+			"TDB_ni_lan",
+			"TDB_tai_yang_feng",
+			"TDB_yun_chui",
+			"TDB_feng_zu",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"heatseeker",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+			"TDB_Focuspd",
+			"TDB_changkongpod",
+			"TDB_changkongpod_l",
+			"TDB_foehn",
+			"TDB_lian_yi",
+			"TDB_shuang_jiang",
+			"TDB_ning_hua",
+			"TDB_cai_yu",
+			"TDB_jie_shuang",
+			"TDB_jie_shuang_m",
+			"TDB_jue_xiang",
+			"TDB_ni_lan",
+			"TDB_tai_yang_feng",
+			"TDB_yun_chui",
+			"TDB_feng_zu",
+			"squall",
+			"heatseeker",
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "hegemony", "TDB_cj"],
+		"hullMods":[
+			"advancedshieldemitter",
+			"TDB_hang_kong",
+			"TDB_you_ji",
+			"TDB_Automated",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"frontshield",  # makeshift
+			"surveying_equipment",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":6,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":5,
+		"shipQuality":1,
+		"numShips":1,
+		
+		"shipSize":4,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+		
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"officer_management",
+			"coordinated_maneuvers",
+			"fighter_doctrine",
+			"electronic_warfare",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	"music":{
+		"theme":"music_hegemony_market_neutral",
+		"market_neutral":"music_hegemony_market_neutral",
+		"market_hostile":"music_hegemony_market_hostile",
+		"market_friendly":"music_hegemony_market_friendly",
+		"encounter_neutral":"music_hegemony_encounter_neutral",
+		"encounter_hostile":"music_hegemony_encounter_hostile",
+		"encounter_friendly":"music_hegemony_encounter_friendly",
+	},	
+	"internalComms":"hegemony_internal",
+	#"tariffFraction":0.4,
+	#"tollFraction":0.1,
+	#"fineFraction":0.25,
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/TDB_01.png",
+			"graphics/portraits/TDB_02.png",
+			
+		],
+		"standard_female":[
+			"graphics/portraits/TDB_04.png",
+			"graphics/portraits/TDB_03.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"TDB_HanLiu":{"name":"设计局局长"},
+		},
+		"posts":{
+			"baseCommander":{"name":"协会防御指挥官"},
+			"TDB_HanLiu":{"name":"寒流"},
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":3,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":false,
+		},
+	},	
+	"fleetTypeNames":{
+
+        "tradeLiner":"运输舰队",
+        "smallTrader":"补给舰队",
+
+        "patrolSmall":"巡逻舰队",
+        "patrolMedium":"支援舰队",
+        "patrolLarge":"主力舰队",
+
+        "taskForce":"入侵舰队",
+
+        "foodReliefFleet":"救援舰队",
+    },
+	
+	
+},

@@ -1,0 +1,40 @@
+{
+	"id":"TDB_tuxi",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.scripts.TDB_tuxi",
+	
+	"jitterColor":[0,52,125,80],
+    "jitterCopies":8,
+    "jitterRange":4,
+    "jitterRangeRadiusFraction":0.1,
+	
+	"jitterUnderColor":[0,157,255,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"engineGlowColor":[120,177,255,255],
+	"engineGlowLengthMult":2.5,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":80,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":100,
+	}
+}
