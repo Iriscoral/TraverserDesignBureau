@@ -1,0 +1,2 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+穿越者设计局蓝图,TDB_package,package_bp,,,30000,1000,1,,graphics/icons/cargo/TDB.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,TDB_bp,使重工业设施能够制造{穿越者协会}的常规船体，武器以及战机LPC。,220

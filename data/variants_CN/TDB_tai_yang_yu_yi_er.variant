@@ -1,0 +1,46 @@
+{
+  "variantId": "TDB_tai_yang_yu_yi_er",
+  "hullId": "TDB_tai_yang_yu",
+  "displayName": "伊尔乌斯",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "squall",
+        "WS0002": "squall",
+        "WS0005": "TDB_changkongpod_l",
+        "WS0014": "heatseeker",
+        "WS0015": "heatseeker",
+        "WS0016": "TDB_changkongpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "TDB_shuang_jiang",
+        "WS0004": "TDB_shuang_jiang",
+        "WS0006": "TDB_Focuspd",
+        "WS0007": "TDB_Focuspd",
+        "WS0008": "TDB_Focuspd",
+        "WS0009": "TDB_Focuspd",
+        "WS0010": "TDB_Focuspd",
+        "WS0011": "TDB_Focuspd",
+        "WS0012": "TDB_Focuspd",
+        "WS0013": "TDB_Focuspd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

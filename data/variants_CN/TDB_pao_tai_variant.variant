@@ -1,0 +1,22 @@
+{
+  "variantId": "TDB_pao_tai_variant",
+  "hullId": "TDB_pao_tai",
+  "displayName": "防御",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_shuang_jiang"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

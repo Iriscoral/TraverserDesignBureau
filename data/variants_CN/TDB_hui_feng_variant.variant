@@ -1,0 +1,18 @@
+{
+  "variantId": "TDB_hui_feng_variant",
+  "hullId": "TDB_hui_feng",
+  "displayName": "灰风",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0004": "TDB_na_mi_ji_ku_variant"
+    }
+  ],
+  "wings": []
+}

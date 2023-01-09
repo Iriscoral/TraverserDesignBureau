@@ -1,0 +1,2 @@
+id,name,short,desc,cost,isBonus,isGolden,spritePath,effectPlugin,extra1,extra2,source,tags,spriteAuthor
+TDB_ji_dong,机动推进,提高我方舰船的机动能力,提升我方舰船{%s}的机动能力，如加速度/转向速度/减速度。,-3,TRUE,,graphics/icons/ungp/TDB_YQ.png,data.scripts.ungprules.TDB_UNGP_JD,,,穿越者协会的紧急调遣协议,,

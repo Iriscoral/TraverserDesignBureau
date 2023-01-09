@@ -1,0 +1,21 @@
+{
+    "starSystems":{
+      "TDB_planet1_name":"Intersection",
+    },
+	"shipSystem":{
+      "TDB_linearDriveData0":"increased engine power",
+	},
+    "hullMod":{
+      "TDB_hfsSystem":"performance decreased by %s",
+    },
+    
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+{
+  "variantId": "TDB_yu_ren_variant",
+  "hullId": "TDB_yu_ren",
+  "displayName": "常规",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "TDB_you_ji",
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_cai_yu"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "TDB_Focuspd"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

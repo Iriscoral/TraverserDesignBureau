@@ -1,21 +1,21 @@
 id,type,text1,text2,text3,notes
 ,,,,,
-,,,,,
-TDB_jdgdfy,CUSTOM,"One of the components of the Overwatch programme, this forms part of an interdiction network of small and medium-sized independent unmanned orbital defence platforms that can intercept enemy ships to some extent and make enemy operations on the ground extremely difficult.",,,
-TDB_planet1_description,CUSTOM,"The first and last base of the Traverser's Association, the home of the hopes of countless people. After the rebooting of the Mothership and through the efforts of the Traversers, the planet has been built into a habitable and well-defended fortress, protected by a coalition of unmanned and conventional fleets, and home to the core of the Association, the Traverser Design Bureau.",,"除了守卫着Intersection的星际要塞外，在近地轨道上还整齐的排列着数不清的防御平台，你能清楚的看见他们闪烁的信号灯与搭载炮台，如同一张大网将整个 Intersection 包围了起来。
+#星球/地图建筑描述,,,,,
+TDB_jdgdfy,CUSTOM,[越空防壁]计划的组成部分之一，由许多独立的中小型无人轨道防御平台组成的拦截网络，能一定程度上拦截敌军的舰船并可让敌方对地行动变得异常困难。,,,
+TDB_planet1_description,CUSTOM,承载着无数人的希望，穿越者协会最初也是最后的根据地。经历过重启的孢子母舰改造与穿越者们的不懈努力俨然被建设成为了一座宜居且防守严密的要塞，由无人舰队与常规舰队组成的联军时刻保护着这颗星球，[无人舰队总部]与协会的核心机构[穿越者设计局]坐落于此。,,"除了守卫着Intersection的星际要塞外，在近地轨道上还整齐的排列着数不清的防御平台，你能清楚的看见他们闪烁的信号灯与搭载炮台，如同一张大网将整个 Intersection 包围了起来。
 
 下方处于黑夜中城市的灯光将整个星球点缀的如同星空般璀璨，而在较远处似乎有一台特殊的大号平台正向着星球背光面投射下皎白的光辉。",
-TDB_station,CUSTOM,"One of the key factors in the settlement of the Traversers' Association, this huge orbital fortress was once a Domain Explorarium mothership, now acts is the lifeblood of the Traveller Association. Most areas of the Mothership have been completely rebuilt or dismantled in numerous systematic constructions, now rendering it as an completely unrecognisable fortress.",,"巨大的星际要塞既是协会的太空力量的重要基地也是确保Intersection安全与贸易正常的重要锚点之一，任何企图靠近的军事与民用舰船都在其庞大的雷达与通讯阵列扫描。
+TDB_station,CUSTOM,曾是穿越者协会定居于此的重要因素之一。以一艘来自人之领时代的孢子母舰作为核心改造的巨大轨道要塞，对于穿越者协会来说如同命脉一般的存在。作为其基础的孢子母舰大多数区域已经在无数次系统化建造中被彻底改造或直接拆除重建，如今的它早已彻底面目全非。,,"巨大的星际要塞既是协会的太空力量的重要基地也是确保Intersection安全与贸易正常的重要锚点之一，任何企图靠近的军事与民用舰船都在其庞大的雷达与通讯阵列扫描。
 
 周围巡逻的协会所属载人舰船配合无人舰船热情的引导着来往的民用舰船入港与离去，使得整个要塞繁华却并不混乱。",
-TDB_Survey_ship,CUSTOM,"An exploration mothership from the Domain period, long abandoned and quietly orbiting the Indulge. The hull is in a state of disrepair and bears the message ""Dangerous area, do not approach"" written by the Traverser's Association.",,这艘长眠于此的堪探母舰母舰内部的大部分设备已经被协会拆除，只剩下了空置的船坞与大面积的空旷区域。部分警示灯与警示牌依靠被动式能源收集器还在勉强的工作着。,
+TDB_Survey_ship,CUSTOM,一艘来自人之领时代的勘探母舰，其早已废弃并静静的环绕着 Indulge 公转。破败不堪的舰体上有穿越者协会写出的提示“危险区域，请勿靠近”。,,这艘长眠于此的堪探母舰母舰内部的大部分设备已经被协会拆除，只剩下了空置的船坞与大面积的空旷区域。部分警示灯与警示牌依靠被动式能源收集器还在勉强的工作着。,
 ,,,,,
-,,,,,
-TDB,FACTION,"The Traverser's Association is a group of exiles from other worlds who set out to survive, having previously been part of a large mercenary group under the Freedom Alliance. As they grew in power, they settled the system they had stumbled upon and built it into a true fortress by integrating the technologies and exploration of various worlds, creating this association of travellers and like-minded people. A central body, the Traveller Design Bureau, leads the way as an extremely pro-foreigner force that is hospitable but strictly disciplined. As long as you abide by their laws, you will be more than welcome.
+#势力介绍,,,,,
+TDB,FACTION,"穿越者协会是一群来自异世的流放者为了生存而建立的组织，再此之前是自由联盟旗下的一个大型佣兵团。随着势力的壮大，他们将偶然间发现的星系定居并通过整合各个世界的技术与勘探所得，将其建设成为了一个真正的堡垒，在此建立起这个由穿越者与志同道合之人所组成的协会。由一个核心机构[穿越者设计局]引领着这个势力的的前进，作为一个极端亲外势力他们热情好客，但有着严格的纪律。只要你遵守他们的法律，他们会非常欢迎你的到来。
 
-What is clear is that the Bureau is now offering special warships and weapons to reputable clients.",,,
+可以明确的一点是，现在协会正在为信誉良好的客户提供特殊的战舰与武器.",,,
 ,,,,,
-,,,,,
+#战机联队,,,,,
 TDB_quan_fan_she,SHIP,放眼整篇星域，你很难再找到另一架比全反射级 更加强大的战斗机了，护盾与装甲组成的联合防护配合上复杂却强大的武器系统使得这架超级战机能够轻松摧毁护卫舰甚至是驱逐舰。同时设计局为了让她能同样轻松的对付成群的战机还在机身两侧为其挂载了护航的 泛光源 无人机。,,,
 TDB_mi_san_guang,SHIP,大气/宇宙两用无人战斗机，因设计局本部的泛光源无人拦截机无法满足舰队战中的制空需求而被开发出来。大量破片导弹与速射机炮能高效的给予轻型目标沉重打击。但很显然，不论是空空导弹还是双管机枪都仅仅只能威胁到中小型舰船的护盾，因此在面对重型战舰时会显得无力。其优秀的气动外形保证了即使是在大气层内也能以极高的速度飞行。,,,
 TDB_bian_ge,SHIP,变革级机甲是一款不成熟的作品，旨在对搜集到的其他世界技术的一次尝试，但很显然尝试并不算成功，人形的机体被巨大的转轮链炮配套系统和防空导弹占据了太多的位置导致无法安装护盾发生器。即使安装了小型空间偏移装置其依旧缓慢的航速与巨大的体型也导致其很容易就变成了空优战机的靶子。但由于这些机甲坚固的结构与可以登陆作战这几点让设计局高层看中并不断调整以得到了现在的 变革 机甲。,,,
@@ -23,7 +23,7 @@ TDB_man_fan_she,SHIP,穿越者协会设计的超重型护航炮艇，漫反射�
 TDB_pian_zhen_guang1,SHIP,轰炸机作为航母反舰作战中必不可少的一员自然得到了设计局的重视，因此偏振光级被设计了出来。强大的火力，可靠的护盾无不说明这是一款值得信赖的轰炸机。,,,
 TDB_fan_guang_yuan,SHIP,泛光源作为穿越者设计局本部制造的一种大批量生产无人机，主要担任舰队的制空任务，其搭载了一门聚集点防御激光以及勉强还说的过去的护盾发生器来保护自身脆弱的机体。当然，作为一款量产无人机低廉的价格和庞大的数量可以弥补一切缺点。,,,
 ,,,,,
-,,,,,
+#舰船描述,,,,,
 TDB_gugu,SHIP,"外观上只是一艘身披穿越者协会涂装的风筝-级穿梭机，传感器检测到与风筝-级类似的导弹挂架改造，但原本应是观景圆顶的区域却返回了难以理解的读数。
 
 恍惚中有点点青蓝飘过，宛如空谷幽鸣，歌声飘渺，温柔而略显沙哑。浅吟清唱间，你似乎听到有另一处歌声在与之共鸣。当你试图去追寻这歌声之时，它却随风飘散在星空中。
@@ -89,7 +89,7 @@ TDB_ceng_ji_yun,SHIP,"层积云级作为设计局最经常使用的中坚航母�
 根据官方消息，层积云级确实在建设时得到了来自盟友[蓝海渔业]的帮助，但根据小道消息称，其实是由于强迫症而改成了对称的舰型。
 ",,,
 ,,,,,
-,,,,,
+#武器描述,,,,,
 TDB_yun_chui,WEAPON,云锤转轮炮采用了转管的形式来达到连续发射的目的，在长时间开火的情况下会导致射击精度的严重下降，但仍不妨碍她是一款不错的反盾武器，甚至在紧急情况下其特制的弹丸在如暴雨般射速的加持下能用来拦截敌方导弹。,,,
 TDB_bian_ge2,WEAPON,搭载于变革机甲左臂的重型转轮炮，巨大的体积占据了机甲不少的空间。,,,
 TDB_quan_fan_she,WEAPON,全反射超级战机的主要武器。,,,
