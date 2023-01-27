@@ -37,7 +37,7 @@ Sunshower,Unmanned Arsenal Ship,TDB_tai_yang_yu,Overwatch Defense Network,TDB_da
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Snowsuit,Unmanned Replenishment Ship,TDB_gugu,Traverser Design Bureau,TDB_yq_gugu,3,900,150,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,6,6,HIDE_IN_CODEX,,,,,,TDB_xun_hang,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Synthlight,Battleship,TDB_ren_zhao_guang,Morthland Fragrance (Unique),TDB_li_zi_pao,25,13000,1200,22000,25000,1000,200,,33,50,40,8,8,3000,OMNI,,180,0.25,0.9,,,400,800,400,450,8,56,8,330000,4,20,600,0.25,50,50,HIDE_IN_CODEX,ungp_onslaught,,0.6,2,4,,505
+Synthlight,Battleship,TDB_ren_zhao_guang,Northland Fragrance (Unique),TDB_li_zi_pao,25,13000,1200,22000,25000,1000,200,,33,50,40,8,8,3000,OMNI,,180,0.25,0.9,,,400,800,400,450,8,56,8,330000,4,20,600,0.25,50,50,HIDE_IN_CODEX,ungp_onslaught,,0.6,2,4,,505
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Nanohangar,Nano Hangar,TDB_na_mi_ji_ku,Gray Storm (Unique),TDB_na_mi_ji_qun,11,5000,1000,6000,6667,400,1,2,0,90,60,40,100,300,NONE,,0,0.3,0,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.7,2,3,,309
 Greywind,Nano Interceptor,TDB_hui_feng,Gray Storm (Unique),TDB_na_mi,17,11000,800,11000,14000,550,120,,65,45,25,20,15,1500,OMNI,,180,0.4,1,,,0,1,150,150,5,30,8,200000,3,15,420,0.25,20,20,"HIDE_IN_CODEX, SHIP_WITH_MODULES",,,0.5,2,3,,414
