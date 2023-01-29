@@ -3,7 +3,7 @@ name,designation,id,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 "Floating Turrets",Unmanned Batteries,TDB_pao_tai,Traverser Design Bureau,,,3000,250,3000,3750,300,50,,10,400,300,60,90,200,NONE,,360,0,0.6,,,0,0,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.4,2,2,,6
 Experimental Specimens,You Cheater,TDB_change,"(U/C)
 ",TDB_yq_gugu,20,7000,800,5000,4000,200,130,3,68,60,40,15,20,1200,FRONT,,270,0.5,0.8,,,150,250,120,80,3,28,8,110000,4,12,480,0.25,20,20,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,3,,408
-Raincloud,Unmanned Batteries,TDB_yu_yun,Traverser Design Bureau,,4,1500,150,2200,1875,150,40,,130,120,100,60,120,300,NONE,,180,0.4,0.8,,,0,0,40,20,1,20,10,30000,7,20,,0.25,4,4,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,220
+Raincloud,Unmanned Battery Platform,TDB_yu_yun,Traverser Design Bureau,,4,1500,150,2200,1875,150,40,,130,120,100,60,120,300,NONE,,180,0.4,0.8,,,0,0,40,20,1,20,10,30000,7,20,,0.25,4,4,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,2,,220
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Evening Frost [Incomplete],Unmanned Heavy Cruiser,TDB_wan_shuang,"(U/C)
 ",TDB_SY,16,9000,750,12000,14000,700,140,2,60,40,30,20,25,2000,FRONT,,360,0.6,0.8,,,150,450,400,200,2,100,8,140000,3,15,420,0.25,25,25,"UNBOARDABLE, HIDE_IN_CODEX",,,0.6,2,3,,403
@@ -17,17 +17,17 @@ Cumulonimbus Left Module,Cumulonimbus Left Module,TDB_ji_yu_yun_zuo,Traverser De
 Cumulonimbus Right Module,Cumulonimbus Right Module,TDB_ji_yu_yun_you,Traverser Design Bureau,TDB_yu_yun1,11,5000,1000,6000,6667,400,95,2,0,0,0,0,0,300,NONE,,0,0.3,0,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER",,,0.7,2,3,TDB_xun_hang,309
 Cumulonimbus,Aviation Fortress,TDB_ji_yu_yun,Traverser Design Bureau,TDB_xie_zhen_jn,38,10000,1000,14000,15000,800,230,5,30,6,4,4,4,4500,FRONT,,360,0.4,1,,,800,1500,600,900,15,27,7,550000,3,12,600,0.25,65,65,"SHIP_WITH_MODULES, CARRIER",TDB_bp,,0.4,2,4,TDB_xun_hang,500
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Stratocumulus",Carrier,TDB_ceng_ji_yun,Traverser Design Bureau,TDB_targetingfeed,17,5000,750,5000,6000,300,100,3,80,60,40,20,25,800,FRONT,,120,0.4,0.8,,,150,300,600,900,3,27,8,200000,3,12,600,0.25,25,25,CARRIER,TDB_bp,,0.4,2,4,TDB_xun_hang,500
-Peaceful Wind,Heavy Freighter,TDB_he_feng,Traverser Design Bureau,flarelauncher,7,6000,300,2750,2000,100,55,,40,20,10,10,10,1500,FRONT,,150,0.5,1,,,40,200,800,220,3,40,7,50000,3,20,480,0.25,7,7,CIVILIAN,TDB_bp,,0.6,2,3,TDB_xun_hang,411
+Stratocumulus,Carrier,TDB_ceng_ji_yun,Traverser Design Bureau,TDB_targetingfeed,17,5000,750,5000,6000,300,100,3,80,60,40,20,25,800,FRONT,,120,0.4,0.8,,,150,300,600,900,3,27,8,200000,3,12,600,0.25,25,25,CARRIER,TDB_bp,,0.4,2,4,TDB_xun_hang,500
+Gentle Breeze,Heavy Freighter,TDB_he_feng,Traverser Design Bureau,flarelauncher,7,6000,300,2750,2000,100,55,,40,20,10,10,10,1500,FRONT,,150,0.5,1,,,40,200,800,220,3,40,7,50000,3,20,480,0.25,7,7,CIVILIAN,TDB_bp,,0.6,2,3,TDB_xun_hang,411
 Constant Wind,Battleship,TDB_hengfeng,Traverser Design Bureau,TDB_wu_qi,25,13000,1000,20000,25000,900,270,2,33,50,40,8,8,3000,OMNI,,180,0.25,0.9,,,400,800,400,450,8,56,7,330000,4,20,600,0.25,55,55,,TDB_bp,,0.6,2,4,TDB_xun_hang,505
-Wind Chord,Frigate,TDB_feng_xian,Traverser Design Bureau,displacer,8,1500,150,2200,1875,150,50,,180,120,100,60,120,200,OMNI,,180,0.4,0.8,,,15,30,40,20,1,20,10,30000,7,20,180,0.25,5,5,,TDB_bp,,0.5,2,2,TDB_xun_hang,220
-Dome,布防Cruiser,TDB_qiong_ding,Traverser Design Bureau,TDB_turretdeploy,17,8000,800,11000,14000,650,110,1,55,35,25,12,15,2000,FRONT,,180,0.4,0.8,,,150,300,150,150,5,30,8,200000,3,15,420,0.25,25,25,,TDB_bp,,0.5,2,3,TDB_xun_hang,414
-Frostmark,Battlecruiser,TDB_shuang_hen,Traverser Design Bureau,TDB_tuxi,25,10000,1000,15000,25000,1000,260,2,70,50,40,8,12,3000,OMNI,,180,0.25,1,,,400,800,400,450,8,56,8,330000,4,20,600,0.25,45,45,,TDB_bp,,0.5,2,3,TDB_xun_hang,
+Windstring,Frigate,TDB_feng_xian,Traverser Design Bureau,displacer,8,1500,150,2200,1875,150,50,,180,120,100,60,120,200,OMNI,,180,0.4,0.8,,,15,30,40,20,1,20,10,30000,7,20,180,0.25,5,5,,TDB_bp,,0.5,2,2,TDB_xun_hang,220
+Dome,Line Defense Cruiser,TDB_qiong_ding,Traverser Design Bureau,TDB_turretdeploy,17,8000,800,11000,14000,650,110,1,55,35,25,12,15,2000,FRONT,,180,0.4,0.8,,,150,300,150,150,5,30,8,200000,3,15,420,0.25,25,25,,TDB_bp,,0.5,2,3,TDB_xun_hang,414
+Frostbite,Battlecruiser,TDB_shuang_hen,Traverser Design Bureau,TDB_tuxi,25,10000,1000,15000,25000,1000,260,2,70,50,40,8,12,3000,OMNI,,180,0.25,1,,,400,800,400,450,8,56,8,330000,4,20,600,0.25,45,45,,TDB_bp,,0.5,2,3,TDB_xun_hang,
 Traverser Scholar,Phase Cruiser,TDB_chuan_yue_xue_zhe,Traverser Design Bureau,mine_strike,22,6000,1100,10000,18000,900,110,,80,60,40,20,25,1200,PHASE,phasecloak,,,,0.03,0.03,35,80,100,120,3,50,8,250000,4,20,420,0.25,35,35,,TDB_bp,,,,,TDB_xun_hang,
 Cloud City,Superfreighter,TDB_yun_cheng,Traverser Design Bureau,TDB_xie_zhen_jn,7,8000,300,4000,2000,200,55,,25,10,10,10,10,4000,FRONT,,150,0.5,1,,,80,150,2000,1000,6,40,6,98000,3,20,600,0.25,17,17,CIVILIAN,TDB_bp,,0.6,2,3,TDB_xun_hang,411
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Piercing Cloud,Unmanned Early Warning Ship (EWS),TDB_chuan_yun,Overwatch Defense Network,TDB_SY,11,3000,300,7000,6667,500,90,,100,90,60,40,100,400,OMNI,,180,0.3,0.8,,,0,0,50,40,2,20,9,20000,5,20,300,0.25,13,13,HIDE_IN_CODEX,,,0.7,2,3,TDB_xun_hang,309
+Cloud Piercer,Unmanned Early Warning Ship (EWS),TDB_chuan_yun,Overwatch Defense Network,TDB_SY,11,3000,300,7000,6667,500,90,,100,90,60,40,100,400,OMNI,,180,0.3,0.8,,,0,0,50,40,2,20,9,20000,5,20,300,0.25,13,13,HIDE_IN_CODEX,,,0.7,2,3,TDB_xun_hang,309
 Rainblade,Unmanned Frigate,TDB_yu_ren,Overwatch Defense Network,displacer,4,1500,150,2200,1875,150,40,,150,130,110,60,120,150,OMNI,,180,0.4,0.8,,,0,0,40,20,1,20,10,4500,7,20,180,0.25,4,4,HIDE_IN_CODEX,,,0.5,2,2,TDB_xun_hang,220
 Wind Pressure,Unmanned Destroyer,TDB_feng_ya,Overwatch Defense Network,TDB_wu_qi,10,3000,300,8000,6667,550,90,,100,90,60,40,100,300,OMNI,,180,0.3,0.8,,,0,0,50,40,2,20,9,20000,5,20,300,0.25,13,13,HIDE_IN_CODEX,,,0.7,2,3,TDB_xun_hang,309
 Drizzle,Unmanned Frigate,TDB_xi_yu,Overwatch Defense Network,flarelauncher,4,1200,200,1500,1250,100,30,1,90,120,70,90,180,200,OMNI,,180,0.5,1.0,,,0,0,100,40,1,40,9,6500,8,20,240,0.25,4,4,"CARRIER, HIDE_IN_CODEX",,,,,,TDB_xun_hang,
