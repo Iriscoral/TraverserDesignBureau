@@ -1,2 +1,2 @@
 id,name,faction,desc,script,icon,order
-TDB_Market,无人舰船市场,TDB,穿越者设计局无人分局为信誉良好的雇佣兵舰长开放的无人舰船售卖处，这些无人舰船可以很好的帮助他们完成一些十分危险的事情并不用担心损失。,data.campaign.submarkets.TDB_Market,,0
+TDB_Market,无人舰船市场,TDB,"The Traverser Design Bureau allows for the sale of its unmanned Overwatch vessels for reputable mercenary captains, which can be a great way to help them to conduct dangerous tasks without fear of loss.",data.campaign.submarkets.TDB_Market,,0
