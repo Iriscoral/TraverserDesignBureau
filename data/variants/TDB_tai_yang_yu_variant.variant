@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_tai_yang_yu_variant",
   "hullId": "TDB_tai_yang_yu",
-  "displayName": "常规",
+  "displayName": "General",
   "goalVariant": true,
   "fluxCapacitors": 50,
   "fluxVents": 5,

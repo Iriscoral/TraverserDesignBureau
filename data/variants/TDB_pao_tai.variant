@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_pao_tai",
   "hullId": "TDB_pao_tai",
-  "displayName": "攻击",
+  "displayName": "Attack",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

@@ -6,10 +6,10 @@
   #"baseUIColor": [75, 200, 0, 255],
   #"darkUIColor": [32, 85, 0, 175],
   #"gridUIColor": [95, 255, 0, 75],
-  "displayName": "Traversers' Association",
-  "displayNameWithArticle": "The Traversers' Association",
-  "displayNameLong": "Traversers' Association",
-  "displayNameLongWithArticle": "The Traversers' Association",
+  "displayName": "穿越者协会",
+  "displayNameWithArticle": "穿越者协会",
+  "displayNameLong": "穿越者协会",
+  "displayNameLongWithArticle": "穿越者协会",
   "logo": "graphics/factions/TDBT.png",
   "crest": "graphics/factions/TDB.png",
   "shipNamePrefix": "TDB",
@@ -231,11 +231,11 @@
 	},
 	"ranks":{
 		"ranks":{
-			"TDB_HanLiu":{"name":"Director of the Design Bureau"},
+			"TDB_HanLiu":{"name":"设计局局长"},
 		},
 		"posts":{
-			"baseCommander":{"name":"Association Defence Commander"},
-			"TDB_HanLiu":{"name":"Cold Stream"},
+			"baseCommander":{"name":"协会防御指挥官"},
+			"TDB_HanLiu":{"name":"寒流"},
 		},
 	},
 	"custom":{
@@ -256,16 +256,16 @@
 	},	
 	"fleetTypeNames":{
 
-        "tradeLiner":"Transport Fleet",
-        "smallTrader":"Supply Fleet",
+        "tradeLiner":"运输舰队",
+        "smallTrader":"补给舰队",
 
-        "patrolSmall":"Patrol Fleet",
-        "patrolMedium":"Support Fleet",
-        "patrolLarge":"Main Fleet",
+        "patrolSmall":"巡逻舰队",
+        "patrolMedium":"支援舰队",
+        "patrolLarge":"主力舰队",
 
-        "taskForce":"Invasion Fleet",
+        "taskForce":"入侵舰队",
 
-        "foodReliefFleet":"Rescue Fleet",
+        "foodReliefFleet":"救援舰队",
     },
 	
 	

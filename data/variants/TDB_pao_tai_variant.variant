@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_pao_tai_variant",
   "hullId": "TDB_pao_tai",
-  "displayName": "防御",
+  "displayName": "Defence",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

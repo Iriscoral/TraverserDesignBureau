@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_xi_yu_variant",
   "hullId": "TDB_xi_yu",
-  "displayName": "常规",
+  "displayName": "General",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,

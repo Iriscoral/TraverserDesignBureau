@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_feng_xian_variant",
   "hullId": "TDB_feng_xian",
-  "displayName": "常规",
+  "displayName": "GeneralGeneral",
   "goalVariant": true,
   "fluxCapacitors": 10,
   "fluxVents": 9,

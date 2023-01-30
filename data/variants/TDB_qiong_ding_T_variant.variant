@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_qiong_ding_T_variant",
   "hullId": "TDB_qiong_ding",
-  "displayName": "防御",
+  "displayName": "Defence",
   "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 0,

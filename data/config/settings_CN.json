@@ -4,11 +4,11 @@
 	
     "designTypeColors":
 	{
-		"Under Construction":[163,0,0,255],
-		"Traverser Design Bureau":[69,90,140,255],
-		"Overwatch Defense Network":[69,90,140,255],
-		"Northland Fragrance (Unique)":[251,121,200,255],
-		"Gray Storm (Unique)":[127,164,148,255],
+		"封存中【如果看见此项说明出BUG了,麻烦上报，感谢】":[163,0,0,255],
+		"穿越者设计局":[69,90,140,255],
+		"越空防壁":[69,90,140,255],
+		"北国芳华[唯一]":[251,121,200,255],
+		"灰色风暴[唯一]":[127,164,148,255],
     },
 	"graphics":
 	{

@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_ren_zhao_guang_variant",
   "hullId": "TDB_ren_zhao_guang",
-  "displayName": "常规",
+  "displayName": "General",
   "goalVariant": true,
   "fluxCapacitors": 10,
   "fluxVents": 50,

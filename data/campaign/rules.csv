@@ -2,69 +2,69 @@ id,trigger,conditions,script,text,options,notes
 ,,,,,,
 greetingTDBFriendly,OpenCommLink,"$faction.id == TDB
 $faction.friendlyToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""敌我识别完成,请问有什么需要帮助吗?我的朋友.""
+FireAll PopulateOptions","""AIS identification complete, how may I help you, my friend?""
 OR
-""敌我识别完成,指挥官 $personName 向您问好,很高兴见到你,我的朋友.""",,
+""AIS identification complete, how have you been, Commander $personName? Nonetheless, its good to see you, my friend.""",,
 greetingTDBHostileWeaker,OpenCommLink,"$faction.id == TDB
 $faction.hostileToPlayer
-$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""我们不是敌人吗?"" $personName 好奇的问道 ""向敌人发起通讯链接,你在期待什么?""。",cutCommLink:切断通讯链接,
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""Aren't we the enemy?"" $personName asked curiously, ""What were you expecting when you opened a comm link to an enemy?""",cutCommLink:Cut the comm link,
 greetingTDBHostileWeakerDefiant,OpenCommLink,"$faction.id == TDB
 $faction.hostileToPlayer
 $relativeStrength < 0
-$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""旅者,如果不想惹上麻烦的话,我建议你最好谨慎一些.""
-",cutCommLink:切断通讯链接,
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""Traverser, if you don't want to get into trouble, I suggest you'd better be careful.""",cutCommLink:Cut the comm link,
 greetingTDBHostileStronger,OpenCommLink,"$faction.id == TDB
 $faction.hostileToPlayer
-$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""多说无益,让你的舰队准备交火吧。""
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""No point in talking, get your fleet ready for a fight.""
 OR
-""身后就是我们的家园,我是不会让步的！""",cutCommLink:切断通讯链接,
+""Behind us is our home, and I will not budge!""",cutCommLink:Cut the comm link,
 greetingTDBTOffNormal,OpenCommLink,"$faction.id == TDB
 !$isHostile
 !$player.transponderOn
-$entity.relativeStrength >= 0",,"""请立刻打开应答器,此星区内不允许关闭应答器航行.""","turnOnTransponder:开启通讯器
-cutCommLink:切断通讯链接",
+$entity.relativeStrength >= 0",,"""Please turn on your transponder immediately, navigation with transponders off is not allowed in this sector.""","turnOnTransponder:Turn the transponder on
+cutCommLink:Cut the comm link",
 greetingTDBTOffWeaker,OpenCommLink,"$faction.id == TDB
 !$isHostile
 !$player.transponderOn
-$entity.relativeStrength < 0",,"""抱歉,此星区内不允许关闭应答器航行,如果有困难也许我们能帮到您。""","turnOnTransponder:开启通讯器
-cutCommLink:切断通讯链接 ",
+$entity.relativeStrength < 0",,"""Sorry, you are not allowed to navigate with transponders turned off in this area, but if there are difficulties we may be able to help you.""","turnOnTransponder:Turn the transponder on
+cutCommLink:Cut the comm link",
 greetingTDBNeutral,OpenCommLink,"$faction.id == TDB
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""陌生的旅者,有何贵干?""
+FireAll PopulateOptions","""Foreign traverser, what can I do for you?""
 OR
-""已确认身份,这位旅者,请核实你此行的目的.""",,
+""Identity confirmed, traverser, please confirm the purpose of your visit.""",,
 ,,,,,,
 ,,,,,,
 ,,,,,,
 aiCores_turnInOptionSelTDB,DialogOptionSelected,"$option == aiCores_startTurnIn
-$faction.id == plsp",FireAll PopulateCoresTurnInOptions,"""如果您真的准备上交这种东西,我们会很高兴收下他的,当然,我们会准备一个让您满意的价格.""",,
-aiCores_turnInResponseTDB,AICoresTurnedIn,$faction.id == TDB,FireAll PopulateOptions,"""十分感谢您做出的贡献,这些核心可帮了我们大忙了!""",,
+$faction.id == plsp",FireAll PopulateCoresTurnInOptions,"""If you are really prepared to hand over such a thing, we will be happy to take it, and we will, of course, be prepared to pay a price that will satisfy you.""",,
+aiCores_turnInResponseTDB,AICoresTurnedIn,$faction.id == TDB,FireAll PopulateOptions,"""Thank you very much for your contribution, these cores will help us a lot!""",,
 ,,,,,,
 ,,,,,,
 ,,,,,,
 relLevelNeutralTDB,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == TDB",,"你在 $theFaction 眼中只是一位陌生而匆忙的旅者,他们会为你提供在允许范围内的帮助,仅此而已。",,
+$faction.id == TDB",,"You are just a stranger and a hurried traverser to $theFaction and they will help you as much as they can, that's all.",,
 relLevelFavorableTDB,RelationshipLevelDesc,"$faction.rel == FAVORABLE
-$faction.id == TDB",, $theFaction 已经认可了你的品行，这代表着你能获取一些来自 $theFaction 军用市场的货物...,,
+$faction.id == TDB",," $theFaction has endorsed your person, which means you have access to some goods from the $theFaction military market. .",,
 relLevelWelcomingTDB,RelationshipLevelDesc,"$faction.rel == WELCOMING
-$faction.id == TDB",,你的名号已经为大多数军官所熟知，$theFaction 也已经向你开放了特殊市场的权限，在星区内的舰队也十分乐意为你提供力所能及的帮助。,,
+$faction.id == TDB",,"Your name is already well known to most officers, $theFaction has opened up special market access to you and the fleets within the system are more than happy to help you in any way they can.。",,
 relLevelFriendlyTDB,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == TDB",,作为朋友 $theFaction 十分看重你，大部分军官在与你相见时都会向你问好，或是回以一个微笑。,,
+$faction.id == TDB",,As a friend $theFaction thinks highly of you and most officers will greet you or return a smile when they meet you.,,
 relLevelCooperativeTDB,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == TDB",, $theFaction 十分看重与你的盟友关系，只要你有需要，星区内的巡逻舰队会不留余力的为你提供帮助，各种专属的证明也保证你可以进入各种常人无法触及的场所，据说拥有这种证明的人局长会亲自会见他。,,
+$faction.id == TDB",," $theFaction values your alliance, and patrol fleets within their systems will go out of their way to help you whenever you need it, Various exclusive certificates guarantee you access to certain places that are out of the reach of ordinary people, and it is said that the Director-General will meet with the person who has such a certificate personally.",,
 relLevelSuspiciousTDB,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
-$faction.id == TDB",,你的行为已经引起了 $theFaction 的注意，虽然公开市场依旧允许你的进入，但繁杂的手续以及频繁的搜查还是让你烦不胜烦。,,
+$faction.id == TDB",,"Your actions have come to the attention of $theFaction and although their open markets will still allows you access, the hassle of the formalities and the frequent searches will be too much for you.",,
 relLevelInhospitableTDB,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == TDB",,你已经明确地感受到了来自 $theFaction 的不信任。所有的港口与市场都不再允许你的访问，星区内的巡逻队会严查你的行踪。,,
+$faction.id == TDB",,"You have clearly felt the mistrust from $theFaction. All ports and markets are no longer accessible to you, and patrols within their systems will be checking your movements.",,
 relLevelHostileTDB,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == TDB",,你已经彻底被 $theFaction 列入了黑名单。 $theFaction 旗下的舰队会毫不留情的对你的舰队发起攻击。,,
+$faction.id == TDB",,You have been completely blacklisted by $theFaction. Fleets under $theFaction will attack your fleet without mercy.,,
 relLevelVengefulTDB,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == TDB",,你与 $theFaction 的关系已经彻底进入冰点。你的头像与舰队在赏金列表上已经被圈画了重点，也许不久之后就会有舰队来找你的麻烦了。,,
+$faction.id == TDB",,"Your relationship with $theFaction has gone completely on ice. Your person and fleet have been highlighted on their bounty list, and it may not be long before a fleet comes after you.",,
 ,,,,,,
 flavorTextMarketTDB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == TDB","AddText ""街道上身穿墨蓝色制服的“人”随处可见，他们三五成群的伴随着无人机或是无人车不停的巡逻着并解答着周围来人的疑问。各式绚丽的广告与热情的叫卖声组成了街头日常的旋律。"" marketFlavorTextColor
-AddText ""通过严格的审查后，你被允许进入了更加官方的市场，整齐的布局与遍布各处的协会旗帜是这里的主色调。一名长着猫耳朵的军官与她的机械体同事为你提供了此处市场最新的物价表，并告知你在协会主星系的 Intersection 有特殊的开放市场存在。"" marketFlavorTextColor",,,
+$faction.id == TDB","AddText ""The streets are lined with ""people"" in ink-blue uniforms, patrolling in small groups accompanied by drones or unmanned vehicles and answering questions from people around them. The daily melody of the streets is a mixture of colourful advertising and enthusiastic hawking."" marketFlavorTextColor
+AddText ""After passing a strict screening process, you are allowed to enter the more official market, where a neat layout and the association flags are the dominant colour. A cat-eared officer and her cyborg colleague provide you with the latest price list for this market and inform you of the existence of a special open market - in the middle of Intersection, within the Association's main star system."" marketFlavorTextColor",,,
 ,,,,,,
-greetingGuGuFleet,OpenCommLink,$entity.TDBGuGu score:1000,,"""Indulge的光芒总是太过灼目，身处阴影中时我才能听到来自故乡恒星的歌声。$playerName 舰长，你会想念自己的故乡吗？""",cutCommLink:切断通讯,
+greetingGuGuFleet,OpenCommLink,$entity.TDBGuGu score:1000,,"""The light of Indulge always burns too brightly, and it's only when I'm in the shadows that I may hear the song from my hometown star. Captain $playerName, do you miss your homeland?""",cutCommLink:Cut the comm link,
 ,,,,,,
 ,,,,,,
+,,,,

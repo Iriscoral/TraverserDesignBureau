@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_ceng_ji_yun_variant",
   "hullId": "TDB_ceng_ji_yun",
-  "displayName": "常规",
+  "displayName": "General",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 3,

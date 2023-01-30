@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_bian_ge_variant",
   "hullId": "TDB_bian_ge",
-  "displayName": "攻击机甲",
+  "displayName": "Attack Mech",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

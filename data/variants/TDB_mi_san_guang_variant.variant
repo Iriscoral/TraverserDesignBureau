@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_mi_san_guang_variant",
   "hullId": "TDB_mi_san_guang",
-  "displayName": "无人战斗机",
+  "displayName": "Unmanned Combat Aircraft",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

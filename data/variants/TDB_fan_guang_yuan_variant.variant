@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_fan_guang_yuan_variant",
   "hullId": "TDB_fan_guang_yuan",
-  "displayName": "无人截击机",
+  "displayName": "Unmanned Interceptor",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,

@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_qiong_ding_G_variant",
   "hullId": "TDB_qiong_ding",
-  "displayName": "攻击",
+  "displayName": "Attack",
   "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 0,

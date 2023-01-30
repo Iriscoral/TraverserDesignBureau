@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_gu_yu_variant",
   "hullId": "TDB_gu_yu",
-  "displayName": "常规",
+  "displayName": "General",
   "goalVariant": true,
   "fluxCapacitors": 17,
   "fluxVents": 0,
