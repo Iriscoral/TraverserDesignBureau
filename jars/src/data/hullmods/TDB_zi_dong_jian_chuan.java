@@ -1,5 +1,6 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -21,7 +22,9 @@ public class TDB_zi_dong_jian_chuan extends BaseHullMod {
         stats.getMinCrewMod().modifyMult(id, 0f);
         stats.getMaxCrewMod().modifyMult(id, 0f);
     }
-
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
     private static final Set<String> BLOCKED_HULLMODS = new HashSet<>();
 
     static {

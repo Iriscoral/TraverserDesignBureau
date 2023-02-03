@@ -1,5 +1,6 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -21,6 +22,9 @@ public class TDB_lei_da extends BaseHullMod {
     public static final float RADIUS_MOD = 20f;
     //不同舰种的增益[电子战]
     private static final Map<HullSize, Float> map = new HashMap<>();
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
 
     static {
         map.put(HullSize.FRIGATE, 3f);

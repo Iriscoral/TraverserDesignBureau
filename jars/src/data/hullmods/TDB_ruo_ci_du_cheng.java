@@ -1,5 +1,6 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShieldAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -18,7 +19,9 @@ import java.awt.*;
 public class TDB_ruo_ci_du_cheng extends BaseLogisticsHullMod {
 
     protected static final Color COLOR = new Color(81, 106, 189);
-
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
     //设置被引用
     public static final String TDB_ruo_ci_du_cheng = "TDB_ruo_ci_du_cheng";
 

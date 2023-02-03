@@ -11,6 +11,9 @@ import org.lwjgl.util.vector.Vector2f;
 
 
 public class TDB_rzg extends BaseHullMod {
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
 
 
     public void advanceInCombat(ShipAPI ship, float amount) {

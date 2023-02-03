@@ -16,7 +16,9 @@ import java.util.Set;
 public class TDB_you_ji extends BaseHullMod {
 
     private final Color color = new Color(80, 166, 166, 255);
-
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
     //设置引擎颜色/扩展长度
     @Override
     public void advanceInCombat(ShipAPI ship, float amount) {

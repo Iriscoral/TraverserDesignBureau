@@ -34,6 +34,10 @@ public class TDB_HF extends BaseBarEventWithPerson {
     protected PersonAPI officer;
     protected OfficerDataAPI officer_data;
 
+    public static String txt(String id) {
+        return Global.getSettings().getString("campaign", id);
+    }
+
     public enum OptionId {
         TX,//突袭
         TXT_READY,//准备线
@@ -64,7 +68,7 @@ public class TDB_HF extends BaseBarEventWithPerson {
         super.regen(market);
         //设置剧情对话人/姓名/性别
         person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_HuiFeng"));
-        person.setName(new FullName("纳米机器集合体", "灰风", FullName.Gender.FEMALE));
+        person.setName(new FullName(txt("HF_Name1"), txt("HF_Name2"), FullName.Gender.FEMALE));
     }
 
     //设置开局对话
@@ -76,7 +80,7 @@ public class TDB_HF extends BaseBarEventWithPerson {
 
         TextPanelAPI text = dialog.getTextPanel();
 
-        text.addPara("你的个人终端接受到了一则通讯，在通讯部在仔细核对后，确认该信号来自舰队内部。", new Color(88, 148, 136, 255));
+        text.addPara(txt("HF_Text1"), new Color(88, 148, 136, 255));
 
         Color R;
         R = new Color(88, 148, 136, 255);
@@ -128,7 +132,7 @@ public class TDB_HF extends BaseBarEventWithPerson {
                     break;
                 }
             case ST1://主线剧情1
-                text.addPara("是...有紧急情况!!啊，不行,乱说的话会出事的吧...啊啊啊”" +
+                text.addPara("”是...有紧急情况!!啊，不行,乱说的话会出事的吧...啊啊啊”" +
                         "通讯那头的”大副“显的有些不自在,而你通过通讯的背景认出了他所在的位置正是你的旗舰.");
                 options.addOption("悄悄联系你的舰船安保,快速控制”大副“所在位置", OptionId.TX);
                 options.addOption("让他接着说下去", OptionId.TXT);

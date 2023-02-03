@@ -1,5 +1,6 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -12,7 +13,9 @@ import java.awt.*;
 
 @SuppressWarnings("ALL")
 public class TDB_qiong_dong_G extends BaseHullMod {
-
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
     protected static final Color COLOR = new Color(255, 77, 77);
 
 

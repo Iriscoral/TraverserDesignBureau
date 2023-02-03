@@ -1,5 +1,6 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -21,6 +22,10 @@ public class TDB_hang_kong extends BaseHullMod {
     public static final float FIGHTERS_MODIFIER = 10f;
     public static final float RATE_DECREASE_MODIFIER = 5f;
     public static final float RATE_INCREASE_MODIFIER = 20f;
+
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
 
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
         //增强战机作战半径

@@ -37,6 +37,9 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
     protected CampaignFleetAPI player_fleet;
     protected PersonAPI officer;
     protected OfficerDataAPI officer_data;
+    public static String txt(String id) {
+        return Global.getSettings().getString("campaign", id);
+    }
 
     public enum OptionId {
         TXT_READY,//准备线

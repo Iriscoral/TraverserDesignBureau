@@ -1,5 +1,6 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -17,6 +18,10 @@ public class TDB_Automated extends BaseHullMod {
     public static final float CREW_MOD = 60f;
     public static final float REPAIR_BONUS = 20f;
     public static final float MAX_CREW_MOD = 50f;
+
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
 
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
         //设定舰船的最少/最多船员数量

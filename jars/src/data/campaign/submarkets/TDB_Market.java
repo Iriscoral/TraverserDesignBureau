@@ -19,6 +19,9 @@ public class TDB_Market extends BaseSubmarketPlugin {
         this.submarket = submarket;
         this.market = submarket.getMarket();
     }
+    public static String txt(String id) {
+        return Global.getSettings().getString("campaign", id);
+    }
 
     @Override
     public float getTariff() {

@@ -1,5 +1,6 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.ui.Alignment;
@@ -8,6 +9,9 @@ import data.utils.tdb.TDB_ColorData;
 
 
 public class TDB_san_se_jin extends BaseHullMod {
+    public static String txt(String id) {
+        return Global.getSettings().getString("hullmods", id);
+    }
     //使用你的监听器
     @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
