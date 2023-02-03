@@ -17,6 +17,9 @@ public class TDB_dao_dan extends BaseShipSystemScript {
 
     public static final float DAMAGE_BONUS_PERCENT = 15f;
     private boolean i = false;
+    public static String txt(String id) {
+        return Global.getSettings().getString("scripts", id);
+    }
 
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
 

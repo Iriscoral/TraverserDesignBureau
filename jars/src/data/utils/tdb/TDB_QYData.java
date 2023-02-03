@@ -6,6 +6,7 @@ import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Personalities;
 import com.fs.starfarer.api.impl.campaign.ids.Ranks;
 import com.fs.starfarer.api.impl.campaign.ids.Skills;
+import static data.utils.tdb.I18nUtil.getString;
 
 ////////////////////////
 ///这是一个群友军官数据库///
@@ -49,7 +50,7 @@ public class TDB_QYData {
     //群友：落雪
     public static PersonAPI createLuoXue() {
         PersonAPI person = Global.getFactory().createPerson();
-        person.setName(new FullName("", "雪云泥", FullName.Gender.FEMALE));
+        person.setName(new FullName("", getString("utils", "QYData_1"), FullName.Gender.FEMALE));
         person.setFaction("TDB");
         person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_03"));
         person.setPersonality(Personalities.STEADY);
@@ -105,7 +106,7 @@ public class TDB_QYData {
     //群友：伊芙·阿斯托罗艾尔
     public static PersonAPI createYiFu() {
         PersonAPI person = Global.getFactory().createPerson();
-        person.setName(new FullName("阿斯托罗艾尔", "伊芙", FullName.Gender.FEMALE));
+            person.setName(new FullName("阿斯托罗艾尔", "伊芙", FullName.Gender.FEMALE));
         person.setFaction("TDB");
         person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_YiFu"));
         person.setPersonality(Personalities.STEADY);

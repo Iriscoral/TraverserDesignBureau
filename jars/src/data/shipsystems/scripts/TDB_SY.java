@@ -19,6 +19,9 @@ public class TDB_SY extends BaseShipSystemScript {
     public static float RANGE = 1500f;
     public static float FLUX_THRESHOLD_INCREASE_PERCENT = -50f;
 
+    public static String txt(String id) {
+        return Global.getSettings().getString("scripts", id);
+    }
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
         ShipAPI ship = (ShipAPI) stats.getEntity();
         CombatEngineAPI engine = Global.getCombatEngine();

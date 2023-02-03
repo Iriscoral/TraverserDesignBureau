@@ -14,6 +14,7 @@ import org.lwjgl.util.vector.Vector2f;
 
 public class TDB_yq_gugu extends BaseShipSystemScript {
 
+    public static String txt(String id) { return Global.getSettings().getString("scripts", id); }
     private final IntervalUtil inte = new IntervalUtil(1f, 1f);
     public static final float DAMAGE = 20f;
     public static final float SPEED = 20f;

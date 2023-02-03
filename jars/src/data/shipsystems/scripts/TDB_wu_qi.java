@@ -13,7 +13,7 @@ import org.lazywizard.lazylib.combat.entities.SimpleEntity;
 import org.lwjgl.util.vector.Vector2f;
 
 public class TDB_wu_qi extends BaseShipSystemScript {
-
+    public static String txt(String id) { return Global.getSettings().getString("scripts", id); }
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
         CombatEngineAPI engine = Global.getCombatEngine();
         ShipAPI ship = (ShipAPI) stats.getEntity();

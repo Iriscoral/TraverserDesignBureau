@@ -45,6 +45,9 @@ public class TDB_wu_ren extends BaseIndustry implements RouteFleetSpawner, Fleet
         return super.isFunctional() && market.getFactionId().equals("TDB");
     }
 
+    public static String txt(String id) {
+        return Global.getSettings().getString("scripts", id);
+    }
     public void apply() {
         super.apply(true);
 

@@ -20,6 +20,7 @@ import java.util.Random;
 import static data.utils.tdb.I18nUtil.easyRippleOut;
 
 public class TDB_yq extends BaseShipSystemScript {
+    public static String txt(String id) { return Global.getSettings().getString("scripts", id); }
     private Vector2f Location = I18nUtil.nv;
     private boolean i = false;
 

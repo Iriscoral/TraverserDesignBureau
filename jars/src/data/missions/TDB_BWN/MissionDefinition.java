@@ -1,5 +1,6 @@
 package data.missions.TDB_BWN;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BattleCreationContext;
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberType;
@@ -9,6 +10,9 @@ import com.fs.starfarer.api.mission.MissionDefinitionAPI;
 import com.fs.starfarer.api.mission.MissionDefinitionPlugin;
 
 public class MissionDefinition implements MissionDefinitionPlugin {
+    public static String txt(String id) {
+        return Global.getSettings().getString("missions", id);
+    }
 
     @Override
     public void defineMission(MissionDefinitionAPI api) {

@@ -17,6 +17,10 @@ public class TDB_TurretDeployStats extends BaseShipSystemScript implements MineS
     private static final float MIN_SPAWN_DIST = 75f;
     private static boolean i = false;
 
+    public static String txt(String id) {
+        return Global.getSettings().getString("scripts", id);
+    }
+
     public static float getRange(ShipAPI ship) {
         if (ship == null) {
             return RANGE_FACTOR;

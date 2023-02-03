@@ -13,7 +13,9 @@ import org.lwjgl.util.vector.Vector2f;
 //import java.util.Random;
 
 public class TDB_na_mi extends BaseShipSystemScript {
-
+    public static String txt(String id) {
+        return Global.getSettings().getString("scripts", id);
+    }
     //private boolean SYSTEM = true;
 
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {

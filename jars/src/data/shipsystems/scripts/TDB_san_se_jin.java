@@ -15,6 +15,10 @@ import java.util.Map;
 
 public class TDB_san_se_jin extends BaseShipSystemScript {
 
+    public static String txt(String id) {
+        return Global.getSettings().getString("scripts", id);
+    }
+
     public static final float FLUX_USE_MULT = 0.3f;
 
     private boolean runOnce = false;

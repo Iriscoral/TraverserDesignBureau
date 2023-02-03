@@ -14,7 +14,9 @@ public class TDB_ceng_ji_yun extends BaseShipSystemScript {
     public static final Object KEY_JITTER = new Object();
 
     public static final float MAX_TIME_MULT = 3f;
-
+    public static String txt(String id) {
+            return Global.getSettings().getString("scripts", id);
+        }
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
         ShipAPI ship;
         if (stats.getEntity() instanceof ShipAPI) {

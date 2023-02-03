@@ -15,7 +15,7 @@ import org.lwjgl.util.vector.Vector2f;
 import static data.utils.tdb.I18nUtil.easyRippleOut;
 
 public class TDB_xun_hang extends BaseShipSystemScript {
-
+    public static String txt(String id) { return Global.getSettings().getString("scripts", id); }
 
     private boolean i = false;
 

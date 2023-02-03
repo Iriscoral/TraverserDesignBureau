@@ -85,7 +85,7 @@ public class TDB_HF extends BaseBarEventWithPerson {
         Color R;
         R = new Color(88, 148, 136, 255);
 
-        dialog.getOptionPanel().addOption("接通通讯请求", this,
+        dialog.getOptionPanel().addOption(txt("HF_Option1"), this,
                 R, null);
     }
 
@@ -115,8 +115,8 @@ public class TDB_HF extends BaseBarEventWithPerson {
             case TXT_READY://准备剧情
                 if (Global.getSector().getFaction("TDB").getRelToPlayer().getRel() < 0.90f) {
                     //不相识文案 好感小于90
-                    text.addPara("\"接收后,对方似乎并没有回应\"", new Color(203, 29, 29, 255));
-                    options.addOption("挂断通讯并在舰队内广播,要严惩搞恶作剧的主谋", OptionId.LEAVE);
+                    text.addPara(txt("HF_Text2"), new Color(203, 29, 29, 255));
+                    options.addOption(txt("HF_Option1"), OptionId.LEAVE);
                     break;
                 } else {
                     //相识准备文案
