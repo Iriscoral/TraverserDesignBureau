@@ -52,4 +52,4 @@ Polarized Light,Bomber,TDB_pian_zhen_guang1,Traverser Design Bureau,,,500,25,500
 Diffuse Reflection,Support Gunship,TDB_man_fan_she,Traverser Design Bureau,flarelauncher,,900,400,800,,1000,25,,145,65,35,60,85,120,NONE,,150,0.5,0.8,,,4,4,30,15,1,15,9,4000,5,20,180,0.25,2,2,,,,,,,,
 Total Reflection,Elite Fighter,TDB_quan_fan_she,Traverser Design Bureau,TDB_ban_fei,,800,100,800,2500,100,0,,180,300,220,110,160,100,OMNI,,360,0,1,,,3,3,,,,,,,,,,,,,,,,,,,,
 Diffused Light,Unmanned Fighter,TDB_mi_san_guang,Overwatch Defense Network,flarelauncher_fighter,,800,100,80,,10,0,,200,400,350,90,180,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,
-Transformation,Mecha,TDB_bian_ge,Traverser Design Bureau,TDB_tuxi,,2000,225,2000,,250,0,,160,140,80,50,50,75,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,
+Transformer,Mecha,TDB_bian_ge,Traverser Design Bureau,TDB_tuxi,,2000,225,2000,,250,0,,160,140,80,50,50,75,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,
