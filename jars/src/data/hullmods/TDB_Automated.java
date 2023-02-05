@@ -64,18 +64,18 @@ public class TDB_Automated extends BaseHullMod {
     public String getUnapplicableReason(ShipAPI ship) {
         //显示无法安装的原因
         if (!ship.getVariant().hasHullMod(TDB_ruo_ci_du_cheng.TDB_ruo_ci_du_cheng)) {
-            return "只能安装在穿越者协会的船体上";
+            return txt("AUTOMATED_1");
         }
         if (ship.getVariant().getHullMods().contains("autorepair")) {
-            return "与自动修复模块[AutomatedRepairUnit]冲突";
+            return txt("AUTOMATED_2");
         }
-        return "状态正常";
+        return txt("AUTOMATED_3");
     }
 
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
-        tooltip.addPara("只能安装在穿越者协会的船体上", TDB_ColorData.TDBcolor1, 4f);
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "自动修复模块");
+        tooltip.addSectionHeading(txt("AUTOMATED_4"), Alignment.TMID, 4f);
+        tooltip.addPara(txt("AUTOMATED_5"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("AUTOMATED_6"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("AUTOMATED_7"));
     }
 }

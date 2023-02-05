@@ -50,8 +50,8 @@ public class TDB_rzg extends BaseHullMod {
                     Global.getCombatEngine().maintainStatusForPlayerShip(
                             "TDB_rzg",
                             "graphics/icons/hullsys/high_energy_focus.png",
-                            "辉光管控能系统",
-                            "黑狐系统启动,武器伤害提升",
+                            txt("RCDC_1"),
+                            txt("RCDC_2a"),
                             true
                     );
                 }
@@ -60,8 +60,8 @@ public class TDB_rzg extends BaseHullMod {
                     Global.getCombatEngine().maintainStatusForPlayerShip(
                             "TDB_rzg",
                             "graphics/icons/hullsys/missile_autoforge.png",
-                            "辉光管控能系统",
-                            "白狐系统启动,舰船幅能耗散加快",
+                            txt("RCDC_1"),
+                            txt("RCDC_2b"),
                             true
                     );
                 }
@@ -72,14 +72,14 @@ public class TDB_rzg extends BaseHullMod {
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
 
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
+        tooltip.addSectionHeading(txt("RCDC_3"), Alignment.TMID, 4f);
 
-        tooltip.addPara("白狐冷却系统", TDB_ColorData.TDBcolor1, 4f);
-        tooltip.addPara("当舰船幅能大于50%时,软幅能耗散速度随着幅能的上升而增加,最高增加20%", 4f);
+        tooltip.addPara(txt("RCDC_4"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("RCDC_5"), 4f);
 
         tooltip.addPara("", 2f);
 
-        tooltip.addPara("黑狐增压系统", TDB_ColorData.TDBpink, 4f);
-        tooltip.addPara("当舰船幅能小于50%时,武器伤害会随着幅能的上升而增加,最高增加15%", 4f);
+        tooltip.addPara(txt("RCDC_6"), TDB_ColorData.TDBpink, 4f);
+        tooltip.addPara(txt("RCDC_7"), 4f);
     }
 }

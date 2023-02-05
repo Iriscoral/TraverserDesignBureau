@@ -133,9 +133,9 @@ public class TDB_TurretDeployStats extends BaseShipSystemScript implements MineS
             float dist = MathUtils.getDistance(ship, target);
             float max = getMineRange(ship) + ship.getCollisionRadius();
             if (dist > max) {
-                return "超出射程";
+                return txt("Turret_1");
             } else {
-                return "准备完毕";
+                return txt("Turret_2");
             }
         }
 

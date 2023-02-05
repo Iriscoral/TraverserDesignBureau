@@ -50,7 +50,7 @@ public class TDB_wu_qi extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("能量武器伤害提升15%，武器幅能下降50%", false);
+            return new StatusData(txt("WuQi"), false);
         }
         return null;
     }

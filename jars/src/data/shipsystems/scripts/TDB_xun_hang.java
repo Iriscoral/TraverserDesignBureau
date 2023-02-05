@@ -90,7 +90,7 @@ public class TDB_xun_hang extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("提高引擎出力", false);
+            return new StatusData(txt("XunHang"), false);
         }
         return null;
     }

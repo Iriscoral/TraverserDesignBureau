@@ -64,9 +64,9 @@ public class TDB_qiong_dong_G extends BaseHullMod {
     }
 
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
-        tooltip.addPara("穹顶的专属插件", TDB_ColorData.TDBcolor1, 4f);
-        tooltip.addPara("将穹顶的炮台改为攻击模式", TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addSectionHeading(txt("QIONG_DING_G_1"), Alignment.TMID, 4f);
+        tooltip.addPara(txt("QIONG_DING_G_1"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("QIONG_DING_G_1"), TDB_ColorData.TDBcolor1, 4f);
     }
 
 

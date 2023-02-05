@@ -77,7 +77,7 @@ public class TDB_ceng_ji_yun extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("技能启动中", false);
+            return new StatusData(txt("CJY"), false);
         }
         return null;
     }

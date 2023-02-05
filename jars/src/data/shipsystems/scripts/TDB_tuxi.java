@@ -72,7 +72,7 @@ public class TDB_tuxi extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("无序偏移启动", false);
+            return new StatusData(txt("TuXi"), false);
         }
         return null;
     }

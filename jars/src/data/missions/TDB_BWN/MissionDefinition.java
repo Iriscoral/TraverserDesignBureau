@@ -19,10 +19,10 @@ public class MissionDefinition implements MissionDefinitionPlugin {
         api.initFleet(FleetSide.PLAYER, "NIF", FleetGoal.ATTACK, false, 2);
         api.initFleet(FleetSide.ENEMY, "ISS", FleetGoal.ATTACK, true, 10);
 
-        api.setFleetTagline(FleetSide.PLAYER, "未知帝国的 残余指挥舰队");
-        api.setFleetTagline(FleetSide.ENEMY, "海盗 无敌舰队");
+        api.setFleetTagline(FleetSide.PLAYER, txt("BWN_1"));
+        api.setFleetTagline(FleetSide.ENEMY, txt("BWN_2"));
 
-        api.addBriefingItem("NIF Artificial light 必须存活");
+        api.addBriefingItem(txt("BWN_3"));
 
         //标记玩家旗舰
         api.defeatOnShipLoss("NIF Artificial light");

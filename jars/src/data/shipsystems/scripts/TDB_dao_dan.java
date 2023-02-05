@@ -80,7 +80,7 @@ public class TDB_dao_dan extends BaseShipSystemScript {
     public StatusData getStatusData(int index, State state, float effectLevel) {
         float bonusPercent = DAMAGE_BONUS_PERCENT * effectLevel;
         if (index == 0) {
-            return new StatusData("+" + (int) bonusPercent + "% 导弹武器伤害", false);
+            return new StatusData("+" + (int) bonusPercent + txt("DD"), false);
         }
         return null;
     }

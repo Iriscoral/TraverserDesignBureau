@@ -105,15 +105,15 @@ public class TDB_yq_gugu extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("盟军最高航速+20%,护盾所受伤害降低20%", false);
+            return new StatusData(txt("YQ_gugu_1"), false);
         }
         if (index == 1) {
             if (RANGE == 1000f) {
-                return new StatusData("当前作用范围为1000码", true);
+                return new StatusData(txt("YQ_gugu_2"), true);
             }
             else
             {
-                return new StatusData("当前作用范围为1500码", false);
+                return new StatusData(txt("YQ_gugu_3"), false);
             }
         }
         return null;

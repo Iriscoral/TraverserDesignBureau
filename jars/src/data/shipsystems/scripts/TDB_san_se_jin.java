@@ -190,10 +190,10 @@ public class TDB_san_se_jin extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("提高机动性与最高航速，武器所需幅能下降30%，护盾所受伤害减免10%，实弹/能量武器提升10%", false);
+            return new StatusData(txt("SSJ_1"), false);
         }
         if (index == 1) {
-            return new StatusData("技能结束时依据幅能水平释放压制弹幕", false);
+            return new StatusData(txt("SSJ_2"), false);
         }
         return null;
     }

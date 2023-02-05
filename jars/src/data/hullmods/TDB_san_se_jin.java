@@ -20,8 +20,8 @@ public class TDB_san_se_jin extends BaseHullMod {
 
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
-        tooltip.addPara("三色堇专属插件", TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addSectionHeading(txt("SSJJ_1"), Alignment.TMID, 4f);
+        tooltip.addPara(txt("SSJJ_2"), TDB_ColorData.TDBcolor1, 4f);
     }
 
 }

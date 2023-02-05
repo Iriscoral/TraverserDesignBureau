@@ -41,7 +41,7 @@ public class TDB_you_ji extends BaseHullMod {
                         Global.getCombatEngine().maintainStatusForPlayerShip(
                                 "TDB_you_ji",
                                 "graphics/icons/hullsys/high_energy_focus.png",
-                                "航速提升",
+                                txt("YJ_2"),
                                 ""+(Math.floor(10f-speed)),
                                 false
                         );
@@ -55,7 +55,7 @@ public class TDB_you_ji extends BaseHullMod {
                         Global.getCombatEngine().maintainStatusForPlayerShip(
                                 "TDB_you_ji2",
                                 "graphics/icons/hullsys/high_energy_focus.png",
-                                "航速提升",
+                                txt("YJ_2"),
                                 ""+10f,
                                 false
                         );
@@ -71,7 +71,7 @@ public class TDB_you_ji extends BaseHullMod {
                         Global.getCombatEngine().maintainStatusForPlayerShip(
                                 "TDB_you_ji",
                                 "graphics/icons/hullsys/high_energy_focus.png",
-                                "航速提升",
+                                txt("YJ_2"),
                                 ""+(Math.floor(15f-speed)),
                                 false
                         );
@@ -85,7 +85,7 @@ public class TDB_you_ji extends BaseHullMod {
                         Global.getCombatEngine().maintainStatusForPlayerShip(
                                 "TDB_you_ji2",
                                 "graphics/icons/hullsys/high_energy_focus.png",
-                                "航速提升",
+                                txt("YJ_2"),
                                 ""+15f,
                                 false
                         );
@@ -101,7 +101,7 @@ public class TDB_you_ji extends BaseHullMod {
                         Global.getCombatEngine().maintainStatusForPlayerShip(
                                 "TDB_you_ji",
                                 "graphics/icons/hullsys/high_energy_focus.png",
-                                "航速提升",
+                                txt("YJ_2"),
                                 ""+(Math.floor(20f-speed)),
                                 false
                         );
@@ -115,7 +115,7 @@ public class TDB_you_ji extends BaseHullMod {
                         Global.getCombatEngine().maintainStatusForPlayerShip(
                                 "TDB_you_ji2",
                                 "graphics/icons/hullsys/high_energy_focus.png",
-                                "航速提升",
+                                txt("YJ_2"),
                                 ""+20f,
                                 false
                         );
@@ -130,7 +130,7 @@ public class TDB_you_ji extends BaseHullMod {
                     Global.getCombatEngine().maintainStatusForPlayerShip(
                             "TDB_you_ji1",
                             "graphics/icons/hullsys/high_energy_focus.png",
-                            "机动提升",
+                            txt("YJ_1"),
                             ""+Math.floor(maneuver),
                             false
                     );
@@ -182,22 +182,22 @@ public class TDB_you_ji extends BaseHullMod {
     public String getUnapplicableReason(ShipAPI ship) {
         //显示无法安装的原因
         if (!ship.getVariant().hasHullMod(TDB_ruo_ci_du_cheng.TDB_ruo_ci_du_cheng)) {
-            return "只能安装在穿越者协会的船体上";
+            return  txt("YJ_3");
         }
         if (ship.getVariant().getHullMods().contains("unstable_injector")) {
-            return "与不稳定喷射器[unstable_injector]冲突";
+            return txt("YJ_4");
         }
         if (ship.getVariant().getHullMods().contains("auxiliarythrusters")) {
-            return "与辅助推进器[auxiliarythrusters]冲突";
+            return txt("YJ_5");
         }
-        return "状态正常";
+        return txt("YJ_6");
     }
 
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
-        tooltip.addPara("只能安装在穿越者协会的船体上", TDB_ColorData.TDBcolor1, 4f);
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "辅助推进器");
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "不稳定喷射器");
+        tooltip.addSectionHeading(txt("YJ_7"), Alignment.TMID, 4f);
+        tooltip.addPara(txt("YJ_8"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("YJ_9"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("YJ_10"));
+        tooltip.addPara(txt("YJ_9"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("YJ_11"));
     }
 }

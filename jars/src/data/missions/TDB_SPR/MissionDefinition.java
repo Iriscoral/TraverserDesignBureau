@@ -19,10 +19,10 @@ public class MissionDefinition implements MissionDefinitionPlugin {
         api.initFleet(FleetSide.PLAYER, "CGR", FleetGoal.ATTACK, false, 2);
         api.initFleet(FleetSide.ENEMY, "TDB", FleetGoal.ATTACK, true, 10);
 
-        api.setFleetTagline(FleetSide.PLAYER, "卢德教会 十字军");
-        api.setFleetTagline(FleetSide.ENEMY, "穿越者协会 星系外围防御舰队");
+        api.setFleetTagline(FleetSide.PLAYER, txt("SPR_1"));
+        api.setFleetTagline(FleetSide.ENEMY, txt("SPR_2"));
 
-        api.addBriefingItem("CGR Crusader 必须存活");
+        api.addBriefingItem(txt("SPR_3"));
 
         //标记玩家旗舰
         api.defeatOnShipLoss("CGR Crusader");

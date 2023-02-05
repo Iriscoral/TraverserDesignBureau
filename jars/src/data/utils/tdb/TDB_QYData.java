@@ -78,11 +78,11 @@ public class TDB_QYData {
     //群友：肃正子模块-伊尔乌斯
     public static PersonAPI createYiRe() {
         PersonAPI person = Global.getFactory().createPerson();
-        person.setName(new FullName("", "Errous", FullName.Gender.ANY));
+        person.setName(new FullName("", getString("utils", "QYData_2"), FullName.Gender.ANY));
         person.setFaction("TDB");
         person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_01"));
         person.setPersonality(Personalities.CAUTIOUS);
-        person.setRankId("未知");
+        person.setRankId(getString("utils", "QYData_3"));
         person.setPostId("TDB_YiRe");
         person.setId("TDB_YiRe");
 
@@ -106,7 +106,7 @@ public class TDB_QYData {
     //群友：伊芙·阿斯托罗艾尔
     public static PersonAPI createYiFu() {
         PersonAPI person = Global.getFactory().createPerson();
-            person.setName(new FullName("阿斯托罗艾尔", "伊芙", FullName.Gender.FEMALE));
+            person.setName(new FullName(getString("utils", "QYData_4"), getString("utils", "QYData_5"), FullName.Gender.FEMALE));
         person.setFaction("TDB");
         person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_YiFu"));
         person.setPersonality(Personalities.STEADY);
@@ -141,7 +141,7 @@ public class TDB_QYData {
     //群友：星空流尘
     public static PersonAPI createXingKong() {
         PersonAPI person = Global.getFactory().createPerson();
-        person.setName(new FullName("星空", "流尘", FullName.Gender.FEMALE));
+        person.setName(new FullName(getString("utils", "QYData_6"), getString("utils", "QYData_7"), FullName.Gender.FEMALE));
         person.setFaction("TDB");
         person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_02"));
         person.setPersonality(Personalities.STEADY);

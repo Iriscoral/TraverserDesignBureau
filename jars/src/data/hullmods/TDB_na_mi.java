@@ -58,16 +58,16 @@ public class TDB_na_mi extends BaseHullMod {
     public String getUnapplicableReason(ShipAPI ship) {
         //显示无法安装的原因
         if (ship.getVariant().getHullMods().contains("ecm")) {
-            return "灰风的电子战系统非常复杂我们无法对其进行改造";
+            return txt("NAMI_1");
         }
-        return "状态正常";
+        return txt("NAMI_2");
     }
 
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
-        tooltip.addPara("灰风的专属插件", TDB_ColorData.TDBgreen2, 4f);
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "电子对抗组件");
+        tooltip.addSectionHeading(txt("NAMI_3"), Alignment.TMID, 4f);
+        tooltip.addPara(txt("NAMI_4"), TDB_ColorData.TDBgreen2, 4f);
+        tooltip.addPara(txt("NAMI_5"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("NAMI_6"));
     }
 
 }

@@ -44,10 +44,10 @@ public class TDB_zi_dong_jian_chuan extends BaseHullMod {
 
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
-        tooltip.addPara("装有穿越者协会特制 AI 的全自动舰船", TDB_ColorData.TDBcolor1, 4f);
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "安全超载");
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "船员宿舍扩容");
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "改装机库");
+        tooltip.addSectionHeading(txt("ZDJC_1"), Alignment.TMID, 4f);
+        tooltip.addPara(txt("ZDJC_2"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("ZDJC_3"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("ZDJC_4"));
+        tooltip.addPara(txt("ZDJC_3"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("ZDJC_5"));
+        tooltip.addPara(txt("ZDJC_3"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("ZDJC_6"));
     }
 }

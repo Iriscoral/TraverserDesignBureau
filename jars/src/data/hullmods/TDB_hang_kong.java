@@ -76,19 +76,19 @@ public class TDB_hang_kong extends BaseHullMod {
     public String getUnapplicableReason(ShipAPI ship) {
         //显示无法安装的原因
         if (!ship.getVariant().hasHullMod(TDB_ruo_ci_du_cheng.TDB_ruo_ci_du_cheng)) {
-            return "只能安装在穿越者协会的船体上";
+            return txt("HANGKONG_1");
         }
         if (ship.getVariant().getHullMods().contains("expanded_deck_crew")) {
-            return "与扩编飞行甲板人员[expanded_deck_crew]冲突";
+            return txt("HANGKONG_2");
         }
-        return "老哥你机库呢？";
+        return txt("HANGKONG_3");
     }
 
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
-        tooltip.addPara("只能安装在穿越者协会的船体上", TDB_ColorData.TDBcolor1, 4f);
-        tooltip.addPara("只能安装在有机库的舰船上", 8f, Misc.getHighlightColor());
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "扩编飞行甲板人员");
+        tooltip.addSectionHeading(txt("HANGKONG_4"), Alignment.TMID, 4f);
+        tooltip.addPara(txt("HANGKONG_5"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("HANGKONG_6"), 8f, Misc.getHighlightColor());
+        tooltip.addPara(txt("HANGKONG_7"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("HANGKONG_8"));
     }
 }

@@ -88,7 +88,7 @@ public class TDB_na_mi extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("灰风正在维修...唔...好痛。", false);
+            return new StatusData(txt("NaMi"), false);
         }
         return null;
     }

@@ -73,7 +73,7 @@ public class TDB_wu_ren extends BaseIndustry implements RouteFleetSpawner, Fleet
 
         if (isFunctional()) {
             market.getStats().getDynamic().getMod(Stats.COMBAT_FLEET_SIZE_MULT).modifyMult(
-                    getModId(), 1f + 1f, "无人舰队总部 (" + getNameForModifier() + ")");
+                    getModId(), 1f + 1f, txt("WuRen_1") + getNameForModifier() + ")");
         } else {
             unapply();
         }

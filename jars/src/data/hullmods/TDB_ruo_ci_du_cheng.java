@@ -68,14 +68,14 @@ public class TDB_ruo_ci_du_cheng extends BaseLogisticsHullMod {
         if (ship == null) return;
         TooltipMakerAPI text;
         float pad = 10f;
-        tooltip.addSectionHeading("特殊", Alignment.TMID, 4f);
+        tooltip.addSectionHeading(txt("RCDC_1"), Alignment.TMID, 4f);
         text = tooltip.beginImageWithText("graphics/hullmods/hardened_shields.png", 32);
         if (!ship.getVariant().hasHullMod("hardenedshieldemitter")) {
-            text.addPara("电磁偏转立场[需要强化护盾][%s]", 0, Misc.getHighlightColor(), TDB_ColorData.TDBred, "未激活");
-            text.addPara("利用额外的能量组成磁场偏转来袭的火炮，使护盾额外获得10%高爆抗性", 4f);
+                text.addPara(txt("RCDC_2"), 0, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("RCDC_4"));
+            text.addPara(txt("RCDC_3"), 4f);
         } else {
-            text.addPara("电磁偏转立场[需要强化护盾][%s]", 0, Misc.getHighlightColor(), TDB_ColorData.TDBgreen, "已激活");
-            text.addPara("利用额外的能量组成磁场偏转来袭的火炮，使护盾额外获得10%高爆抗性", 4f);
+            text.addPara(txt("RCDC_2"), 0, Misc.getHighlightColor(), TDB_ColorData.TDBgreen, txt("RCDC_5"));
+            text.addPara(txt("RCDC_3"), 4f);
         }
         tooltip.addImageWithText(pad);
     }

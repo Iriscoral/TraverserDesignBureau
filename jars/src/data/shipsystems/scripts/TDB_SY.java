@@ -76,10 +76,10 @@ public class TDB_SY extends BaseShipSystemScript {
     public StatusData getStatusData(int index, State state, float effectLevel) {
 
         if (index == 0) {
-            return new StatusData("视野范围翻倍", false);
+            return new StatusData(txt("SY_1"), false);
         }
         if (index == 2) {
-            return new StatusData("降低1500码范围内敌军相位舰的相位波动硬幅能阈值50%", false);
+            return new StatusData(txt("SY_2"), false);
         }
         return null;
     }

@@ -1,5 +1,6 @@
 package data.characters.skills;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.characters.ShipSkillEffect;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
@@ -14,6 +15,10 @@ public class TDB_HF {
     public static final float SHIELD_DAMAGE_REDUCTION = 5f;
     public static final float SHIELD_HE_REDUCTION = 10f;
 
+    public static String txt(String id) {
+        return Global.getSettings().getString("skills", id);
+    }
+
     public static class Level1 implements ShipSkillEffect {
         public void apply(MutableShipStatsAPI stats, HullSize hullSize, String id, float level) {
             stats.getShieldDamageTakenMult().modifyMult(id, 1f - SHIELD_DAMAGE_REDUCTION / 100f);
@@ -24,7 +29,7 @@ public class TDB_HF {
         }
 
         public String getEffectDescription(float level) {
-            return "-" + (int) (SHIELD_DAMAGE_REDUCTION) + "% 护盾受到的伤害";
+            return "-" + (int) (SHIELD_DAMAGE_REDUCTION) + txt("SKILL_HF1");
         }
 
         public String getEffectPerLevelDescription() {
@@ -47,7 +52,7 @@ public class TDB_HF {
         }
 
         public String getEffectDescription(float level) {
-            return "-" + (int) (ARMOR_DAMAGE_REDUCTION) + "% 装甲受到的伤害";
+            return "-" + (int) (ARMOR_DAMAGE_REDUCTION) + txt("SKILL_HF1");
         }
 
         public String getEffectPerLevelDescription() {
@@ -71,7 +76,7 @@ public class TDB_HF {
         }
 
         public String getEffectDescription(float level) {
-            return "-" + (int) (ARMOR_KINETIC_REDUCTION) + "% 装甲受到的动能伤害";
+            return "-" + (int) (ARMOR_KINETIC_REDUCTION) + txt("SKILL_HF1");
         }
 
         public String getEffectPerLevelDescription() {
@@ -98,7 +103,7 @@ public class TDB_HF {
         }
 
         public String getEffectDescription(float level) {
-            return "-" + (int) (DAMAGE_TO_MODULES_REDUCTION) + "% 武器与引擎所受到的伤害与" + (int) (SHIELD_HE_REDUCTION) + "% 护盾受到的高爆伤害";
+            return "-" + (int) (DAMAGE_TO_MODULES_REDUCTION) + txt("SKILL_HF2") + (int) (SHIELD_HE_REDUCTION) + txt("SKILL_HF3");
         }
 
         public String getEffectPerLevelDescription() {

@@ -61,9 +61,9 @@ public class TDB_lei_da extends BaseHullMod {
     public String getUnapplicableReason(ShipAPI ship) {
         //显示无法安装的原因
         if (ship.getVariant().getHullMods().contains("ecm")) {
-            return "与电子对抗组件[ecm]冲突";
+            return txt("LEIDA_1");
         }
-        return "状态正常";
+        return txt("LEIDA_2");
     }
 
     //让文本用%能检测到数值
@@ -75,7 +75,7 @@ public class TDB_lei_da extends BaseHullMod {
 
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
-        tooltip.addSectionHeading("备注", Alignment.TMID, 4f);
-        tooltip.addPara("与[%s]冲突", 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, "电子对抗组件");
+        tooltip.addSectionHeading(txt("LEIDA_3"), Alignment.TMID, 4f);
+        tooltip.addPara(txt("LEIDA_4"), 4f, Misc.getHighlightColor(), TDB_ColorData.TDBred, txt("LEIDA_5"));
     }
 }

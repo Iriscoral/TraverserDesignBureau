@@ -160,7 +160,7 @@ public class TDB_yq extends BaseShipSystemScript {
 
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("跃迁", false);
+            return new StatusData(txt("YQ"), false);
         }
         return null;
     }

@@ -20,11 +20,11 @@ public class MissionDefinition implements MissionDefinitionPlugin {
         api.initFleet(FleetSide.PLAYER, "TDB", FleetGoal.ATTACK, false, 2);
         api.initFleet(FleetSide.ENEMY, "CGR", FleetGoal.ATTACK, true, 10);
 
-        api.setFleetTagline(FleetSide.PLAYER, "穿越者协会 主力舰队");
-        api.setFleetTagline(FleetSide.ENEMY, "卢德教会 十字军 与援军 神圣无敌舰队");
+        api.setFleetTagline(FleetSide.PLAYER, txt("ZGJ_1"));
+        api.setFleetTagline(FleetSide.ENEMY, txt("ZGJ_2"));
 
-        api.addBriefingItem("TDB Huge rain cloud 必须存活");
-        api.addBriefingItem("击溃敌军舰队");
+        api.addBriefingItem(txt("ZGJ_3"));
+        api.addBriefingItem(txt("ZGJ_4"));
 
         //标记玩家旗舰
         api.defeatOnShipLoss("TDB Huge rain cloud");

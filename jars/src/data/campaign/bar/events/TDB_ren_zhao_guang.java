@@ -74,7 +74,7 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
         super.regen(market);
         //设置剧情对话人/姓名/性别
         person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_HanLiu"));
-        person.setName(new FullName("局长", "寒流", FullName.Gender.FEMALE));
+        person.setName(new FullName(txt("RZG_Name1"), txt("RZG_Name2"), FullName.Gender.FEMALE));
     }
 
     //设置开局对话
@@ -86,12 +86,12 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
 
         TextPanelAPI text = dialog.getTextPanel();
 
-        text.addPara("酒馆的角落里一个正在看着电脑戴着兜帽的女孩坐在酒馆的角落，而隐约透出的淡蓝色长发和巨大的尾巴表明了她很可能是来自异世界的人。", new Color(24, 71, 122, 255));
+        text.addPara(txt("RZG_Text1"), new Color(24, 71, 122, 255));
 
         Color R;
         R = new Color(24, 71, 122, 255);
 
-        dialog.getOptionPanel().addOption("尝试点杯威士忌，坐到她的对面。", this, R, null);
+        dialog.getOptionPanel().addOption(txt("RZG_Option1"), this, R, null);
     }
 
     @Override
@@ -120,32 +120,31 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
             case TXT_READY://准备剧情
                 if (Global.getSector().getFaction("TDB").getRelToPlayer().getRel() < 0.90f) {
                     //不相识文案 好感小于90
-                    text.addPara("\"你尝试上前去和少女搭话，但少女甚至都没有看你一眼便张口说到\"我想我们并不认识，还是尽量保持距离比较好，不是么？\"。\"", new Color(203, 29, 29, 255));
-                    options.addOption("离开", LEAVE);
+                    text.addPara(txt("RZG_TXT_READY"), new Color(203, 29, 29, 255));
+                    options.addOption(txt("RZG_TXT_READY_OPTION"), LEAVE);
                     break;
                 } else {
                     //相识准备文案
-                    text.addPara("气氛沉静了片刻，少女面带微笑，掏出一封信递给了你，上面还有一朵蓝色的鸢尾花，信件没有被打开的痕迹。\n" +
-                            "你对此感到惊讶，毕竟这个时代已经很少有用纸质文件记录东西的了。\n");
-                    options.addOption("收好信件，并回敬一个善意的微笑。", STORY);
-                    options.addOption("收好信件，并趁机摸一下她的尾巴。", YB);
+                    text.addPara(txt("RZG_TXT_READY_1"));
+                    options.addOption(txt("RZG_TXT_READY_2"), STORY);
+                    options.addOption(txt("RZG_TXT_READY_3"), YB);
                     break;
                 }
             case STORY://主线剧情1
-                text.addPara("很显然少女看见你非常的高兴，尽管并没有表现在脸上，但来回摆动的尾巴出卖了她心中的想法。“看起来您就是最近大家经常说的那位“星系中的传奇佣兵了””\n" +
-                        "你好奇的打量着她，准备提出心中的疑问。\n" +
-                        "少女看出了你的疑问并提议道“先看看这个再做出选择也不晚”说完少女摇着尾巴出去了，临走时还为你点了一杯抹茶饮品，留下有些迷惑的你和先前收下的那一封信件。\n" +
-                        "你看向手中的信封，也许信里有你想知道的答案呢？\n");
-                options.addOption("打开信件", STORY2);
+                text.addPara(txt("RZG_STORY_1") +
+                        txt("RZG_STORY_2") +
+                        txt("RZG_STORY_3") +
+                        txt("RZG_STORY_4"));
+                options.addOption(txt("RZG_STORY_5"), STORY2);
                 break;
             case STORY2://主线剧情2
-                text.addPara("你打开并阅读信件，而当你拿起它的时候，你闻到了浓浓的鸢尾花的香味。");
-                text.addPara("“您好，敬爱的佣兵先生，我越发的相信，您是我们的同伴之一了，您的传奇事迹在我们整个穿越者协会中都口口相传，您曾帮助我们许多，而现在，正如古老的诗歌中所述，这个世界，便需要您这样的英雄，我知道，您只是一名雇佣兵而我们之间的合作关系不可能一直持续下去。也许是明天，也许是明年您可能就会由于各种原因站在我们的对立面了……啊，当然这不是说您这样做不对，毕竟这是您的工作……只是，希望这一天能晚一些到来……谨以此信，表明对您的诚挚心意——穿越者协会”");
-                text.addPara("于此同时从信件里掉落的还有一枚芯片。");
+                text.addPara(txt("RZG_STORY2_1"));
+                text.addPara(txt("RZG_STORY2_2"));
+                text.addPara(txt("RZG_STORY2_3"));
 
                 //options.addOption("进入实验室",SYS);
 
-                options.addOption("查看芯片内容", TXT);
+                options.addOption(txt("RZG_STORY2_4"), TXT);
                 break;
             case TXT://结束剧情
                 Calendar T = Calendar.getInstance();
@@ -156,7 +155,7 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
 //                int second = T.get(Calendar.SECOND);
                 if (month == 12 && date == 3)
                 {
-                    text.addPara("今天，是幸运日哦！", new Color(29, 151, 203, 255));
+                    text.addPara(txt("RZG_TXT_1"), new Color(29, 151, 203, 255));
                     //军官生成
                     List<String> HL = new ArrayList<>();
                     HL.add(Skills.MISSILE_SPECIALIZATION);
@@ -183,15 +182,15 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
                     player_fleet = Global.getSector().getPlayerFleet();
                     player_fleet.getFleetData().addOfficer(officer);
                 }
-                text.addPara("你打开了那枚芯片，上面显示了一艘像是攻势级战列舰的船舶，但连你是第一次见到她的样貌...但你很明显的能感觉到这艘舰船肯定是经过一个庞大的团队精心打造，而不是一个三流海盗工程师魔改攻势级的作品。\n" +
-                        "下面还有一行备注:\n。");
-                text.addPara("“这是我一位朋友的杰作，这一艘船可是她的宝贝，为了感激您为穿越者协会所做的一切，我会以我的名义将她赠送与您，佣兵先生。”\n" +
-                        "最后是各种类似某种机构开出的证明一样的东西，并且附有详细的港口所在地址与联系方式。\n" +
-                        "这份莫名奇妙的文件中种种线索都表明了少女的身份不一般，而你已经隐约对此有了猜想\n" +
-                        "但由于对方看起来完全只是一只还没成年的少女导致你无法完全确认自己的猜想。\n" +
-                        "也许.日后可以通过联系方式再去询问？\n" +
-                        "摇了摇头，你决定.....\n");
-                options.addOption("前往港口领取舰船", END);
+                text.addPara(txt("RZG_TXT_2") +
+                        txt("RZG_TXT_3"));
+                text.addPara(txt("RZG_TXT_4") +
+                        txt("RZG_TXT_5") +
+                        txt("RZG_TXT_6") +
+                        txt("RZG_TXT_7") +
+                        txt("RZG_TXT_8") +
+                        txt("RZG_TXT_9"));
+                options.addOption(txt("RZG_TXT_10"), END);
 
                 //舰船生成
                 FleetMemberAPI member = Global.getFactory().createFleetMember(FleetMemberType.SHIP, "TDB_ren_zhao_guang_variant");
@@ -202,18 +201,18 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
                 break;
 
             case YB://主线剧情2
-                text.addPara("少女很显然被你的举动吓了一大跳，并快速的将尾巴藏在了身后");
-                text.addPara("你很快便意识到了这不礼貌，正打算道歉，但对方并没有给你这个机会直接跑了出去。");
-                text.addPara("你呆呆的站在原地，突然间有些后悔这个举动.但是回想了一下那毛绒绒并带着体温的手感...“嗯...不亏”");
-                text.addPara("你看向手中的信封，看起来只能希望信里有你想知道的答案了。");
+                text.addPara(txt("RZG_YB_1"));
+                text.addPara(txt("RZG_YB_2"));
+                text.addPara(txt("RZG_YB_3"));
+                text.addPara(txt("RZG_YB_4"));
                 CargoAPI playerCargo = Global.getSector().getPlayerFleet().getCargo();
                 playerCargo.getCredits().set(Math.max(0f, playerCargo.getCredits().get() - 20));
-                Misc.addCreditsMessage("失去了 %s 星币. ", 20);
-                options.addOption("打开信件", STORY2);
+                Misc.addCreditsMessage(txt("RZG_YB_5"), 20);
+                options.addOption(txt("RZG_YB_6"), STORY2);
                 break;
 
             case SYS://实验室
-                text.addPara("现在你正处于实验室中，下面的一切选项都是实验");
+                text.addPara(txt("RZG_SYS_1"));
 
                 //实验用
 
@@ -237,8 +236,8 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
                 location.addEntity(fleet);
                 fleet.setLocation(0, 0);
 
-                options.addOption("结束并离开（不会再刷新）", END);
-                options.addOption("离开（会再刷新）", LEAVE);
+                options.addOption(txt("RZG_SYS_2"), END);
+                options.addOption(txt("RZG_SYS_3"), LEAVE);
                 break;
 
             case LEAVE://暂时离开

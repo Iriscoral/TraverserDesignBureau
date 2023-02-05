@@ -107,9 +107,9 @@ public class TDB_Market extends BaseSubmarketPlugin {
         FactionAPI player = Global.getSector().getPlayerFaction();
         RepLevel TDB_Level = Global.getSector().getFaction("TDB").getRelationshipLevel(player);
 
-        if (action == TransferAction.PLAYER_SELL) return "先生，这里不接受退回亦或出售";
-        if (!TDB_Level.isAtWorst(RepLevel.WELCOMING)) return "抱歉，您的信誉暂时还未达标[好感：欢迎]";
-        return "先生，这里不接受退回亦或出售";
+        if (action == TransferAction.PLAYER_SELL) return txt("MARKET_1");
+        if (!TDB_Level.isAtWorst(RepLevel.WELCOMING)) return txt("MARKET_2");
+        return txt("MARKET_3");
 
     }
 
@@ -118,9 +118,9 @@ public class TDB_Market extends BaseSubmarketPlugin {
         FactionAPI player = Global.getSector().getPlayerFaction();
         RepLevel TDB_Level = Global.getSector().getFaction("TDB").getRelationshipLevel(player);
 
-        if (action == TransferAction.PLAYER_SELL) return "先生，这里不接受退回亦或出售";
-        if (!TDB_Level.isAtWorst(RepLevel.WELCOMING)) return "抱歉，您的信誉暂时还未达标[好感：欢迎]";
-        return "先生，这里不接受退回亦或出售";
+        if (action == TransferAction.PLAYER_SELL) return txt("MARKET_1");
+        if (!TDB_Level.isAtWorst(RepLevel.WELCOMING)) return txt("MARKET_2");
+        return txt("MARKET_3");
 
     }
 
