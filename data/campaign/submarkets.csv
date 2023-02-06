@@ -1,2 +1,2 @@
 id,name,faction,desc,script,icon,order
-TDB_Market,Unmanned Vessel Market,TDB,"The Traverser Design Bureau allows for the sale of its unmanned Overwatch vessels for reputable mercenary captains, which can be a great way to help them to conduct dangerous tasks without fear of loss.",data.campaign.submarkets.TDB_Market,,0
+TDB_Market,Unmanned Vessel/n Market,TDB,"The Traverser Design Bureau allows for the sale of its unmanned Overwatch vessels for reputable mercenary captains, which can be a great way to help them to conduct dangerous tasks without fear of loss.",data.campaign.submarkets.TDB_Market,,0

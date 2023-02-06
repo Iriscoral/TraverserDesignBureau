@@ -27,6 +27,10 @@ import static com.fs.starfarer.api.impl.campaign.terrain.DebrisFieldTerrainPlugi
 
 public class TDB_StarSystem {
 
+    public static String txt(String id) {
+        return Global.getSettings().getString("scripts", id);
+    }
+
     public void generate(SectorAPI sector) {
         //create a star system 创建一个新的星系（名字）
         String systemName = "Indulge";
@@ -82,7 +86,7 @@ public class TDB_StarSystem {
         planet1Market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.ALPHA_CORE);
 
         // generates hyperspace destinations for in-system jump points  为星系生成指定跳跃点
-        JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("TDB_jump_point", "穿越者协会跳跃点");
+        JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("TDB_jump_point", txt("starsystem_1"));
         jumpPoint.setOrbit(Global.getFactory().createCircularOrbit(planet1, 100f, 700f, 30f));
         jumpPoint.setRelatedPlanet(planet1);
         jumpPoint.setStandardWormholeToHyperspaceVisual();
@@ -91,13 +95,13 @@ public class TDB_StarSystem {
         //扫描本星系所有跳跃点并为之配置数据
         system.autogenerateHyperspaceJumpPoints(true, false);
         //勘探母舰生成
-        SectorEntityToken TDBSurvey_ship = system.addCustomEntity("TDB_Survey_ship", "废弃的勘探母舰", "TDBSurvey_ship", "neutral");
+        SectorEntityToken TDBSurvey_ship = system.addCustomEntity("TDB_Survey_ship", txt("starsystem_2"), "TDBSurvey_ship", "neutral");
         TDBSurvey_ship.setCircularOrbitPointingDown(star, 45 + 10, 1600, 250);
         TDBSurvey_ship.setCustomDescriptionId("TDB_Survey_ship");
         Misc.setAbandonedStationMarket("TDB_abandoned_station_market", TDBSurvey_ship);
 
         //母星空间站生成
-        SectorEntityToken TDBStation = system.addCustomEntity("TDB_Station", "Intersection 空间站", "station_TDB_type", "TDB");
+        SectorEntityToken TDBStation = system.addCustomEntity("TDB_Station", txt("starsystem_3"), "station_TDB_type", "TDB");
         TDBStation.setCircularOrbitPointingDown(system.getEntityById("TDB_planet1"), 45 + 180, 360, 30);
         TDBStation.setCustomDescriptionId("TDB_station");
         TDBStation.setMarket(planet1Market);
@@ -108,7 +112,7 @@ public class TDB_StarSystem {
         this.addFleet(planet1);
 
         //生成遗弃舰
-        TTBlackSite.addDerelict(system, planet1, "TDB_gugu_variant", "咕咕的风筝", "TDB_kite", ShipRecoverySpecial.ShipCondition.BATTERED, planet1.getRadius() * 2.0F, Math.random() < 0.1D);
+        TTBlackSite.addDerelict(system, planet1, "TDB_gugu_variant", txt("starsystem_4"), "TDB_kite", ShipRecoverySpecial.ShipCondition.BATTERED, planet1.getRadius() * 2.0F, Math.random() < 0.1D);
 
         //生成自家的轨道防御系统
         //SectorEntityToken stationForA = system.addCustomEntity("TDB_jdgdfyA", (String)null, "TDB_jdgdfy", "TDB");
@@ -122,11 +126,11 @@ public class TDB_StarSystem {
         gate.setCircularOrbit(system.getEntityById("Indulge"), 0, 3180, 350);
 
         //设置你星系的永久稳定点建筑
-        SectorEntityToken A = system.addCustomEntity("TDB_A", "穿越者协会通讯基座", "comm_relay", "TDB");
+        SectorEntityToken A = system.addCustomEntity("TDB_A", txt("starsystem_5"), "comm_relay", "TDB");
         A.setCircularOrbit(star, 180f, 3000f, 365f);
-        SectorEntityToken B = system.addCustomEntity("TDB_B", "穿越者协会导航浮标", "nav_buoy", "TDB");
+        SectorEntityToken B = system.addCustomEntity("TDB_B", txt("starsystem_6"), "nav_buoy", "TDB");
         B.setCircularOrbit(star, 220f, 3000f, 365f);
-        SectorEntityToken C = system.addCustomEntity("TDB_C", "穿越者协会传感器阵列", "sensor_array", "TDB");
+        SectorEntityToken C = system.addCustomEntity("TDB_C", txt("starsystem_7"), "sensor_array", "TDB");
         C.setCircularOrbit(star, 240f, 3000f, 365f);
 
         // Debris 生成残骸
@@ -198,7 +202,7 @@ public class TDB_StarSystem {
 
     public void addFleet(SectorEntityToken rock) {
         CampaignFleetAPI fleet = FleetFactoryV3.createEmptyFleet("TDB", FleetTypes.TASK_FORCE, null);
-        fleet.setName("望楼卫戍");
+        fleet.setName(txt("starsystem_8"));
         fleet.setNoFactionInName(true);
         fleet.setId("TDB_GuGu");
         fleet.getMemoryWithoutUpdate().set(MemFlags.MEMORY_KEY_PATROL_FLEET, true); // so it keeps transponder on
@@ -208,7 +212,7 @@ public class TDB_StarSystem {
         fleet.getFleetData().ensureHasFlagship();
 
         FleetMemberAPI lxship = fleet.getFleetData().addFleetMember("TDB_ceng_ji_yun_luo_xue");
-        lxship.setShipName("落雪");
+        lxship.setShipName(txt("starsystem_9"));
         lxship.setCaptain(TDB_QYData.createLuoXue());
 
         FleetMemberAPI yrship = fleet.getFleetData().addFleetMember("TDB_tai_yang_yu_yi_er");
@@ -220,7 +224,7 @@ public class TDB_StarSystem {
         yfship.setCaptain(TDB_QYData.createYiFu());
 
         FleetMemberAPI xkship = fleet.getFleetData().addFleetMember("TDB_ji_yu_yun_XK");
-        xkship.setShipName("第七象限");
+        xkship.setShipName(txt("starsystem_10"));
         xkship.setCaptain(TDB_QYData.createXingKong());
 
 
@@ -239,7 +243,7 @@ public class TDB_StarSystem {
         flagship.setCaptain(person);
         flagship.updateStats();
         flagship.getRepairTracker().setCR(flagship.getRepairTracker().getMaxCR());
-        flagship.setShipName("TDB 咕咕");
+        flagship.setShipName(txt("starsystem_11"));
 
         // to "perm" the variant so it gets saved and not recreated from the "ziggurat_Experimental" id
         flagship.setVariant(flagship.getVariant().clone(), false, false);

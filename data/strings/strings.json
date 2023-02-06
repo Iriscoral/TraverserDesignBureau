@@ -233,7 +233,19 @@
 
         "YQ_gugu_1":"Allied ships maximum speed +20%, shield damage reduced by 20%",
         "YQ_gugu_2":"Current range of action is 1000 units",
-        "YQ_gugu_3":"Current range of action is 1500 units"
+        "YQ_gugu_3":"Current range of action is 1500 units",
+
+        "starsystem_1":"Traversers' Association Jump Point",
+        "starsystem_2":"Abandoned Exploration Mothership",
+        "starsystem_3":"Intersection Space Station",
+        "starsystem_4":"Cuckoo's Kite",
+        "starsystem_5":"Traversers' Association Comm Relay",
+        "starsystem_6":"Traversers' Association Nav Buoy",
+        "starsystem_7":"Traversers' Association Sensor Array",
+        "starsystem_8":"Watchtower Garrison",
+        "starsystem_9":"Snowfall",
+        "starsystem_10":"Quadrant VII",
+        "starsystem_11":"TDB Cuckoo"
     },
     "utils": {
         "QYData_1":"Snowy Mud",

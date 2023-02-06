@@ -233,7 +233,19 @@
 
     "YQ_gugu_1":"盟军最高航速+20%,护盾所受伤害降低20%",
     "YQ_gugu_2":"当前作用范围为1000码",
-    "YQ_gugu_3":"当前作用范围为1500码"
+    "YQ_gugu_3":"当前作用范围为1500码",
+
+    "starsystem_1":"穿越者协会跳跃点",
+    "starsystem_2":"废弃的勘探母舰",
+    "starsystem_3":"Intersection 空间站",
+    "starsystem_4":"咕咕的风筝",
+    "starsystem_5":"穿越者协会通讯基座",
+    "starsystem_6":"穿越者协会导航浮标",
+    "starsystem_7":"穿越者协会传感器阵列",
+    "starsystem_8":"望楼卫戍",
+    "starsystem_9":"落雪",
+    "starsystem_10":"第七象限",
+    "starsystem_11":"TDB 咕咕"
   },
   "utils": {
     "QYData_1":"雪云泥",

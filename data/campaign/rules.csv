@@ -50,7 +50,7 @@ $faction.id == TDB",,"Your name is already well known to most officers, $theFact
 relLevelFriendlyTDB,RelationshipLevelDesc,"$faction.rel == FRIENDLY
 $faction.id == TDB",,As a friend $theFaction thinks highly of you and most officers will greet you or return a smile when they meet you.,,
 relLevelCooperativeTDB,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == TDB",," $theFaction values your alliance, and patrol fleets within their systems will go out of their way to help you whenever you need it, Various exclusive certificates guarantee you access to certain places that are out of the reach of ordinary people, and it is said that the Director-General will meet with the person who has such a certificate personally.",,
+$faction.id == TDB",," $theFaction values your alliance, and patrol fleets within their systems will go out of their way to help you whenever you need it, Various exclusive certificates guarantee you access to certain places that are out of the reach of ordinary people, and it is said that the Director will meet with the person who has such a certificate personally.",,
 relLevelSuspiciousTDB,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
 $faction.id == TDB",,"Your actions have come to the attention of $theFaction and although their open markets will still allows you access, the hassle of the formalities and the frequent searches will be too much for you.",,
 relLevelInhospitableTDB,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
@@ -61,8 +61,8 @@ relLevelVengefulTDB,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == TDB",,"Your relationship with $theFaction has gone completely on ice. Your person and fleet have been highlighted on their bounty list, and it may not be long before a fleet comes after you.",,
 ,,,,,,
 flavorTextMarketTDB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == TDB","AddText ""The streets are lined with ""people"" in ink-blue uniforms, patrolling in small groups accompanied by drones or unmanned vehicles and answering questions from people around them. The daily melody of the streets is a mixture of colourful advertising and enthusiastic hawking."" marketFlavorTextColor
-AddText ""After passing a strict screening process, you are allowed to enter the more official market, where a neat layout and the association flags are the dominant colour. A cat-eared officer and her cyborg colleague provide you with the latest price list for this market and inform you of the existence of a special open market - in the middle of Intersection, within the Association's main star system."" marketFlavorTextColor",,,
+$faction.id == TDB","AddText ""The streets are lined with 'people' in ink-blue uniforms, patrolling in small groups accompanied by drones or unmanned vehicles and answering questions from people around them. The daily melody of the streets is a mixture of colourful advertising and enthusiastic hawking."" marketFlavorTextColor
+AddText ""After passing a strict screening process, you are allowed to enter the more official market, where a neat layout and the Association's flags are the dominant colour. A cat-eared officer and her cyborg colleague provide you with the latest price list for this market and inform you of the existence of a special open market - in the middle of Intersection, within the Association's main star system."" marketFlavorTextColor",,,
 ,,,,,,
 greetingGuGuFleet,OpenCommLink,$entity.TDBGuGu score:1000,,"""The light of Indulge always burns too brightly, and it's only when I'm in the shadows that I may hear the song from my hometown star. Captain $playerName, do you miss your homeland?""",cutCommLink:Cut the comm link,
 ,,,,,,

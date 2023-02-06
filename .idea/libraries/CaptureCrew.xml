@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CaptureCrew">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../mods/CaptureCrew/jars/CaptureCrew.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
