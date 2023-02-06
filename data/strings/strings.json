@@ -132,7 +132,7 @@
         "AUTOMATED_7":"Automated Repair Unit",
 
         "HANGKONG_1":"Can only be mounted on Traverers' Association ships.",
-        "HANGKONG_2":"与扩编飞行甲板人员[expanded_deck_crew]冲突",
+        "HANGKONG_2":"Not compatible with Expanded Deck Crew",
         "HANGKONG_3":"Where is your hangar, brother?",
         "HANGKONG_4":"Remarks",
         "HANGKONG_5":"Can only be mounted on Traverers' Association ships.",
@@ -158,7 +158,7 @@
         "QIONG_DING_G_3":"Changes the Dome's deployable turrets to attack mode",
 
         "RCDC_1":"Special",
-        "RCDC_2":"Electromagnetic Deflection Stance [Requires Hardened Shields][%s]",
+        "RCDC_2":"Electromagnetic Deflection Stance [Requires Hardened Shields] [%s]",
         "RCDC_3":"Uses the extra energy to form a magnetic field around the shield to deflect incoming artillery, giving the shield an extra 10% resistance to high explosive damage",
         "RCDC_4":"Inactive",
         "RCDC_5":"Active",
@@ -217,8 +217,8 @@
         "DD":"% missile weapon damage",
         "NaMi":"Greywind is being repaired...It hurts!",
 
-        "SSJ_1":"Increased manoeuvrability and maximum speed, 30% reduction in weapon flux cost, 10% damage reduction to shields, 10% increase in ballistic/energy weapon damage",
-        "SSJ_2":"At the end of system activation a suppression barrage is released based on flux level",
+        "SSJ_1":"Increased manoeuvrability and speed, -30% weapon flux, -10% shields damage, +10% ballistic/energy weapon damage",
+        "SSJ_2":"Releases a suppression barrage based on flux level after activation",
 
         "SY_1":"Doubles the field of view",
         "SY_2":"Reduces the phase activation hard flux threshold of enemy phase ships within 1500 units by 50",

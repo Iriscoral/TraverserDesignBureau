@@ -5,6 +5,6 @@
 	"version":"1.2.0",
 	"description":"来自异世旅者们的家园",
 	"gameVersion":"0.95.1a-RC6",
-	"jars":["jars/TraverserDesignBureau3.jar"],
+	"jars":["jars/TraverserDesignBureau.jar"],
 	"modPlugin":"data.scripts.TDBModPlugin"
 }
