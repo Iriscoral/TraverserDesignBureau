@@ -121,7 +121,7 @@ public class TDB_StarSystem {
         //生成星门
         SectorEntityToken gate = system.addCustomEntity("TDB_gate", // unique id 设置星门id
                 "L星门", // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
-                "inactive_gate", // type of object, defined in custom_entities.json 设置标签（让系统识别这是个星门）根据custom_entities.json设置
+                txt("starsystem_gate"), // type of object, defined in custom_entities.json 设置标签（让系统识别这是个星门）根据custom_entities.json设置
                 null); // faction
         gate.setCircularOrbit(system.getEntityById("Indulge"), 0, 3180, 350);
 

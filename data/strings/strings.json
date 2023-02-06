@@ -245,7 +245,8 @@
         "starsystem_8":"Watchtower Garrison",
         "starsystem_9":"Snowfall",
         "starsystem_10":"Quadrant VII",
-        "starsystem_11":"TDB Cuckoo"
+        "starsystem_11":"TDB Cuckoo",
+        "starsystem_gate": "L Gate"
     },
     "utils": {
         "QYData_1":"Snowy Mud",

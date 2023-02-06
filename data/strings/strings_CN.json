@@ -245,7 +245,8 @@
     "starsystem_8":"望楼卫戍",
     "starsystem_9":"落雪",
     "starsystem_10":"第七象限",
-    "starsystem_11":"TDB 咕咕"
+    "starsystem_11":"TDB 咕咕",
+    "starsystem_gate": "L星门"
   },
   "utils": {
     "QYData_1":"雪云泥",
