@@ -50,17 +50,17 @@ Rain Cloud Autocannon,TDB_yu_yun,,,800,700,,150,,10,12,8,,,,KINETIC,120,,0,1,1,,
 Airborne Cold Sky Launcher,TDB_foehn,,0.5,600,1100,,1200,,25,10,6,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,100,7,400,SYSTEM,,,Traverser Design Bureau,,Finisher,,,,,,,,1000,TRUE,4354
 Airborne Light Absolute Sound Launcher,TDB_jue_xiang1,,0.75,400,1000,,120,,3,15,6,1,0.1,1,FRAGMENTATION,25,,0.5,1,1,0,7,14,14,12,,500,35,4,50,"SYSTEM,DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Fox Turnip Missile Vertical Launch Array,TDB_hu_luo_bo,,,11000,4000,,150,28,1000,2,400,4,0.4,4,HIGH_EXPLOSIVE,0,,1,1,4,,0,0,0,0,,20,5,10,200,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Suppression,,,,,,,,,,4365
-Fox Turnip Missile Vertical Launch Array,TDB_hu_luo_bo2,,,11000,4000,,150,28,1000,2,400,4,0.4,4,HIGH_EXPLOSIVE,0,,1,1,4,,0,0,0,0,,20,5,10,200,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Suppression,,,,,,,,,,4365
-Fox Turnip II,TDB_hu_luo_bo3,,,11000,4000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,400,100,10,200,"SYSTEM,DO_NOT_AIM,DIRECT_AIM",,,Traverser Design Bureau,,Suppression,,,,,,,,,,4365
+Fox Turnip Missile VLS,TDB_hu_luo_bo,,,11000,4000,,150,28,1000,2,400,4,0.4,4,HIGH_EXPLOSIVE,0,,1,1,4,,0,0,0,0,,20,5,10,200,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Suppression,,,,,,,,,,4365
+Fox Turnip Missile VLS,TDB_hu_luo_bo2,,,11000,4000,,150,28,1000,2,400,4,0.4,4,HIGH_EXPLOSIVE,0,,1,1,4,,0,0,0,0,,20,5,10,200,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Suppression,,,,,,,,,,4365
+Fox Turnip II VLS,TDB_hu_luo_bo3,,,11000,4000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,400,100,10,200,"SYSTEM,DO_NOT_AIM,DIRECT_AIM",,,Traverser Design Bureau,,Suppression,,,,,,,,,,4365
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Intercloud Missile Vertical Launch Array,TDB_yun_jian,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,10,5,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
-Intercloud Missile Vertical Launch Array,TDB_yun_jian2,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,10,5,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
-Intercloud II,TDB_yun_jian3,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,600,100,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
+Intercloud Missile VLS,TDB_yun_jian,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,10,5,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
+Intercloud Missile VLS,TDB_yun_jian2,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,10,5,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
+Intercloud II VLS,TDB_yun_jian3,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,600,100,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Fracture Missile Vertical Launch Array,TDB_duanhen,,,11000,10000,,800,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,100,5,15,400,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Remote Support,,,,,,,,,,4365
-Fracture Missile Vertical Launch Array,TDB_duanhen2,,,11000,10000,,800,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,100,5,15,400,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Remote Support,,,,,,,,,,4365
-Fracture II,TDB_duanhen3,,,11000,10000,,800,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,400,400,15,400,"SYSTEM,DO_NOT_AIM",,,Traverser Design Bureau,,Remote Support,,,,,,,,,,4365
+Fracture Missile VLS,TDB_duanhen,,,11000,10000,,800,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,100,5,15,400,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Remote Support,,,,,,,,,,4365
+Fracture Missile VLS,TDB_duanhen2,,,11000,10000,,800,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,100,5,15,400,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Remote Support,,,,,,,,,,4365
+Fracture II VLS,TDB_duanhen3,,,11000,10000,,800,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,400,400,15,400,"SYSTEM,DO_NOT_AIM",,,Traverser Design Bureau,,Remote Support,,,,,,,,,,4365
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Electromagnetic Shock Cannon,TDB_A,,,4000,900,,200,1500,200,0,0,,,,ENERGY,150,,0,0.5,,,0,5,1,3,,900,,,,SYSTEM,,,Northland Fragrance (Unique),,EMP Strike,,,,,,,,,,
 T.D. Beam Gun,TDB_T.D,,,400,900,1000,,,0,0,0,,,,ENERGY,,800,0.01,1,0.5,1,,,,,90000,,,,,SYSTEM,,,Northland Fragrance (Unique),,Multirole,,,,,,,,,,
