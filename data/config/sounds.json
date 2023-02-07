@@ -46,4 +46,20 @@
 	[
 		{"file":"sounds/TDB_huan_liu.ogg","pitch":1,"volume":1},
 	],
+	"TDB_XZ_M":
+	[
+		{"file":"sounds/TDB_XZ_M.ogg","pitch":1,"volume":1},
+	],
+	"TDB_XZ_M2":
+	[
+		{"file":"sounds/TDB_XZ_M2.ogg","pitch":1,"volume":0.8},
+	],
+	"TDB_YQ":
+	[
+		{"file":"sounds/TDB_yq.ogg","pitch":1,"volume":1},
+	],
+	"TDB_pian_yi":
+	[
+		{"file":"sounds/TDB_pian_yi.ogg","pitch":1,"volume":1},
+	],
 }

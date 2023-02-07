@@ -23,7 +23,7 @@ public class TDB_bao_zha2 implements OnHitEffectPlugin , EveryFrameWeaponEffectP
         DamagingProjectileAPI e = engine.spawnDamagingExplosion(createExplosionSpec(),projectile.getSource(), point);
         e.addDamagedAlready(target);
 
-        int Damage = 800;
+        float Damage = projectile.getDamageAmount()+200;
         //    概率                              打盾上               目标舰船
         if ((float) Math.random() > 0f && !shieldHit && target instanceof ShipAPI) {
             engine.applyDamage(target, point, Damage, DamageType.FRAGMENTATION, 0, false, false, 1);

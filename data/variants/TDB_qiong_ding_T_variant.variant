@@ -3,7 +3,7 @@
   "hullId": "TDB_qiong_ding",
   "displayName": "Defence",
   "goalVariant": true,
-  "fluxCapacitors": 5,
+  "fluxCapacitors": 9,
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],

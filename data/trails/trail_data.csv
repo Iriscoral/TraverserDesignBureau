@@ -19,6 +19,12 @@ TDB_cai_yu_shot_trail6,TDB_cai_yu_shot,TDB_trail_0,10,0,0,0.2,25,100,"[62,106,19
 TDB_cai_yu_shot_trail7,TDB_cai_yu_shot,TDB_trail_5,10,0,0,0.3,25,5,"[0,255,4]","[62,106,192]",1.0,250,100,5,0,1,TRUE,TRUE,TRUE,0,0,0,0,0,0,false,true
 TDB_cai_yu_shot_trail8,TDB_cai_yu_shot,TDB_trail_3,10,0,0,0.2,45,4,"[62,106,192]","[200,55,255]",1.0,250,100,5,0,1,TRUE,TRUE,TRUE,0,0,0,0,0,0,false,true
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TDB_XZ_trail1,TDB_XZ_shot,TDB_trail_5,10,0.05,0.1,0.15,25,5,"[85,218,255]","[116,22,171]",0.8,400,20,10,5,1,TRUE,FALSE,TRUE,70,10,0.2,0,60,0,TRUE,FALSE
+TDB_XZ_trail2,TDB_XZ_shot,TDB_trail_2,10,0.05,0.15,0.25,25,5,"[85,218,255]","[116,22,171]",0.9,400,20,10,5,1,TRUE,FALSE,TRUE,50,10,0.2,0,40,0,TRUE,FALSE
+TDB_XZ_trail3,TDB_XZ_shot,TDB_shao2,10,0.05,0.2,0.2,25,5,"[255,255,255]","[50,0,150]",1,400,20,10,5,1,TRUE,FALSE,TRUE,30,10,0.2,0,20,0,TRUE,FALSE
+TDB_XZ_trail4,TDB_XZ_shot,TDB_shao2,10,0,0.3,0.3,20,20,"[150,150,150]","[57,40,150]",0.4,400,20,10,20,1,TRUE,FALSE,TRUE,30,20,0.3,0,80,35,TRUE,FALSE
+TDB_XZ_trail5,TDB_XZ_shot,TDB_na_mi,10,0,0.3,0.3,20,20,"[150,150,150]","[57,40,150]",0.4,400,20,10,20,1,TRUE,FALSE,TRUE,30,20,0.3,0,75,15,TRUE,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
 TDB_foehn_trail0,TDB_foehn,TDB_trail_0,10,0.1,0.2,0.3,10,15,"[150,150,230]","[150,100,255]",0.75,250,0,15,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,true,false
 TDB_foehn_trail1,TDB_foehn,TDB_trail_5,10,0.1,0.3,0.3,30,70,"[65,156,255]","[150,100,255]",0.25,375,100,15,0,1,TRUE,FALSE,TRUE,30,60,0.4,0,15,30,true,false
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,86 @@
+{
+  "hullName": "TDB_ke_jian_guang",
+  "hullId": "TDB_ke_jian_guang",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_ke_jian_guang.png",
+  "style": "TDB_TECH",
+  "height": 39,
+  "width": 72,
+  "center": [36, 14.5],
+  "collisionRadius": 48.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 43.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [5, 8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [5, -8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3, 8.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-3, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, 5.5],
+      "length": 14.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-11, -5.5],
+      "length": 14.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -12.5, -11,
+    -5, -15.5,
+    -8, -31,
+    -7, -35,
+    13, -13.5,
+    16.5, -8,
+    10.5, -4,
+    10.5, 4,
+    16.5, 8,
+    13, 13.5,
+    -7, 35,
+    -8, 31,
+    -5, 15.5,
+    -12.5, 11
+  ]
+}

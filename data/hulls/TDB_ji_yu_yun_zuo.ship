@@ -12,7 +12,6 @@
   "shieldRadius": 135.5,
   "viewOffset": 0,
   "builtInMods": [
-    "never_detaches",
     "TDB_ji_yu_yun",
     "TDB_ruo_ci_du_cheng"
   ],
@@ -29,7 +28,7 @@
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 180,
       "angle": 90.5,
@@ -38,7 +37,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "ENERGY",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,

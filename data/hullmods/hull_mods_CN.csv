@@ -1,5 +1,7 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-模块化要塞,TDB_ji_yu_yun,0,,穿越者设计局,special,"特殊, 穿越者设计局设计",,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_ji_yu_yun,,,
+模块化要塞,TDB_ji_yu_yun,0,,穿越者设计局,special,"特殊, 穿越者设计局设计",,,TRUE,,0,0,0,0,data.hullmods.TDB_ji_yu_yun,"作为一艘定位明确的指挥型旗舰，积雨云拥有无与伦比的指挥系统，能轻易的协调模块与自身所搭载的海量舰载机。
+
+庞大的引擎系统中集成了特殊的空间撕裂设备，在舰船进入紧急状态时可以快速撕裂空间进行折跃以保证这昂贵的巨兽得以存活。",积雨云级的内置插件,graphics/hullmods/TDB_jin_ji_yue_qian.png
 弱磁化镀层,TDB_ruo_ci_du_cheng,0,,穿越者设计局,special,"特殊, 防御, 穿越者设计局设计",5000,,TRUE,,0,0,0,0,data.hullmods.TDB_ruo_ci_du_cheng,"穿越者协会特制的镀层，利用弱磁化的效果偏转削弱来自太阳风暴{%s}与 EMP 击穿{%s}对舰船的影响。
 
 该镀层广泛应用于穿越者协会所研制的舰体上。",提升舰体对太阳风暴与EMP的抗性。,graphics/hullmods/TDB_ruo_ci.png
@@ -11,6 +13,7 @@ name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hid
 自动化校准协议,TDB_Automated,0,,穿越者设计局,"defensive, merc, TDB_cj","后勤, 穿越者设计局设计",2500,,,,4,8,15,20,data.hullmods.TDB_Automated,通过搭载协会制式舰船辅助 AI 系统，并接入舰船原有的智能操控系统中，使更加高效的自动辅助AI自动执行大多高危高疲劳的工作岗位，同时，为了保证历史不会重演以及智能ai系统在战场上遭遇突发状况时候应变能力不足的问题，依旧保留了关键部分人工操作的空间。该插件大大减少{%s}该舰所需操作人员数量以及{%s}载员量，最大限度上的减小了人员的伤亡。同时提高了舰船引擎/武器故障检修速度{%s}。,降低舰船的人员需求，减少最大载员量，加快舰船各系统维修速度,graphics/hullmods/TDB_ai.png
 综合推进系统,TDB_you_ji,0,,穿越者设计局,"engines, merc, TDB_cj","引擎, 穿越者设计局设计",2500,,,,6,10,18,28,data.hullmods.TDB_you_ji,根据舰船规模为舰船提供基础值为{%s/%s/%s/%s}并随幅能增高而降低的最高战斗航速，且当舰船幅能水平高于{%s}时为舰船提供随幅能水平整加而上升的机动性加成最高为{%s},增加航速与机动性,graphics/hullmods/TDB_you_ji.png
 先进航空设备,TDB_hang_kong,0,,穿越者设计局,"special, merc, TDB_cj","战机, 穿越者设计局设计",4000,,,,15,20,25,35,data.hullmods.TDB_hang_kong,提高舰载机{%s}的作战半径和{%s}的能量/实弹武器伤害，同时降低{%s}战机损失时整备下降速率，提高{%s}整备恢复速率。,提高战机替补速率，增加战机作战范围和武器伤害,graphics/hullmods/TDB_hang_kong.png
+航空集成,TDB_HeavyBallisticsIntegration,0,,穿越者设计局,special,"战机, 穿越者设计局设计",4000,,TRUE,,0,0,0,0,data.hullmods.TDB_HeavyBallisticsIntegration,降低 %s 点所有战机联队所需的装配点。,降低舰载机联队的装配点,graphics/hullmods/TDB_hang_kong_ji_cheng.png
 天穹系统,TDB_qiong_ding,0,,穿越者设计局,special,"天穹系统, 穿越者设计局设计",4000,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_qiong_ding,包含纳米机库，传送仪等在内的一整套系统，可以全自动生产部署无人炮台，是穹顶级最为核心的模块。,天穹系统,graphics/hullmods/TDB_tian_qiong.png
 [天穹]反击协议,TDB_qiong_ding_G,0,,穿越者设计局,"special, no_build_in","天穹系统, 穿越者设计局设计",4000,TRUE,,,0,0,0,0,data.hullmods.TDB_qiong_dong_G,将穹顶级部署的炮台调整为攻击模式。,将穹顶级部署的炮台调整为攻击模式。,graphics/hullmods/TDB_tian_qiong.png
 集成打捞起重机,TDB_RepairGantry,0,,穿越者设计局,special,"后勤, 穿越者设计局设计",,,TRUE,,5,10,20,40,data.hullmods.TDB_RepairGantry,提高{%s}从遗弃物、舰船残骸等打捞到的资源，只影响普通资源的回收，如燃料与补给，而蓝图等稀有物资将不受影响。此外也提高 {%s}战后打捞效率。,提高打捞收益。,graphics/hullmods/repair_gantry.png

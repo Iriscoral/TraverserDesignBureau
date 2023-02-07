@@ -12,7 +12,7 @@
   "shieldRadius": 41.5,
   "viewOffset": 0,
   "builtInMods": [
-    "pointdefenseai"
+    "advancedcore"
   ],
   "builtInWeapons": {
     "WS0009": "TDB_hang_ji_deng2",
@@ -30,53 +30,8 @@
       "locations": [20.5, -0]
     },
     {
-      "id": "WS0002",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 118,
-      "angle": 180,
-      "locations": [-17.5, -0]
-    },
-    {
-      "id": "WS0003",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 109,
-      "angle": 136.5,
-      "locations": [-9.5, 9]
-    },
-    {
-      "id": "WS0004",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 109,
-      "angle": -136.5,
-      "locations": [-9.5, -9]
-    },
-    {
-      "id": "WS0005",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 176,
-      "angle": 60,
-      "locations": [2, 6]
-    },
-    {
-      "id": "WS0006",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 176,
-      "angle": -60,
-      "locations": [2, -6]
-    },
-    {
       "id": "WS0007",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 360,

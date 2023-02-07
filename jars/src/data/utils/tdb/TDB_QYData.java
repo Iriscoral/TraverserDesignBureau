@@ -172,4 +172,90 @@ public class TDB_QYData {
 
         return person;
     }
+
+    //群友：火猫猫
+    public static PersonAPI createHuoMao() {
+        PersonAPI person = Global.getFactory().createPerson();
+        person.setName(new FullName("G", "", FullName.Gender.MALE));
+        person.setFaction("TDB");
+        person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_02"));
+        person.setPersonality(Personalities.STEADY);
+        person.setRankId(Ranks.SPACE_CAPTAIN);
+        person.setPostId("TDB_HuoMao");
+        person.setId("TDB_HuoMao");
+
+        person.getStats().setSkipRefresh(true);
+
+        person.getStats().setLevel(10);
+        person.getStats().setSkillLevel(Skills.MISSILE_SPECIALIZATION, 2);
+        person.getStats().setSkillLevel(Skills.DAMAGE_CONTROL, 2);
+        person.getStats().setSkillLevel(Skills.IMPACT_MITIGATION, 2);
+        person.getStats().setSkillLevel(Skills.COMBAT_ENDURANCE, 2);
+        person.getStats().setSkillLevel(Skills.FIELD_MODULATION, 2);
+        person.getStats().setSkillLevel(Skills.MISSILE_SPECIALIZATION, 2);
+        person.getStats().setSkillLevel(Skills.SYSTEMS_EXPERTISE, 2);
+        person.getStats().setSkillLevel(Skills.TARGET_ANALYSIS, 2);
+        person.getStats().setSkillLevel(Skills.ENERGY_WEAPON_MASTERY, 2);
+        person.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 2);
+
+        person.getStats().setSkipRefresh(false);
+
+        Global.getSector().getImportantPeople().addPerson(person);
+
+
+        return person;
+    }
+
+    //群友：782
+    public static PersonAPI create782() {
+        PersonAPI person = Global.getFactory().createPerson();
+        person.setName(new FullName("782", "", FullName.Gender.FEMALE));
+        person.setFaction("TDB");
+        person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_03"));
+        person.setPersonality(Personalities.TIMID);
+        person.setRankId(Ranks.SPACE_CAPTAIN);
+        person.setPostId("TDB_782");
+        person.setId("TDB_782");
+
+        person.getStats().setSkipRefresh(true);
+
+        person.getStats().setLevel(7);
+        person.getStats().setSkillLevel(Skills.COMBAT_ENDURANCE, 2);
+        person.getStats().setSkillLevel(Skills.HELMSMANSHIP, 2);
+        person.getStats().setSkillLevel(Skills.IMPACT_MITIGATION, 2);
+        person.getStats().setSkillLevel(Skills.SYSTEMS_EXPERTISE, 2);
+        person.getStats().setSkillLevel(Skills.TARGET_ANALYSIS, 2);
+        person.getStats().setSkillLevel(Skills.MISSILE_SPECIALIZATION, 2);
+        person.getStats().setSkillLevel(Skills.FIELD_MODULATION, 2);
+
+        person.getStats().setSkipRefresh(false);
+
+        Global.getSector().getImportantPeople().addPerson(person);
+
+
+        return person;
+    }
+
+    //群友：抱着我的大咸鱼
+    public static PersonAPI createXianYu() {
+        PersonAPI person = Global.getFactory().createPerson();
+        person.setName(new FullName("维多利亚", "菲尔德利斯", FullName.Gender.FEMALE));
+        person.setFaction("TDB");
+        person.setPortraitSprite(Global.getSettings().getSpriteName("intel", "TDB_WDLY"));
+        person.setPersonality(Personalities.TIMID);
+        person.setRankId(Ranks.SPACE_CAPTAIN);
+        person.setPostId("TDB_XianYu");
+        person.setId("TDB_XianYu");
+
+        person.getStats().setSkipRefresh(true);
+
+        person.getStats().setLevel(0);
+
+        person.getStats().setSkipRefresh(false);
+
+        Global.getSector().getImportantPeople().addPerson(person);
+
+
+        return person;
+    }
 }

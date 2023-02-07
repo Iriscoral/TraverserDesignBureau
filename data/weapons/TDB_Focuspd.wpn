@@ -9,7 +9,6 @@
   "turretGlowSprite": "graphics/weapons/Focuspd_turret_glow.png",
   "hardpointSprite": "graphics/weapons/Focuspd_hardpoint_base.png",
   "hardpointGlowSprite": "graphics/weapons/Focuspd_hardpoint_glow.png",
-  "renderAboveAllWeapons": 0,
   "glowColor": [
     10,
     175,
@@ -20,10 +19,10 @@
   "turretOffsets": [
     7.5,
     0,
-    7.5,
-    1.5,
-    7.5,
-    -1.5
+    10.5,
+    3.5,
+    10.5,
+    -3.5
   ],
   "turretAngleOffsets": [
     0,
@@ -31,12 +30,12 @@
     18.5
   ],
   "hardpointOffsets": [
-    13.5,
+    12,
     0,
-    13.5,
-    1.5,
-    13.5,
-    -1.5
+    14,
+    3.5,
+    14,
+    -3.5
   ],
   "hardpointAngleOffsets": [
     0,
@@ -55,7 +54,7 @@
     255,
     255
   ],
-  "convergeOnPoint":true,
+  "convergeOnPoint": true,
   "width": 0.9,
   "textureType": ROUGH,
   "textureScrollSpeed": 128,

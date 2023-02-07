@@ -16,6 +16,7 @@ public class TDB_TurretDeployStats extends BaseShipSystemScript implements MineS
     private static final float RANGE_FACTOR = 900f;
     private static final float MIN_SPAWN_DIST = 75f;
     private static boolean i = false;
+    private static boolean ally = false;
 
     public static String txt(String id) {
         return Global.getSettings().getString("scripts", id);
@@ -34,7 +35,10 @@ public class TDB_TurretDeployStats extends BaseShipSystemScript implements MineS
         if (ship == null) {
             return;
         }
-
+        if (ship.isAlly())
+        {
+            ally = true;
+        }
         if (state == State.OUT) {
             effectLevel *= effectLevel;
         }
@@ -105,12 +109,14 @@ public class TDB_TurretDeployStats extends BaseShipSystemScript implements MineS
         if (i) {
             ShipAPI newShip = manager.spawnShipOrWing("TDB_pao_tai", currLoc, (float) Math.random() * 360f);
             manager.setSuppressDeploymentMessages(orig);
+            newShip.setAlly(ally);
             Global.getSoundPlayer().playSound("mine_teleport", 1f, 1f, newShip.getLocation(), newShip.getVelocity());
             //生成扭曲
             I18nUtil.easyRippleOut(newShip.getLocation(), newShip.getVelocity(), newShip.getCollisionRadius() * 4f, 100f, 1f, 20f);
             i = false;
         } else {
             ShipAPI newShip = manager.spawnShipOrWing("TDB_pao_tai_variant", currLoc, (float) Math.random() * 360f);
+            newShip.setAlly(ally);
             manager.setSuppressDeploymentMessages(orig);
             Global.getSoundPlayer().playSound("mine_teleport", 1f, 1f, newShip.getLocation(), newShip.getVelocity());
             //生成扭曲

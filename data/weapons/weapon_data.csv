@@ -1,22 +1,24 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-#Conventional weapons＃,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Focused PD Laser,TDB_Focuspd,0,,500,550,75,,,0,100,5,,,,ENERGY,,50,0,0.1,,,,,,,3000,,,,,"PD, ANTI_FTR","TDB_bp,energy20,beam15, LR, hist1t, merc",,Traverser Design Bureau,,Point Defence,,,,,,,,,,701.4
+#常规武器＃,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Focused PD Laser,TDB_Focuspd,0,,500,550,95,,,0,100,5,,,,ENERGY,,55,0,0.1,,,,,,,3000,,,,,"PD, ANTI_FTR","TDB_bp,energy20,beam15, LR, hist1t, merc",,Traverser Design Bureau,,Point Defence,,,,,,,,,,701.4
 Long Sky LRM Launcher,TDB_changkongpod_l,2,1,3000,6000,,250,300,50,10,25,24,0.4,6,ENERGY,,,,4,6,0.5,,,,,,400,300,20,158,"DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT","TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Remote Support,,,,,,,,,,1310
 Long Sky LRM Module,TDB_changkongpod,2,1,3000,6000,,250,300,50,10,15,24,0.15,4,ENERGY,,,,5,4,0.5,,,,,,400,300,20,158,"DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT","TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Remote Support,,,,,,,,,,1310
 Frost SRM Launcher,TDB_jie_shuang,1,,4000,1400,,200,20,5,30,20,300,0.5,5,FRAGMENTATION,0,,0,5,40,0.1,0,0,0,0,,400,100,6,60,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Anti-Ship,,,,,,,,,,16.3
 Frost SRM Pod,TDB_jie_shuang_m,1,,4000,1400,,200,20,5,30,10,130,0.5,5,FRAGMENTATION,0,,0,5,20,0.1,0,0,0,0,,400,100,6,60,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Anti-Ship,,,,,,,,,,16.3
-Coldwave Mine Launch Module,TDB_han_chao,1,,1500,1000,,300,20,25,30,25,180,,,HIGH_EXPLOSIVE,0,,0,1.25,2,,0,0,0,0,,100,400,4,500,"ANTI_FTR,PD","TDB_bp, merc",,Traverser Design Bureau,,Area Air Defence,,,,,,,,,,
+Coldwave Mine Launch Module,TDB_han_chao,1,,1500,1000,,400,20,25,30,25,200,,,HIGH_EXPLOSIVE,0,,0,1.25,2,,0,0,0,0,,100,400,4,500,"ANTI_FTR,PD","TDB_bp, merc",,Traverser Design Bureau,,Area Air Defence,,,,,,,,,,
 Ripple Autocannon,TDB_lian_yi,1,,4000,800,,90,18,5,20,22,,,,ENERGY,72,,0,0.2,1,,0,3,1,1,,1300,,,50,,"TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Suppression,,,,,,,,,,7
 Frostbite Anti-Aircraft Cannon,TDB_shuang_jiang,1,,1500,700,,50,1,5,25,10,,,,ENERGY,60,,0.1,0.1,,0.2,2,7.5,0.2,3,,1000,,,2000,PD,"TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Point Defence,,,,,,,,,,90000.033
-Deposition Plasma Artillery,TDB_ning_hua,3,1,22000,800,,350,40,20,10,30,,,,ENERGY,350,,0,1.6,3,0.2,0,0,0,0,,1000,,,,,"TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Multirole,,,,,"When a {%s} hits the hull, it has a {%s} chance of generating an arc equal to the projectile's EMP damage.",Plasma warhead:|30%,,,,1311
+Deposition Plasma Artillery,TDB_ning_hua,3,1,22000,800,,350,40,20,10,30,,,,ENERGY,350,,0,1.6,3,0.2,0,0,0,0,,1000,,,,,"TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Multirole,,,,,"When a %s hits the hull, it has a %s chance of generating an arc equal to the projectile's EMP damage.",Plasma warhead:|30%,,,,1311
 Raincutter Pulsed Laser Cannon,TDB_cai_yu,2,,1800,700,,100,0,10,15,13,,,,ENERGY,100,,0,0.28,,,,,,,,2000,,,,,"TDB_bp,energy20, LR, hist1t, merc",,Traverser Design Bureau,,Multirole,,,,,,,,,,22.2
 Inversed Frequency Beam Cannon,TDB_ni_lan,3,,7500,900,1600,,80,0,10,25,4,0.6,6,ENERGY,,1750,0,0.33,0.3,,,,,,99999,,,,,"STRIKE, USE_VS_FRIGATES","TDB_bp,energy20,beam15, LR, hist1t, merc",,Traverser Design Bureau,,Anti-Armor,,,,,,,,,,24
 Solarwind Railgun,TDB_tai_yang_feng,3,1,22000,1000,,800,180,20,10,25,,,,HIGH_EXPLOSIVE,960,,1,2,1,0.2,0,0,0,0,,1000,,,,,"TDB_bp,he18, LR, hist1t, merc",,Traverser Design Bureau,,Anti-Armor,,,,,,,,,,1311
 Cloudhammer Rotary Cannon,TDB_yun_chui,1,,1000,800,,40,,3,30,15,,,,KINETIC,50,,0,0.15,1,,0,20,1,10,,800,,,30,,"TDB_bp,kinetic15, hist1t, merc",,Traverser Design Bureau,,Anti-Shield,,,,,,,,,,
-Windstopper CIWS,TDB_feng_zu,1,,200,400,,20,,1,75,5,,,,FRAGMENTATION,2,,0,0.05,1,,0,15,1,15,,800,,,10,PD,"TDB_bp,pd7, SR, merc",,Traverser Design Bureau,,Point Defence,,,,,,,,,,
+Windstopper CIWS,TDB_feng_zu,1,,200,350,,30,,1,75,5,,,,FRAGMENTATION,2,,0,0.05,1,,0,15,1,15,,800,,,10,PD,"TDB_bp,pd7, SR, merc",,Traverser Design Bureau,,Point Defence,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Cloud Shadow Particle Cannon,TDB_yuen_ying,1,,5000,800,,300,,250,5,13,,,,HIGH_EXPLOSIVE,300,,0,2,1,,0,8,4,8,,800,,,400,,"LR, hist1t, merc",,Overwatch Defense Network,,Anti-Structure,,,,,{%s} deals additional {%s} fragmentation damage when hitting hull. Does even more damage to wreckage.,Chain Reaction Warheads:|500,,,,8
-Superheavy Cloud Shadow Particle Cannon,TDB_yun_ying_L,1,,5000,900,,600,,250,5,30,,,,HIGH_EXPLOSIVE,750,,0,8,6,0.4,0,8,4,8,,800,,,400,,"LR, hist1t, merc",,Overwatch Defense Network,,Anti-Structure,,,,,{%s} deals additional {%s} fragmentation damage when hitting the hull. Also deals {%s} high explosive damage to other enemies within {%s} range that decays with range. Does additonal damage to wreckage.,Chain Reaction Warheads:|800|100|300,,,,8
+Cloud Shadow Particle Cannon,TDB_yuen_ying,1,,5000,800,,300,,250,5,13,,,,HIGH_EXPLOSIVE,300,,0,2,1,,0,8,4,8,,800,,,400,,"he18 ,LR, hist1t, merc",,Overwatch Defense Network,,Anti-Structure,,,,,%s deal additional %s fragmentation damage when hitting hull. Does even more damage to wreckage.,Chain Reaction Warheads:|500,,,,8
+Superheavy Cloud Shadow Particle Cannon,TDB_yun_ying_L,1,,5000,900,,600,,250,5,30,,,,HIGH_EXPLOSIVE,750,,0,8,6,0.4,0,8,4,8,,800,,,400,,"he18 ,LR, hist1t, merc",,Overwatch Defense Network,,Anti-Structure,,,,,%s deals additional %s fragmentation damage when hitting the hull. Also deals %s high explosive damage to other enemies within %s units that decays with range. Does additonal damage to wreckage.,Chain Reaction Warheads:|800|100|300,,,,8
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thundercloud Anvil Twin Barrel MG,TDB_lei_bao_yun_zhen,2,,1800,700,,100,0,10,15,13,,,,ENERGY,100,,0,0.28,,,,,,,,2000,,,,SYSTEM,,,Traverser Design Bureau,,Multirole,,,,,,,,,,22.2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Decorative#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Change arm shield,TDB_bian_ge1,,,1000,0,,0,,3,30,10,,,,HIGH_EXPLOSIVE,0,,0,0.15,1,,0,20,1,10,,800,,,30,SYSTEM,,,,,,,,,,,,,,,
@@ -31,8 +33,8 @@ radar,TDB_lei_da,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,Traverser Design Bureau,,
 Sun rain phase transmission system left,TDB_tai_yang_yu_zuo_guang,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,Traverser Design Bureau,,,,,,,,,,,,47
 Sun rain phase transmission system right,TDB_tai_yang_yu_you_guang,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,Traverser Design Bureau,,,,,,,,,,,,47
 Shield generator,TDB_hu_dun,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,Traverser Design Bureau,,,,,,,,,,,,47
-,TDB_wan_shuang_zuo,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
-,TDB_wan_shuang_you,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,TDB_XZ_zuo,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,TDB_XZ_you,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Skill weapon＃,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -42,6 +44,7 @@ Phase Missile (floating),TDB_xiang_wei2,,,11000,4000,,800,28,1000,2,400,1,0.1,1,
 Pre-Charged Ion Pike,TDB_li_zi_chang_qiang,,0.5,8000,1000,2300,,5000,0,7,25,,,,ENERGY,,150,3,1,1,4,,,,,90000,,,,,SYSTEM,,,Traverser Design Bureau,,Anti-Armor,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Built-in weapons＃,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cold Sky Plasma Cannon,TDB_XZ,3,1,22000,800,,400,500,20,10,0,,,,HIGH_EXPLOSIVE,600,,1.5,5,1,1,0,0,0,0,,1200,,,,SYSTEM,,,Overwatch Defense Network,,Suppression,,,,,"When an %s hits, it will create %s arcs of electricity dealing the weapon's emp damage. The arc can penetrate shields.",EMP Warhead:|20,,,,1311
 Absolute Sound Launcher,TDB_jue_xiang,,0.75,400,1000,,100,,3,15,6,10,5,1,FRAGMENTATION,25,,0.5,5,1,0,7,14,14,12,,500,35,4,50,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM, PD_ONLY, PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,
 Rain Cloud Autocannon,TDB_yu_yun,,,800,700,,150,,10,12,8,,,,KINETIC,120,,0,1,1,,0,15,5,10,,800,,,30,SYSTEM,,,Traverser Design Bureau,,Suppression,,,,,,,,,,
 Airborne Cold Sky Launcher,TDB_foehn,,0.5,600,1100,,1200,,25,10,6,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,100,7,400,SYSTEM,,,Traverser Design Bureau,,Finisher,,,,,,,,1000,TRUE,4354
@@ -53,7 +56,7 @@ Fox Turnip II,TDB_hu_luo_bo3,,,11000,4000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOS
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Intercloud Missile Vertical Launch Array,TDB_yun_jian,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,10,5,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
 Intercloud Missile Vertical Launch Array,TDB_yun_jian2,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,10,5,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
-Intercloud II,TDB_yun_jian3,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,400,100,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
+Intercloud II,TDB_yun_jian3,,,11000,10000,,150,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,600,100,10,200,"SYSTEM,DO_NOT_AIM,PD_ONLY,PD",,,Traverser Design Bureau,,Point Defence,,,,,,,,,,4365
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Fracture Missile Vertical Launch Array,TDB_duanhen,,,11000,10000,,800,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,100,5,15,400,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Remote Support,,,,,,,,,,4365
 Fracture Missile Vertical Launch Array,TDB_duanhen2,,,11000,10000,,800,28,1000,2,400,1,0.1,1,HIGH_EXPLOSIVE,0,,1,1,1,,0,0,0,0,,100,5,15,400,"SYSTEM,DO_NOT_AIM,DO_NOT_CONSERVE,FIRE_WHEN_INEFFICIENT",,,Traverser Design Bureau,,Remote Support,,,,,,,,,,4365
@@ -72,3 +75,4 @@ Pansy Bullet 2,TDB_san_se_jin2,,,11000,10000,,250,0,1000,2,400,1,0.1,1,ENERGY,0,
 Warning ⚠ Laboratory ⚠,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Special effects experimental weapon,TDB_cai_yu2,,,1800,700,,120,40,10,15,40,,,,ENERGY,150,,0,0.3,,,,,,,,2000,,,,SYSTEM,,,"Sequestration in progress [if you see this, please report it, thanks]】",,Experimental System,,,,,,,,,,22.2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

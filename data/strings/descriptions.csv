@@ -1,6 +1,6 @@
 id,type,text1,text2,text3,notes
 ,,,,,
-,,,,,
+#星球/地图建筑描述,,,,,
 TDB_jdgdfy,CUSTOM,"One of the components of the Overwatch programme, this forms part of an interdiction network of small and medium-sized independent unmanned orbital defence platforms that can intercept enemy ships to some extent and make enemy operations on the ground extremely difficult.",,,
 TDB_planet1_description,CUSTOM,"The first and last base of the Traverser's Association, the home of the hopes of countless people. After the rebooting of the Mothership and through the efforts of the Traversers, the planet has been built into a habitable and well-defended fortress, protected by a coalition of unmanned and conventional fleets, and home to the core of the Association, the Traverser Design Bureau.",,"In addition to the Star Fortress that guards Intersection, there are countless defence platforms lined up neatly in near-Earth orbit, their flashing beacons and mounted turrets clearly visible as a net that surrounds the entire Intersection.
 
@@ -8,14 +8,14 @@ Below, in the darkness of night, the lights of the city decorate the planet like
 TDB_station,CUSTOM,"One of the key factors in the settlement of the Traversers' Association, this huge orbital fortress was once a Domain Explorarium mothership, now acts is the lifeblood of the Traveller Association. Most areas of the Mothership have been completely rebuilt or dismantled in numerous systematic constructions, now rendering it as an completely unrecognisable fortress.",,"The vast Star Fortress is both an important base for the Association's space forces and one of the key anchor points for ensuring the security and normalcy of Intersection's trade, with any military and civilian ships attempting to approach being scanned by its vast radar and communications arrays.
 
 Association-owned manned ships patrolling the perimeter, along with unmanned ships, enthusiastically guide incoming and outgoing civilian ships, making the fortress bustling but not chaotic.",
-TDB_Survey_ship,CUSTOM,"An exploration mothership from the Domain period, long abandoned and quietly orbiting the Indulge. The hull is in a state of disrepair and bears the message ""Dangerous area, do not approach"" written by the Traverser's Association.",,"Most of the equipment inside the mothership of this long-dormant Domain Mothership has been removed by the Association, leaving only the vacant dock with a large open area. Some of the warning lights and signs are still barely working, particularly on the passive energy harvesters",
+TDB_Survey_ship,CUSTOM,"An exploration mothership from the Domain period, long abandoned and quietly orbiting Indulge. The hull is in a state of disrepair and bears the message ""Dangerous area, do not approach"" written by the Traverser's Association.",,"Most of the equipment inside the mothership of this long-dormant Domain Mothership has been removed by the Association, leaving only the vacant dock with a large open area. Some of the warning lights and signs are still barely working, particularly on the passive energy harvesters",
 ,,,,,
-,,,,,
+#势力介绍,,,,,
 TDB,FACTION,"The Traverser's Association is a group of exiles from other worlds who set out to survive, having previously been part of a large mercenary group under the Freedom Alliance. As they grew in power, they settled the system they had stumbled upon and built it into a true fortress by integrating the technologies and exploration of various worlds, creating this association of travellers and like-minded people. A central body, the Traveller Design Bureau, leads the way as an extremely pro-foreigner force that is hospitable but strictly disciplined. As long as you abide by their laws, you will be more than welcome.
 
 What is clear is that the Bureau is now offering special warships and weapons to reputable clients.",,,
 ,,,,,
-,,,,,
+#战机联队,,,,,
 TDB_quan_fan_she,SHIP,"It would be hard to find another fighter more powerful than the Total Reflection class in the entire field, with a combination of shields and armour combined with a complex but powerful weapon system that allows this super fighter to destroy frigates and even destroyers with ease. The design office has also added escort drones on both sides of the fuselage to make it equally easy to deal with swarms of fighters.",,,
 TDB_mi_san_guang,SHIP,"The Atmospheric/Cosmic dual purpose UAV was developed because the Design Office's Pan-Light Unmanned Interceptor was unable to meet the air control requirements of fleet warfare. The large number of fragmentation missiles and rapid-fire machine guns were highly effective in delivering heavy hits to light targets. However, it is clear that both the air-to-air missiles and the twin-barrelled machine guns only threaten the shields of small and medium-sized ships and are therefore ineffective against heavy warships. Its excellent aerodynamic profile ensures that it can fly at very high speeds even in the atmosphere.",,,
 TDB_bian_ge,SHIP,"The aptly named Transformer mech was an immature attempt to use the technology gathered from other worlds, but it was clearly not a successful attempt, as the humanoid body was too heavily occupied by the huge rotor chain gun system and anti-aircraft missiles, making it impossible to install shield generators. Even with the small space deflectors installed, their slow speed and large size made them easy targets for air superiority fighters. However, the robustness of these mechs and their ability to land in combat were the key factors that attracted the attention of the Design Bureau and were constantly adapted to produce the current Transformer mechs.",,,
@@ -23,12 +23,18 @@ TDB_man_fan_she,SHIP,"A super-heavy escort gunship designed by the Traveller Ass
 TDB_pian_zhen_guang1,SHIP,"The bomber was naturally valued by the Design Bureau as an essential element in carrier-based anti-ship operations, and thus the Polarised Light class was designed. Its powerful firepower and reliable shields all point to a bomber that can be trusted.",,,
 TDB_fan_guang_yuan,SHIP,"The Floodlight, a mass-produced drone manufactured by the Traveller Design Office, is primarily used for air superiority by the fleet and is equipped with a point defence laser and a barely adequate shield generator to protect its fragile hull. Of course, its low price and large numbers as a mass-produced drone make up for any shortcomings.",,,
 ,,,,,
-,,,,,
+#舰船描述,,,,,
+TDB_yuan_wei,SHIP,"The Iris class was originally a custom-built yacht for the Filderis family, but in the midst of a timeline transition, her hull was taken into the gap and modified by some idle demon.
+
+""But this thing can take two anti-matter blasters and can do some pretty impressive battle damage in extreme cases."" So said the idle demon.
+
+The child of the Filderis family eventually also stepped into the cursed realm inherited from the bloodline, and one cannot help but wonder, while lamenting the transmutation of the timeline, what will happen next.",,,
 TDB_gugu,SHIP,"Appearing as nothing more than a Kite-Class shuttle in Traversers' Association paint, the sensors detected a missile mount modification similar to that of the Kite-Class, but the area that should have been the viewing dome returned an incomprehensible reading.
 
 A little bit of green and blue floats by in a trance, like the sound of an empty valley, the song is wispy, gentle and slightly husky. As you sing, you seem to hear another song resonating with it. When you try to track down the song, it drifts away into the starry sky with the wind.
 
 Yet you have the feeling that she is looking forward to singing with you.",,,
+TDB_lang_chao,SHIP,"As a result of a technical exchange with the conservative wing of Loulan Industries, the Prototype Wave (M) Missile Destroyer was stripped of its small slots on both sides and fitted with the Design Bureau's point defence missiles, while the ship's structure and subsystems were adapted to the Association's naval doctrine.",,,
 TDB_hui_feng,SHIP,"It is a ship made entirely of nanobots, a warship and an ark of civilisation.
 
 It is a fully automated ship, but for some reason it has reserved enough space for a single crewmember - and should you ask Greywind about it, she simply stares at you with naught a word about the matter.",,,
@@ -62,7 +68,9 @@ TDB_tai_yang_yu,SHIP,"A completely overhauled ship, the Sunshower is equipped wi
 
 One of the products of the Traversers' Association's Overwatch programme, it is an unmanned warship with a special AI that is widely deployed around the Traverser Design Bureau for defensive purposes.",,,
 TDB_gu_yu,SHIP,"The first blueprints for the Valley Rain-Class existed from the time the Design Bureau was formally established, and the weakness of the Association's military forces at the time led to the Valley Rain-Class being designed not as a specialist missile cruiser, but as a more versatile design. As a result, her predecessor was often used as the flagship of a small fleet. But with the development of the Association's military power and the creation of the Traverser Design Bureau it was clear that this design was no longer relevant. That heavy versatility focus often meant a loss of any specialist competency. Thus the creation of the modern Valley Rain-Class guided missile cruiser - she was redesigned by the Design Bureau, with enhanced missile capabilities and the development of the Bureau's Intercloud Vertical Launch Array. However, even with the specialisation, you can still see hints of her predecessor in her body.",,,
-TDB_chuan_yue_xue_zhe,SHIP,"The special strategic importance of phasing technology as a ""submarine"", as it was on Old Earth and other worlds, successfully attracted the attention of the Design Bureau. This led to the design of the Traverser Scholar class as an experimental subspace phase cruiser, whose extreme manoeuvrability combined with the lethal weapons built into its hull made it an unpredictable hunter in the field. As a result, the ship isoften sent out on decapitation missions by the Design Office is a single ship.",,,
+TDB_chuan_yue_XZ,SHIP,"The special strategic significance of phasing technology, no less than that of the ""submarines"" that had emerged on Old Earth and other worlds, succeeded in attracting the attention of the Design Bureau's senior management. The Cold Sky Scholar class was designed as an experimental subspace phase cruiser, which was often sent out on decapitation missions by single ships of the Design Bureau, where there was a high probability of prolonged covert operations, and was designed as an unmanned ship in order to prevent the psychological and physical hazards of the phase coils and the operational environment.
+
+One of the products of the Traversers' Association's Overwatch programme, it is an unmanned warship with a special AI that is widely deployed for defence around the Traverser Design Bureau, but for a number of reasons this design is not suitable for solo cruises.",,,
 TDB_qiong_ding,SHIP,"The Dome was originally designed to act as a support defence for the fleet, and in order to adapt to the complex and changing conditions of battle the Dome did not opt for extreme methods such as fitting a large number of point defences to strengthen its defences, but instead chose to become a versatile force, using the combination of aircraft and shipboard firepower to achieve its objectives. This, however, resulted in the Dome being less proficient in all aspects and struggling more against larger ships. However, the Dome's reliability is greatly enhanced by its unique Sky Dome defence system, as it is able to deploy its nanofactories to provide friendly forces with the opportunity to change the situation when it is most needed.",,,
 TDB_ren_zhao_guang,SHIP,"It is a warship that has been dusty for years, and everything inside the ship has been tidied up neatly.
 
@@ -88,9 +96,10 @@ TDB_ceng_ji_yun,SHIP,"The Stratocumulus-Class is the Design Bureau's most freque
 
 According to official sources, the Stratocumulus-Class did receive help from an allied faction [Blue Sea Fisheries] in its construction, but according to gossip, it was actually converted to a symmetrical shape due to OCD on the designers' part.",,,
 ,,,,,
-,,,,,
+#武器描述,,,,,
 TDB_yun_chui,WEAPON,"The Cloudhammer's rotary barrel is designed to fire continuously, which can cause a serious loss of accuracy when firing for long periods of time, but still makes it a good anti-shield weapon and can even be used to intercept enemy missiles in emergencies with its specially designed projectiles, which are fired in heavy bursts.",,,
 TDB_bian_ge2,WEAPON,"The heavy rotor cannon, mounted on the left arm of the Transformer, takes up a lot of space in the mech.",,,
+TDB_XZ,WEAPON,"Built into the Cold Sky Scholar is a plasma cannon with a massive compression array that compresses and fires a massive amount of charged particles. On contact with the target, the unstable energy warhead will instantly release a large EMP charge to completely paralyse the target ship's electronics.",,,
 TDB_quan_fan_she,WEAPON,The main weapon of the Total Reflection super fighter.,,,
 TDB_foehn,WEAPON,"A specially developed airborne torpedo for Polarised Light-class bombers, capable of delivering heavy damage to unshielded targets.",,,
 TDB_jue_xiang1,WEAPON,"The Traverser Design Bureau designed the missile for air defence, and its excellent tracking capabilities combined with the built-in miniature nano forge makes it a nightmare for enemy air forces.",,,
@@ -122,10 +131,10 @@ TDB_jue_xiang,WEAPON,"The Absolute Sound Missile was designed by the Traveller D
 TDB_hu_luo_bo,WEAPON,"Built into the Sunshower-Class unmanned arsenal ship is a missile array for the rapid delivery of suppression missiles to the enemy, and a built-in nano-forging ensures that she can deliver continuous firepower in high-intensity battlefields.",,,
 TDB_hu_luo_bo2,WEAPON,"Built into the Sunshower-Class unmanned arsenal ship is a missile array for the rapid delivery of suppression missiles to the enemy, and a built-in nano-forging ensures that she can deliver continuous firepower in high-intensity battlefields.",,,
 ,,,,,
-＃shipsystems,,,,,
+＃技能描述,,,,,
 TDB_yq_gugu,SHIP_SYSTEM,Provides 20% maximum speed increase and shield damage reduction for friendly forces within 1000 units of themselves. If this ship is the flagship. the range of the system is increased to 1500 units.,,,
 TDB_targetingfeed,SHIP_SYSTEM,Activates a hyperspace accelerator to speed up the time flow of the ship.,,,
-TDB_san_se_jin,SHIP_SYSTEM,"Temporarily improves the ship in various ways; greatly increases the maneuverability and maximum speed; weapon flux cost is reduced by 30%, incoming shield damage is reduced by 10%, and lastly ballistic and energy weapon damage is increased by 15%. At the end of the duration, releases an energy barrage; the higher final flux level, the more projectiles are fired.",,,
+TDB_san_se_jin,SHIP_SYSTEM,"Temporarily empowers the ship; greatly increases the maneuverability and maximum speed; weapon flux cost is reduced by 30%, incoming shield damage is reduced by 10%, and lastly ballistic and energy weapon damage is increased by 15%. At the end of the duration, releases an energy barrage; the higher final flux level, the more projectiles are fired.",,,
 TDB_ban_fei,SHIP_SYSTEM,The UAV mounted on both sides of the fuselage takes off to provide escort.,,,
 TDB_na_mi,SHIP_SYSTEM,Allows onboard nanobots to start self-replicating and immediately begin repairs to the Gray Wind.,,,
 TDB_yu_yun1,SHIP_SYSTEM,Launches the Defense Platforms to provide escort for the mothership.,,,
@@ -140,4 +149,5 @@ TDB_dao_dan,SHIP_SYSTEM,"Increase the damage of existing missiles by 15% during 
 TDB_wu_qi,SHIP_SYSTEM,"Activates a heat radiation loop coil, which recovers some of the flux from weapon fire and uses it to enhance local energy weapons. However, due to technical limitations the conversion efficiency of the coils is very low and can seriously disrupt the operation of the engine during activation.",,,
 TDB_yq,SHIP_SYSTEM,"A short-jump system modified with a hyperspace penetrator that causes huge spatial fluctuations at the end of the jump, dealing damage to non-friendly targets, with a small chance of repairing its own hull.",,,
 TDB_SY,SHIP_SYSTEM,"Enables the shipboard radar to operate at full power and provide a large number of field-of-view scans within a certain period of time. Special radar waves will interfere with the phase coils of hostile phase ships within a range of 1500 units, reducing the phase fluctuation hard flux threshold by 50%",,,
+,,,,,
 ,,,,,

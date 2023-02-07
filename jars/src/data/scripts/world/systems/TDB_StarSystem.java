@@ -36,7 +36,7 @@ public class TDB_StarSystem {
         String systemName = "Indulge";
         StarSystemAPI system = sector.createStarSystem(systemName);
         //set its location 星系位置
-        system.getLocation().set(18000f, -1000f);
+        system.getLocation().set(13800f, -1000f);
         //set background image 星系背景图片
         system.setBackgroundTextureFilename("graphics/backgrounds/TDB_xing_xi.png");
 
@@ -120,8 +120,8 @@ public class TDB_StarSystem {
 
         //生成星门
         SectorEntityToken gate = system.addCustomEntity("TDB_gate", // unique id 设置星门id
-                "L星门", // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
-                txt("starsystem_gate"), // type of object, defined in custom_entities.json 设置标签（让系统识别这是个星门）根据custom_entities.json设置
+                txt("starsystem_gate"), // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
+                "inactive_gate", // type of object, defined in custom_entities.json 设置标签（让系统识别这是个星门）根据custom_entities.json设置
                 null); // faction
         gate.setCircularOrbit(system.getEntityById("Indulge"), 0, 3180, 350);
 
@@ -211,8 +211,12 @@ public class TDB_StarSystem {
         fleet.getFleetData().addFleetMember("TDB_gugu_variant");
         fleet.getFleetData().ensureHasFlagship();
 
+        FleetMemberAPI xyship = fleet.getFleetData().addFleetMember("TDB_yuan_wei_variant");
+        xyship.setShipName(txt("starsystem_9"));
+        xyship.setCaptain(TDB_QYData.createXianYu());
+
         FleetMemberAPI lxship = fleet.getFleetData().addFleetMember("TDB_ceng_ji_yun_luo_xue");
-        lxship.setShipName(txt("starsystem_9"));
+        lxship.setShipName(txt("starsystem_10"));
         lxship.setCaptain(TDB_QYData.createLuoXue());
 
         FleetMemberAPI yrship = fleet.getFleetData().addFleetMember("TDB_tai_yang_yu_yi_er");
@@ -224,8 +228,16 @@ public class TDB_StarSystem {
         yfship.setCaptain(TDB_QYData.createYiFu());
 
         FleetMemberAPI xkship = fleet.getFleetData().addFleetMember("TDB_ji_yu_yun_XK");
-        xkship.setShipName(txt("starsystem_10"));
+        xkship.setShipName(txt("starsystem_11"));
         xkship.setCaptain(TDB_QYData.createXingKong());
+
+        FleetMemberAPI hmship = fleet.getFleetData().addFleetMember("TDB_gu_yu_HM");
+        hmship.setShipName(txt("starsystem_12"));
+        hmship.setCaptain(TDB_QYData.createHuoMao());
+
+        FleetMemberAPI qbeship = fleet.getFleetData().addFleetMember("TDB_gu_yu_variant");
+        qbeship.setShipName(txt("starsystem_13"));
+        qbeship.setCaptain(TDB_QYData.create782());
 
 
         //fleet.addFloatingText("这是一个咕咕文本", TDB_ColorData.TDBred ,100);
@@ -243,7 +255,7 @@ public class TDB_StarSystem {
         flagship.setCaptain(person);
         flagship.updateStats();
         flagship.getRepairTracker().setCR(flagship.getRepairTracker().getMaxCR());
-        flagship.setShipName(txt("starsystem_11"));
+        flagship.setShipName(txt("starsystem_14"));
 
         // to "perm" the variant so it gets saved and not recreated from the "ziggurat_Experimental" id
         flagship.setVariant(flagship.getVariant().clone(), false, false);

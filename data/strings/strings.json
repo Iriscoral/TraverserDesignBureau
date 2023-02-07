@@ -38,7 +38,8 @@
 
         "HF_ST3_1":"Your bodyguards immediately drag the first officer's hands behind his back and pin him to the ground, even as he continues to attempt to plead with you.",
         "HF_ST3_2":"On the other side, the 'first officer' seems to have realized that he has made a big deal of things.",
-        "HF_ST3_3":"Explain where you are coming from and your motives",
+        "HF_ST3_3":"ith a distortion of the communication screen, the \"first officer\" on the other side turns into a young girl with white hair and blue eyes.",
+        "HF_ST3_4":"Explain where you are coming from and your motives",
 
         "HF_TX_1":"The moment the message was sent, the other party seemed to sense it. ",
         "HF_TX_2":"On the other side, the 'first officer' seems to have realized that he has made a big deal of things.",
@@ -139,6 +140,14 @@
         "HANGKONG_6":"Can only be installed on ships with hangars",
         "HANGKONG_7":"Conflicts with [%s]",
         "HANGKONG_8":"Expanded Deck Crew",
+        
+        "JYY_1":"Emergency Jump preparation",
+        "JYY_2":"Emergency jump successful",
+        "JYY_3":"Special",
+        "JYY_4":"Emergency Jump",
+        "JYY_5":"If the ship has less than 3000 hull, the ship will start an emergency jump if it has enough CR left for a second deployment.",
+        "JYY_6":"Modular Fortress",
+        "JYY_7":"The ship's modules will synchronise various core stats.",
 
         "LEIDA_1":"Conflicts with ECM Package",
         "LEIDA_2":"Status Normal",
@@ -159,7 +168,7 @@
 
         "RCDC_1":"Special",
         "RCDC_2":"Electromagnetic Deflection Stance [Requires Hardened Shields] [%s]",
-        "RCDC_3":"Uses the extra energy to form a magnetic field around the shield to deflect incoming artillery, giving the shield an extra 10% resistance to high explosive damage",
+        "RCDC_3":"Uses additional shield power to form a magnetic field that deflects incoming fire, giving shields an extra 10% resistance to high explosive, fragmentation and kinetic damage.",
         "RCDC_4":"Inactive",
         "RCDC_5":"Active",
 
@@ -239,14 +248,17 @@
         "starsystem_2":"Abandoned Exploration Mothership",
         "starsystem_3":"Intersection Space Station",
         "starsystem_4":"Cuckoo's Kite",
+        "starsystem_gate":"L Gate",
         "starsystem_5":"Traversers' Association Comm Relay",
         "starsystem_6":"Traversers' Association Nav Buoy",
         "starsystem_7":"Traversers' Association Sensor Array",
         "starsystem_8":"Watchtower Garrison",
-        "starsystem_9":"Snowfall",
-        "starsystem_10":"Quadrant VII",
-        "starsystem_11":"TDB Cuckoo",
-        "starsystem_gate": "L Gate"
+        "starsystem_9":"Iris",
+        "starsystem_10":"Snowfall",
+        "starsystem_11":"Quadrant VII",
+        "starsystem_12":"Unyielding",
+        "starsystem_13":"Afterlife",
+        "starsystem_14":"TDB Cuckoo"
     },
     "utils": {
         "QYData_1":"Snowy Mud",

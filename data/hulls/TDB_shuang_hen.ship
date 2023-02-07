@@ -12,6 +12,7 @@
   "shieldRadius": 248.5,
   "viewOffset": 0,
   "builtInMods": [
+  "TDB_HeavyBallisticsIntegration",
     "TDB_ruo_ci_du_cheng"
   ],
   "builtInWeapons": {

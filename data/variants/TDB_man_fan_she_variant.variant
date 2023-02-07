@@ -14,12 +14,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "ionbeam",
-        "WS0002": "TDB_Focuspd",
-        "WS0003": "TDB_Focuspd",
-        "WS0004": "TDB_Focuspd",
-        "WS0005": "TDB_Focuspd",
-        "WS0006": "TDB_Focuspd",
-        "WS0007": "heavyburst"
+        "WS0007": "TDB_Focuspd"
       }
     }
   ],

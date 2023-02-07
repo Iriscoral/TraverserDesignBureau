@@ -1,4 +1,7 @@
 variant id
+TDB_yuan_wei_variant
+TDB_lang_chao_variant
+TDB_chuan_yue_XZ_variant
 TDB_gugu_variant
 TDB_ji_liu_variant
 TDB_yun_cheng_variant
@@ -17,5 +20,5 @@ TDB_gu_yu_variant
 TDB_feng_ya_variant
 TDB_feng_xian_variant
 TDB_chuan_yun_variant
-TDB_chuan_yue_xue_zhe_variant
+
 TDB_Pansy_variant

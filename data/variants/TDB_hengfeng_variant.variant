@@ -3,8 +3,8 @@
   "hullId": "TDB_hengfeng",
   "displayName": "General",
   "goalVariant": true,
-  "fluxCapacitors": 1,
-  "fluxVents": 50,
+  "fluxCapacitors": 47,
+  "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

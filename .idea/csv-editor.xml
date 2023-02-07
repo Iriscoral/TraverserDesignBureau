@@ -3,6 +3,118 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\campaign\UNGP_rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\campaign\industries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\campaign\rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\campaign\sim_opponents.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\campaign\sim_opponents_dev.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\campaign\special_items.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\campaign\submarkets.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\characters\skills\skill_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\hullmods\hull_mods.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\hulls\wing_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\shipsystems\ship_systems.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\strings\descriptions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\trails\trail_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\weapons\weapon_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\weapons\weapon_data_CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\campaign\UNGP_rules.csv">
           <value>
             <Attribute>
@@ -38,6 +150,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\campaign\rules_CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\campaign\sim_opponents.csv">
           <value>
             <Attribute>
@@ -45,7 +164,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\campaign\sim_opponents_dev.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\campaign\special_items.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\campaign\special_items_CN.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -122,6 +255,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\missions_CN\mission_list.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\shipsystems\ship_systems.csv">
           <value>
             <Attribute>
@@ -150,6 +290,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\strings\descriptions_old.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\trails\trail_data.csv">
           <value>
             <Attribute>
@@ -165,6 +312,13 @@
           </value>
         </entry>
         <entry key="\data\weapons\weapon_data_CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\weapons\weapon_data_old.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

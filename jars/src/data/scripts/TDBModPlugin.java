@@ -123,10 +123,13 @@ public class TDBModPlugin extends BaseModPlugin {
                         List<PersonAPI> Coolscript = ((LootAddScript) script).captiveOfficers;
                         for (int i=0;i<Coolscript.size();i++) {
                             if (Coolscript.contains(Global.getSector().getImportantPeople().getPerson("TDB_GuGu"))) {Coolscript.remove(Global.getSector().getImportantPeople().getPerson("TDB_GuGu"));}
+                            if (Coolscript.contains(Global.getSector().getImportantPeople().getPerson("TDB_XianYu"))) {Coolscript.remove(Global.getSector().getImportantPeople().getPerson("TDB_XianYu"));}
                             if (Coolscript.contains(Global.getSector().getImportantPeople().getPerson("TDB_LuoXue"))) {Coolscript.remove(Global.getSector().getImportantPeople().getPerson("TDB_LuoXue"));}
                             if (Coolscript.contains(Global.getSector().getImportantPeople().getPerson("TDB_YiRe"))) {Coolscript.remove(Global.getSector().getImportantPeople().getPerson("TDB_YiRe"));}
                             if (Coolscript.contains(Global.getSector().getImportantPeople().getPerson("TDB_YiFu"))) {Coolscript.remove(Global.getSector().getImportantPeople().getPerson("TDB_YiFu"));}
                             if (Coolscript.contains(Global.getSector().getImportantPeople().getPerson("TDB_XingKong"))) {Coolscript.remove(Global.getSector().getImportantPeople().getPerson("TDB_XingKong"));}
+                            if (Coolscript.contains(Global.getSector().getImportantPeople().getPerson("TDB_HuoMao"))) {Coolscript.remove(Global.getSector().getImportantPeople().getPerson("TDB_HuoMao"));}
+                            if (Coolscript.contains(Global.getSector().getImportantPeople().getPerson("TDB_782"))) {Coolscript.remove(Global.getSector().getImportantPeople().getPerson("TDB_782"));}
                         }
                     }
                 }

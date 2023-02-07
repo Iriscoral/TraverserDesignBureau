@@ -13,6 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "TDB_qiong_ding",
+	"TDB_HeavyBallisticsIntegration",
     "TDB_ruo_ci_du_cheng"
   ],
   "builtInWeapons": {

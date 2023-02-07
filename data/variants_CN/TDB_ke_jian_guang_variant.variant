@@ -1,0 +1,25 @@
+{
+  "variantId": "TDB_ke_jian_guang_variant",
+  "hullId": "TDB_ke_jian_guang",
+  "displayName": "å¶ç©ºè½°ç¸æº",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_feng_zu",
+        "WS0002": "TDB_feng_zu",
+        "WS0003": "TDB_feng_zu",
+        "WS0004": "TDB_feng_zu"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

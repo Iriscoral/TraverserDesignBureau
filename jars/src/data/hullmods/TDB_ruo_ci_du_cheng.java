@@ -52,6 +52,8 @@ public class TDB_ruo_ci_du_cheng extends BaseLogisticsHullMod {
         //设定安装强化护盾后的效果
         if (variant.getHullMods().contains("hardenedshieldemitter")) {
             stats.getHighExplosiveShieldDamageTakenMult().modifyMult(id, 1f - HighExplosive * 0.01f);
+            stats.getKineticShieldDamageTakenMult().modifyMult(id, 1f - HighExplosive * 0.01f);
+            stats.getFragmentationDamageTakenMult().modifyMult(id, 1f - HighExplosive * 0.01f);
             stats.getMissileShieldDamageTakenMult().modifyMult(id, 1f - Missile * 0.01f);
         }
     }

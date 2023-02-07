@@ -27,7 +27,7 @@
 	"clampMaxSpeedAfter":true,
 	"alwaysAccelerate":true,
 
-	"useSound":"system_burn_drive_activate",
+	"useSound":"TDB_pian_yi",
 	"loopSound":"system_burn_drive_loop",
 	"deactivateSound":"system_burn_drive_deactivate",
 	"outOfUsesSound":"engine_disabled",

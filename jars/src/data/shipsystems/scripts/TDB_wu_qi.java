@@ -29,11 +29,11 @@ public class TDB_wu_qi extends BaseShipSystemScript {
         //如果：当状态!=舰船战术系统为“OUT（运行时）”
         if (state != ShipSystemStatsScript.State.OUT) {
             //减少武器赋能产出
-            stats.getBallisticWeaponFluxCostMod().modifyMult(id, 0.5f * effectLevel);
-            stats.getEnergyWeaponFluxCostMod().modifyMult(id, 0.5f * effectLevel);
-            stats.getMissileWeaponFluxCostMod().modifyMult(id, 0.5f * effectLevel);
+            stats.getBallisticWeaponFluxCostMod().modifyMult(id, 0.8f * effectLevel);
+            stats.getEnergyWeaponFluxCostMod().modifyMult(id, 0.8f * effectLevel);
+            stats.getMissileWeaponFluxCostMod().modifyMult(id, 0.8f * effectLevel);
 
-            stats.getEnergyWeaponDamageMult().modifyPercent(id, 15f * effectLevel);
+            stats.getEnergyWeaponDamageMult().modifyPercent(id, 30f * effectLevel);
 
             Global.getSoundPlayer().playSound("TDB_huan_liu", 1f, 1f, ship.getLocation(), ship.getVelocity());
         }

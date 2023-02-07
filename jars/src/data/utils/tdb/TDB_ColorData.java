@@ -14,6 +14,8 @@ public class TDB_ColorData {
     public static final Color TDBpurplish2 = new Color(143, 87, 252, 0);
     public static final Color TDBpink = new Color(251, 121, 200, 255);
 
+    public static final Color TDBpink2 = new Color(26, 62, 140, 26);
+
     public static final Color TDBblue = new Color(2, 62, 253);
     public static final Color TDBblue2 = new Color(100, 147, 206, 87);
     public static final Color TDBblue3 = new Color(123, 181, 255);
@@ -21,6 +23,7 @@ public class TDB_ColorData {
     public static final Color TDBblue5 = new Color(123, 181, 255, 29);
     public static final Color TDBgreen = new Color(34, 255, 0, 255);
     public static final Color TDBgreen2 = new Color(88, 148, 136, 255);
+    public static final Color TDBgreen3 = new Color(58, 255, 212, 255);
     public static final Color TDByellow = new Color(248, 230, 57, 231);
     public static final Color TDByellow2 = new Color(192, 178, 44, 45);
     public static final Color TDBcyan = new Color(2, 253, 253);

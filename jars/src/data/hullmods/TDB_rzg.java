@@ -50,8 +50,8 @@ public class TDB_rzg extends BaseHullMod {
                     Global.getCombatEngine().maintainStatusForPlayerShip(
                             "TDB_rzg",
                             "graphics/icons/hullsys/high_energy_focus.png",
-                            txt("RCDC_1"),
-                            txt("RCDC_2a"),
+                            txt("RZG_1"),
+                            txt("RZG_2a"),
                             true
                     );
                 }
@@ -60,8 +60,8 @@ public class TDB_rzg extends BaseHullMod {
                     Global.getCombatEngine().maintainStatusForPlayerShip(
                             "TDB_rzg",
                             "graphics/icons/hullsys/missile_autoforge.png",
-                            txt("RCDC_1"),
-                            txt("RCDC_2b"),
+                            txt("RZG_1"),
+                            txt("RZG_2b"),
                             true
                     );
                 }
@@ -72,14 +72,14 @@ public class TDB_rzg extends BaseHullMod {
     //更多的描述拓展
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
 
-        tooltip.addSectionHeading(txt("RCDC_3"), Alignment.TMID, 4f);
+        tooltip.addSectionHeading(txt("RZG_3"), Alignment.TMID, 4f);
 
-        tooltip.addPara(txt("RCDC_4"), TDB_ColorData.TDBcolor1, 4f);
-        tooltip.addPara(txt("RCDC_5"), 4f);
+        tooltip.addPara(txt("RZG_4"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("RZG_5"), 4f);
 
         tooltip.addPara("", 2f);
 
-        tooltip.addPara(txt("RCDC_6"), TDB_ColorData.TDBpink, 4f);
-        tooltip.addPara(txt("RCDC_7"), 4f);
+        tooltip.addPara(txt("RZG_6"), TDB_ColorData.TDBpink, 4f);
+        tooltip.addPara(txt("RZG_7"), 4f);
     }
 }

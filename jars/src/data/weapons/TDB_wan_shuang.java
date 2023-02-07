@@ -3,47 +3,33 @@ package data.weapons;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import data.scripts.util.MagicAnim;
-import org.lazywizard.lazylib.MathUtils;
+import data.utils.tdb.TDB_ColorData;
 
+import java.awt.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class TDB_wan_shuang implements EveryFrameWeaponEffectPlugin {
 
-    private static final Map<Integer, String> LEFT_SELECTOR = new HashMap<>();
-
-    static {
-        LEFT_SELECTOR.put(0, "TDB_wan_shuang_zuo");
-    }
-
-    private static final Map<Integer, String> RIGHT_SELECTOR = new HashMap<>();
-
-    static {
-        RIGHT_SELECTOR.put(0, "TDB_wan_shuang_you");
-    }
 
     private WeaponAPI rpanel;
     private WeaponAPI lpanel;
+    private WeaponAPI ipanel;
 
     private ShipAPI ship;
     private ShipSystemAPI system;
-    private ShipEngineControllerAPI engines;
 
-    public final String lID = "WS0008";
-    public final String rID = "WS0009";
-
+    public final String lID = "z";
+    public final String rID = "y";
+    public final String IID = "BN";
 
     private boolean runOnce = false;
 
     private float panelWidth, panelHeight;
 
-    private float rate = 1;
-    private boolean travelDrive = false;
-
-
-    private float currentRotateL = 0;
-    private float currentRotateR = 0;
+    private float sp = 1;
+    private boolean Drive = false;
 
 
     @Override
@@ -53,11 +39,11 @@ public class TDB_wan_shuang implements EveryFrameWeaponEffectPlugin {
             return;
         }
 
+        //遍历舰体武器
         if (!runOnce || ship == null || system == null) {
             ship = weapon.getShip();
 
             system = ship.getSystem();
-            engines = ship.getEngineController();
             List<WeaponAPI> weapons = ship.getAllWeapons();
             for (WeaponAPI w : weapons) {
                 switch (w.getSlot().getId()) {
@@ -70,91 +56,51 @@ public class TDB_wan_shuang implements EveryFrameWeaponEffectPlugin {
                     case rID:
                         rpanel = w;
                         break;
+                    case IID:
+                        ipanel = w;
+                        break;
                 }
             }
-
-
             runOnce = true;
             return;
         }
 
-
-        float ltarget = 0;
-        float rtarget = 0;
-
-        float maxRotate = 22.5f;
-        if (engines.isAccelerating()) {
-            ltarget -= maxRotate / 2;
-            rtarget += maxRotate / 2;
-        } else if (engines.isDecelerating() || engines.isAcceleratingBackwards()) {
-            ltarget += maxRotate;
-            rtarget -= maxRotate;
-        }
-        if (engines.isStrafingLeft()) {
-            ltarget += maxRotate / 3;
-            rtarget += maxRotate / 1.5f;
-        } else if (engines.isStrafingRight()) {
-            ltarget -= maxRotate / 1.5f;
-            rtarget -= maxRotate / 3;
-        }
-        if (engines.isTurningLeft()) {
-            ltarget -= maxRotate / 2;
-            rtarget -= maxRotate / 2;
-        } else if (engines.isTurningRight()) {
-            ltarget += maxRotate / 2;
-            rtarget += maxRotate / 2;
-        }
-
-        float rtl = MathUtils.getShortestRotation(currentRotateL, ltarget);
-        if (Math.abs(rtl) < 0.5f) {
-            currentRotateL = ltarget;
-        } else if (rtl > 0) {
-            currentRotateL += 0.5f;
-        } else {
-            currentRotateL -= 0.5f;
-        }
-
-        float rtr = MathUtils.getShortestRotation(currentRotateR, rtarget);
-        if (Math.abs(rtr) < 0.5f) {
-            currentRotateR = rtarget;
-        } else if (rtr > 0) {
-            currentRotateR += 0.5f;
-        } else {
-            currentRotateR -= 0.5f;
-        }
-
-
-        if (ship.getTravelDrive().isActive() || ship.getFluxTracker().isVenting()) {
-            rate = Math.min(1, rate + amount);
-            travelDrive = true;
-        } else if (travelDrive) {
-            rate = Math.max(0, rate - amount);
-            if (rate == 0) {
-                travelDrive = false;
+        if (!this.ship.getTravelDrive().isActive() && !this.ship.getFluxTracker().isVenting()) {
+            if (Drive) {
+                this.sp = Math.max(0, this.sp - amount);
+                if (this.sp == 0) {
+                    Drive = false;
+                }
+            } else {
+                this.sp = ipanel.getChargeLevel();
             }
         } else {
-            rate = system.getEffectLevel();
+            this.sp = Math.min(1, this.sp + amount);
+            Drive = true;
         }
 
+        if (ipanel.getChargeLevel()>0)
+        {
 
-        if (system.isActive() || rate > 0) {
+            float rotate = MagicAnim.smoothNormalizeRange(this.sp, 0.4f, 0.6f);
+            float recess = MagicAnim.smoothNormalizeRange(this.sp, 0.4f, 0.8f);
 
-
-            float rotateDoors = MagicAnim.smoothNormalizeRange(rate, 0.25f, 0.75f);
-            float recessDoors = MagicAnim.smoothNormalizeRange(rate, 0.5f, 1f);
-
-
-            float panelOffsetX = 5;
-            float lpX = panelWidth / 2 + panelOffsetX * recessDoors;
-            float rpX = panelWidth / 2 - panelOffsetX * recessDoors;
-
-            float panelOffsetY = 5;
-            float pY = panelHeight / 2 + panelOffsetY * rotateDoors;
-
-            lpanel.getSprite().setCenter(lpX, pY);
-            rpanel.getSprite().setCenter(rpX, pY);
-
-
+            lpanel.getSprite().setCenter(panelWidth / 2 + recess * 6, panelHeight / 2 + rotate * 8);
+            rpanel.getSprite().setCenter(panelWidth / 2 - recess * 6, panelHeight / 2 + rotate * 8);
         }
+
+        //当系统激活时
+//        if (system.isActive() || sp > 0) {
+//
+//
+//            float rotate = MagicAnim.smoothNormalizeRange(this.sp, 0.4f, 0.6f);
+//            float recess = MagicAnim.smoothNormalizeRange(this.sp, 0.4f, 0.8f);
+//
+//
+//            lpanel.getSprite().setCenter(panelWidth / 2 + recess * 6, panelHeight / 2 + rotate * 8);
+//            rpanel.getSprite().setCenter(panelWidth / 2 - recess * 6, panelHeight / 2 + rotate * 8);
+//
+//
+//        }
     }
 }
