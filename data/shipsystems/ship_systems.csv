@@ -1,7 +1,7 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
 #Regular shipsystems ,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Perpetual Resonance UAV Defence Array,TDB_xie_zhen_jn,,,,,,,,9,0.4,0.2,,0.5,1,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
-"""Cold Wind"" Missile System",TDB_dao_dan,1,,,,,,,,0.05,0.25,6,0.25,7,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+Perpetual Resonance Array,TDB_xie_zhen_jn,,,,,,,,9,0.4,0.2,,0.5,1,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Cold Wind Missile System,TDB_dao_dan,1,,,,,,,,0.05,0.25,6,0.25,7,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
 Full-powered Radar Scan,TDB_SY,,,,,,,,,0.05,0.25,6,0.25,6,,,,,,,,,,,,,graphics/icons/relay.png
 Real-space Perforation Jump,TDB_yq,,,,,,,,,0.18,0.25,1,0.5,12,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
 Hyperspace Accelerator,TDB_targetingfeed,,,,,,0.5,,,,0.5,15,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
