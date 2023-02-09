@@ -10,7 +10,7 @@
 	"displayName":"Overwatch Network",
     "logo": "graphics/factions/TDBT.png",
     "crest": "graphics/factions/TDB.png",
-	"displayNameWithArticle":"The Overwatch Network",
+	"displayNameWithArticle":"the Overwatch Network",
 	"shipNamePrefix":"TDB",
 	"showInIntelTab":false,
 	"shipNameSources":{

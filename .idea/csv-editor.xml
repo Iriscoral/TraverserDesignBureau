@@ -59,27 +59,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\hullmods\hull_mods.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\hulls\ship_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\hulls\wing_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\shipsystems\ship_systems.csv">
           <value>
             <Attribute>
@@ -87,21 +66,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\strings\descriptions.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\trails\trail_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Games\Starsector\CN_mods\new\TraverserDesignBureau\data\weapons\weapon_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_yuan_wei_variant",
   "hullId": "TDB_yuan_wei",
-  "displayName": "常规",
+  "displayName": "General",
   "goalVariant": true,
   "fluxCapacitors": 9,
   "fluxVents": 0,

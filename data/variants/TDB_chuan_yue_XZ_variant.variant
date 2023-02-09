@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_chuan_yue_XZ_variant",
   "hullId": "TDB_chuan_yue_XZ",
-  "displayName": "常规",
+  "displayName": "General",
   "goalVariant": true,
   "fluxCapacitors": 30,
   "fluxVents": 5,

@@ -50,7 +50,7 @@ $faction.id == TDB",,"Your name is already well known to most officers, $theFact
 relLevelFriendlyTDB,RelationshipLevelDesc,"$faction.rel == FRIENDLY
 $faction.id == TDB",,As a friend $theFaction thinks highly of you and most officers will greet you or return a smile when they meet you.,,
 relLevelCooperativeTDB,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == TDB",," $theFaction values your alliance, and patrol fleets within their systems will go out of their way to help you whenever you need it, Various exclusive certificates guarantee you access to certain places that are out of the reach of ordinary people, and it is said that the Director will meet with the person who has such a certificate personally.",,
+$faction.id == TDB",," $theFaction values your alliance, and patrol fleets within their systems will go out of their way to help you. Various exclusive certificates guarantee you access to certain places that are out of the reach of ordinary people, and it is said that the Director will personally meet with the person who has such a certificate.",,
 relLevelSuspiciousTDB,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
 $faction.id == TDB",,"Your actions have come to the attention of $theFaction and although their open markets will still allows you access, the hassle of the formalities and the frequent searches will be too much for you.",,
 relLevelInhospitableTDB,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
