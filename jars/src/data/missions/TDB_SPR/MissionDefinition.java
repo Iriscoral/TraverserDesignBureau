@@ -44,7 +44,6 @@ public class MissionDefinition implements MissionDefinitionPlugin {
         api.addToFleet(FleetSide.PLAYER, "kite_luddic_path_Strike", FleetMemberType.SHIP, false);
 
         // 敌军舰队
-        api.addToFleet(FleetSide.ENEMY, "TDB_xing_yun_variant", FleetMemberType.SHIP, false);
         api.addToFleet(FleetSide.ENEMY, "TDB_shuang_hen_variant", FleetMemberType.SHIP, false);
         api.addToFleet(FleetSide.ENEMY, "TDB_gu_yu_variant", FleetMemberType.SHIP, false);
         api.addToFleet(FleetSide.ENEMY, "TDB_feng_xian_variant", FleetMemberType.SHIP, false);
