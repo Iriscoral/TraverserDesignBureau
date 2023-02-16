@@ -1,6 +1,6 @@
 id,name,order,tier,description,author,combat officer,admiral,admin,tags,icon,
 # COMBAT,,,,,,,,,,,
-TDB_HF,纳米集群,99,5,你想让我去哪，老大？你看我最近变成的人形是不是又好看了许多？悄悄告诉你之前我还多变出一根触手呢。。。哈？老大，我可是不会流血的，尽管交给我好了！,-小灰,TRUE,,,"npc_only, player_only",graphics/icons/skill/TDB_HF.png,
+TDB_HF,Nanoclusters,99,5,"Where do you want me to go, boss? Do you see how much better I look in my human form these days? I even got an extra tentacle before I told you. Huh? Boss, I'm not going to bleed, just leave it to me!",-Ash,TRUE,,,"npc_only, player_only",graphics/icons/skill/TDB_HF.png,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
