@@ -1,7 +1,7 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
 Modular Fortress,TDB_ji_yu_yun,0,,Traverser Design Bureau,special,Special,,,TRUE,,0,0,0,0,data.hullmods.TDB_ji_yu_yun,"As a command flagship, the Cumulonimbus has an unparalleled command system that can easily coordinate the modules with the vast number of aircraft it carries.
 
-Special jump equipment is integrated into the massive engine system, allowing the ship to quickly rip through space and egress to ensure the survival of this expensive beast in the event of an emergency.",Cumulonimbus built-in hullmods,graphics/hullmods/TDB_jin_ji_yue_qian.png
+Special jump equipment is integrated into the massive engine system, allowing the ship to quickly jump out in case of an emergency, ensuring the survival of this expensive beast.",Cumulonimbus built-in hullmods,graphics/hullmods/TDB_jin_ji_yue_qian.png
 Weak Magnetised Plating,TDB_ruo_ci_du_cheng,0,,Traverser Design Bureau,special,"Special, Defense",5000,,TRUE,,0,0,0,0,data.hullmods.TDB_ruo_ci_du_cheng,"The Traverser Association's special plating uses the effect of weak magnetisation to deflect the effects of solar storms {%s} and EMP penetration {%s} on the ship.
 
 This coating is widely used on the hulls developed by the Traveller's Association.",Boosts the hull's resistance to solar storms and EMP.。,graphics/hullmods/TDB_ruo_ci.png
@@ -23,3 +23,4 @@ This system was severely damaged during Operation White Witch, before which it w
 
 The ship underwent a complete private refurbishment and renovation after being placed under the Traversers' Association.",Provides different gains depending on flux state,graphics/hullmods/TDB_rzg.png
 Pansy,TDB_san_se_jin,0,,Traverser Design Bureau,special,Special,2500,,TRUE,,0,8,15,20,data.hullmods.TDB_san_se_jin,"Pansy dissipates 150 soft flux per trigger, and if soft flux is maxed out, additional hard flux is dissipated at a ratio of 3:1",Pansy,graphics/hullmods/resistant_flux_conduits.png
+Anemometer Emergency Reconfiguration System,TDB_cs,0,,Traverser Design Bureau,"defensive, merc, TDB_cj","Engines, Special",2500,,,,3,3,3,3,data.hullmods.TDB_cs,"""Developed as part of the 'Vixen' program, this device can be utilized to save ships during critical situations. This emergency repair protocol can be activated by pressing the ""L"" key, which instantly restarts all engines, giving the ship {%s} shield damage reduction and very high shield deployment/turning rate for the next five seconds if the ship has shields, and armour resistance for the next five seconds if the ship does not have shields {%s}.",Emergency Protocol,graphics/hullmods/TDB_jin_ji.png

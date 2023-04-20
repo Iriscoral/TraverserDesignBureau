@@ -4,51 +4,64 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/TDB_pao_tai.png",
   "style": "TDB_TECH",
-  "height": 70,
-  "width": 70,
-  "center": [36, 37],
-  "collisionRadius": 48,
+  "height": 80,
+  "width": 87,
+  "center": [44, 41.5],
+  "collisionRadius": 86.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 40.5,
+  "shieldRadius": 63,
   "viewOffset": 0,
   "builtInMods": [
     "automated",
-    "pointdefenseai",
     "always_detaches"
   ],
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "MEDIUM",
-      "type": "HYBRID",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [1, -0]
+      "locations": [-0.5, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-25.5, -0],
-      "length": 9.5,
-      "width": 7,
+      "location": [-23, 13],
+      "length": 30,
+      "width": 10,
       "angle": 180,
-      "contrailSize": 7,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-23, -13],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
       "style": "TDB_TECH"
     }
   ],
   "bounds": [
-    -26.5, -7,
-    -10, -16,
-    7, -16.5,
-    14, -21.5,
-    16.5, -27.5,
-    21.5, -24,
-    21.5, 24,
-    16.5, 27.5,
-    14, 21.5,
-    7, 16.5,
-    -10, 16,
-    -26.5, 7
+    -30, -11,
+    -27, -21,
+    -18.5, -22,
+    -21.5, -32.5,
+    -26, -39,
+    -7, -42,
+    9, -34,
+    23.5, -32,
+    28, -27.5,
+    28, 27.5,
+    23.5, 32,
+    9, 34,
+    -7, 42,
+    -26, 39,
+    -21.5, 32.5,
+    -18.5, 22,
+    -27, 21,
+    -30, 11
   ]
 }

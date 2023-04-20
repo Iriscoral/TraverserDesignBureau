@@ -133,7 +133,7 @@
       "style": "TDB_TECH"
     },
     {
-      "location": [-81, 47.5],
+      "location": [-81, 47],
       "length": 30,
       "width": 10,
       "angle": 180,
@@ -141,7 +141,7 @@
       "style": "TDB_TECH"
     },
     {
-      "location": [-81, -47.5],
+      "location": [-81, -47],
       "length": 30,
       "width": 10,
       "angle": -180,
@@ -165,19 +165,11 @@
       "style": "TDB_TECH"
     },
     {
-      "location": [-81, 47.5],
+      "location": [-100, -0],
       "length": 0,
-      "width": 11,
+      "width": 8,
       "angle": 180,
-      "contrailSize": 11,
-      "style": "TDB_TECH2"
-    },
-    {
-      "location": [-81, -47.5],
-      "length": 0,
-      "width": 11,
-      "angle": -180,
-      "contrailSize": 11,
+      "contrailSize": 8,
       "style": "TDB_TECH2"
     }
   ],

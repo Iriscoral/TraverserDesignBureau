@@ -125,10 +125,9 @@ public class TDB_ren_zhao_guang extends BaseBarEventWithPerson {
                     break;
                 } else {
                     //相识准备文案
-                    text.addPara(txt("RZG_TXT_READY_1") +
-                            txt("RZG_TXT_READY_2"));
-                    options.addOption(txt("RZG_TXT_READY_3"), STORY);
-                    options.addOption(txt("RZG_TXT_READY_4"), YB);
+                    text.addPara(txt("RZG_TXT_READY_1"));
+                    options.addOption(txt("RZG_TXT_READY_2"), STORY);
+                    options.addOption(txt("RZG_TXT_READY_3"), YB);
                     break;
                 }
             case STORY://主线剧情1

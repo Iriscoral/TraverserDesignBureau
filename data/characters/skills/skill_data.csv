@@ -1,6 +1,6 @@
 id,name,order,tier,description,author,combat officer,admiral,admin,tags,icon,
 # COMBAT,,,,,,,,,,,
-TDB_HF,Nanoclusters,99,5,"Where do you want me to go, boss? Do you see how much better I look in my human form these days? I even got an extra tentacle before I told you. Huh? Boss, I'm not going to bleed, so just leave it to me!",-Ash,TRUE,,,"npc_only, player_only",graphics/icons/skill/TDB_HF.png,
+TDB_HF,Nanoclusters,99,5,"Where do you want me to go, boss? Do you see how much better I look in my human form these days? I even grew out an extra tentacle before I told you. Huh? Boss, I'm not going to bleed, so just leave it to me!",-Ash,TRUE,,,"npc_only, player_only",graphics/icons/skill/TDB_HF.png,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,

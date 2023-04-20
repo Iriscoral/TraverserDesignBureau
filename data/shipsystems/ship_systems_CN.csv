@@ -4,10 +4,11 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 """寒风""导弹系统",TDB_dao_dan,1,,,,,,,,0.05,0.25,6,0.25,7,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
 全功率雷达扫描,TDB_SY,,,,,,,,,0.05,0.25,6,0.25,6,,,,,,,,,,,,,graphics/icons/relay.png
 现实透孔跃迁,TDB_yq,,,,,,,,,0.18,0.25,1,0.5,12,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
-超时空加速器,TDB_targetingfeed,,,,,,0.5,,,,0.5,15,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+超时空加速器,TDB_targetingfeed,,,,,,0.5,,,,0.5,13,0.5,20,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
 热幅环流线圈,TDB_wu_qi,1,,,,,,,,,0,3,1,13,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
-炮台部署,TDB_turretdeploy,,,,,,,,2,0.03,1,,0.5,0.5,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+炮台部署,TDB_turretdeploy,,,,,,,,1,0.4,1,,0.5,25,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
 无序偏移,TDB_tuxi,1,,,,,,,,,0,2,1,15,,,,,TRUE,,TRUE,,TRUE,TRUE,,,graphics/icons/hullsys/maneuvering_jets.png
+"""狐狸座""无人舰反制系统",TDB_hei_ru,1,,,,,,,,,2,15,1,50,,,,,,,,,,TRUE,,,graphics/icons/hullsys/maneuvering_jets.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #唯一舰,,,,,,,,,,,,,,,,,,,,,,,,,,,
 纳米重构,TDB_na_mi,1,,,,,,,,,0,2,1,13,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png

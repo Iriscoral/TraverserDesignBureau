@@ -16,6 +16,7 @@
 		"TDB_yu_ren_variant":5,
 		"TDB_xi_yu_variant":2,
 		"TDB_feng_ya_variant":1,
+		"TDB_sui_ceng_yun_variant":1,
 		
 		"fallback":{"combatMedium":0.5},
 	},
@@ -34,6 +35,7 @@
 		"TDB_chuan_yue_XZ_variant":1,
 		"TDB_chuan_yun_variant":1,
 		"TDB_ji_liu_variant":0.5,
+		"TDB_sui_ceng_yun_variant":1,
 		
 		"fallback":{"combatSmall":1},
 	},
@@ -56,6 +58,7 @@
 		"TDB_feng_ya_variant":3,
 		"TDB_chuan_yun_variant":2,
 		"TDB_ji_liu_variant":1,
+		"TDB_sui_ceng_yun_variant":1,
 
 		
 		"fallback":{"combatMedium":1},
@@ -79,6 +82,7 @@
 		"TDB_feng_ya_variant":5,
 		"TDB_chuan_yun_variant":3,
 		"TDB_ji_liu_variant":1,
+		"TDB_sui_ceng_yun_variant":1,
 		
 		"fallback":{"combatLarge":1},
 	},

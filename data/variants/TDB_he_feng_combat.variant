@@ -1,0 +1,13 @@
+{
+    "displayName": "Sacrifice",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "hullId": "TDB_he_feng",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_he_feng_combat",
+    "weaponGroups": [],
+    "wings": ["TDB_quan_fan_she"]
+}

@@ -1,0 +1,36 @@
+{
+    "displayName": "持续",
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "TDB_ceng_ji_yun",
+    "hullMods": ["TDB_hang_kong"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_ceng_ji_yun_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "TDB_changkongpod",
+                "WS0004": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "TDB_yun_jian",
+                "WS0012": "TDB_yun_jian2",
+                "WS0013": "TDB_yun_jian",
+                "WS0014": "TDB_yun_jian2"
+            }
+        }
+    ],
+    "wings": [
+        "TDB_quan_fan_she",
+        "TDB_mi_san_guang",
+        "TDB_mi_san_guang"
+    ]
+}

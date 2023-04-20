@@ -15,7 +15,7 @@ import static data.utils.tdb.I18nUtil.easyRippleOut;
 
 public class TDB_dao_dan extends BaseShipSystemScript {
 
-    public static final float DAMAGE_BONUS_PERCENT = 15f;
+    public static final float DAMAGE_BONUS_PERCENT = 25f;
     private boolean i = false;
     public static String txt(String id) {
         return Global.getSettings().getString("scripts", id);

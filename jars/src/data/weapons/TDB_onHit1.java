@@ -38,7 +38,7 @@ public class TDB_onHit1 implements OnHitEffectPlugin {
             //emp根据弹丸emp量获取
             float emp = projectile.getEmpAmount();
             //根据弹丸伤害获取伤害
-            float dam = projectile.getDamageAmount();
+            float dam = 100;
             //生成emp效果
             engine.spawnEmpArcPierceShields(projectile.getSource(), point, target, target,
                     //伤害类型为能量

@@ -5,6 +5,8 @@ import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
+import com.fs.starfarer.api.impl.campaign.ids.Tags;
+import com.fs.starfarer.api.loading.FighterWingSpecAPI;
 import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
@@ -29,12 +31,20 @@ public class TDB_zi_dong_jian_chuan extends BaseHullMod {
 
     static {
         BLOCKED_HULLMODS.add("additional_berthing");
-        BLOCKED_HULLMODS.add("converted_hangar");
         BLOCKED_HULLMODS.add("safetyoverrides");
     }
 
     @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
+        for (int i = 0; i < ship.getNumFighterBays(); i++) {
+            FighterWingSpecAPI wing = ship.getVariant().getWing(i);
+            if (wing != null && !wing.hasTag(Tags.AUTOMATED_FIGHTER)) {
+                ship.getVariant().setWingId(i, null);
+                if (ship.getFleetMember() != null && ship.getFleetMember().getFleetData() != null) {
+                    ship.getFleetMember().getFleetData().getFleet().getCargo().addFighters(wing.getId(), 1);
+                }
+            }
+        }
         for (String tmp : BLOCKED_HULLMODS) {
             if (ship.getVariant().getHullMods().contains(tmp)) {
                 MagicIncompatibleHullmods.removeHullmodWithWarning(ship.getVariant(), tmp, "TDB_zi_dong_jian_chuan");

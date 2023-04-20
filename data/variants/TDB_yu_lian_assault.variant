@@ -1,0 +1,30 @@
+{
+    "displayName": "Stifling",
+    "fluxCapacitors": 10,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "TDB_yu_lian",
+    "hullMods": [
+        "converted_hangar",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_yu_lian_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "TDB_cai_yu",
+                "WS0005": "TDB_cai_yu"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "lightneedler"}
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

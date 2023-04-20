@@ -2,30 +2,37 @@ package data.shipsystems.scripts;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
+
+import java.awt.*;
 
 public class TDB_tuxi extends BaseShipSystemScript {
 
+    public static Object KEY_SHIP = new Object();
     public static String txt(String id) { return Global.getSettings().getString("scripts", id); }
 
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
 
-		/*if (ship != null)
+        ShipAPI ship = (ShipAPI) stats.getEntity();
+		if (ship != null)
 		{
-			if (state == State.ACTIVE)
-			{
-				//舰船设置为相位
-				//ship.setPhased(true);
-				//将建舰船碰撞取消
-				//ship.setCollisionClass(CollisionClass.NONE);
+            ship.fadeToColor(KEY_SHIP, new Color(75,75,75,255), 0.1f, 0.1f, effectLevel);
 
-			}
-			else
-			{
-				//恢复碰撞
-				//ship.setCollisionClass(CollisionClass.SHIP);
-			}
-		}*/
+//			if (state == State.ACTIVE)
+//			{
+//				//舰船设置为相位
+//				//ship.setPhased(true);
+//				//将建舰船碰撞取消
+//				//ship.setCollisionClass(CollisionClass.NONE);
+//
+//			}
+//			else
+//			{
+//				//恢复碰撞
+//				//ship.setCollisionClass(CollisionClass.SHIP);
+//			}
+		}
 
         //设置变量mult为0.1
         float mult = 0.1f;

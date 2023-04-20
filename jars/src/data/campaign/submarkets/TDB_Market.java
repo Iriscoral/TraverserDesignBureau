@@ -48,6 +48,7 @@ public class TDB_Market extends BaseSubmarketPlugin {
                 }
             }
 
+
             addFighters(fighterNum, fighterNum, 3, "TDB_wu_ren"); //min number, max number, max tier, faction id
             addWeapons(weapons, weapons + 2, 3, "TDB_wu_ren");
             addHullMods(hullmods, hullmods);

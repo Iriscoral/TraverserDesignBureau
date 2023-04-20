@@ -140,7 +140,7 @@
         "HANGKONG_6":"Can only be installed on ships with hangars",
         "HANGKONG_7":"Conflicts with [%s]",
         "HANGKONG_8":"Expanded Deck Crew",
-        
+
         "JYY_1":"Emergency Jump preparation",
         "JYY_2":"Emergency jump successful",
         "JYY_3":"Special",
@@ -201,8 +201,13 @@
         "ZDJC_3":"Conflicts with [%s]",
         "ZDJC_4":"Safety Overrides",
         "ZDJC_5":"Additional Berthing",
-        "ZDJC_6":"Converted Hangar"
-    },
+        "ZDJC_6":"Converted Hangar",
+	
+	    "TDB_CQ_1":"Can only be fitted to the hull of a Traverser Association or Blue Sea Fisheries vessel",
+	    "TDB_CQ_2":"Normal",
+	    "TDB_CQ_3":"Remarks",
+	    "TDB_CQ_4":"Can only be triggered once per battle, player can press L to initiate trigger, while the AI will automatically trigger the system on first flame out."
+  },
     "missions":{
         "BWN_1":"Remnants of the Unknown Empire Command Fleet",
         "BWN_2":"Pirates - The Invincible Fleet",
@@ -217,8 +222,10 @@
         "ZGJ_3":"TDB Huge Rain Cloud must survive",
         "ZGJ_4":"Defeat the enemy fleet"
 
-    },
+  },
     "scripts":{
+        "Hai_ru":"Hacking successful",
+	  
         "WuRen_1":"Unmanned Fleet Headquarters (",
 
         "CJY":"Skill active",
@@ -270,12 +277,3 @@
         "QYData_7":"Flowing Dust"
     }
 }
-
-
-
-
-
-
-
-
-

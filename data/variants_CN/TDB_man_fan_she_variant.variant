@@ -1,7 +1,7 @@
 {
   "variantId": "TDB_man_fan_she_variant",
   "hullId": "TDB_man_fan_she",
-  "displayName": "护航炮艇",
+  "displayName": "无人护航炮艇",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
@@ -14,12 +14,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "ionbeam",
-        "WS0002": "TDB_Focuspd",
-        "WS0003": "TDB_Focuspd",
-        "WS0004": "TDB_Focuspd",
-        "WS0005": "TDB_Focuspd",
-        "WS0006": "TDB_Focuspd",
-        "WS0007": "heavyburst"
+        "WS0007": "TDB_Focuspd"
       }
     }
   ],

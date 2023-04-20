@@ -122,7 +122,7 @@ public class TDB_StarSystem {
         SectorEntityToken gate = system.addCustomEntity("TDB_gate", // unique id 设置星门id
                 txt("starsystem_gate"), // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
                 "inactive_gate", // type of object, defined in custom_entities.json 设置标签（让系统识别这是个星门）根据custom_entities.json设置
-                null); // faction
+                "TDB"); // faction
         gate.setCircularOrbit(system.getEntityById("Indulge"), 0, 3180, 350);
 
         //设置你星系的永久稳定点建筑
@@ -176,7 +176,6 @@ public class TDB_StarSystem {
                 newMarket.addSubmarket(market);
             }
         }
-
 
         //Adds market conditions  增加了市场条件
         for (String condition : marketConditions) {

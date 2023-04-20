@@ -53,17 +53,19 @@ public class TDB_XZ implements OnFireEffectPlugin, OnHitEffectPlugin,EveryFrameW
         NegativeExplosionVisual.NEParams p = RiftCascadeMineExplosion.createStandardRiftParams(TDB_ColorData.TDBblue3, 15f);
         p.fadeOut = 2f;
         p.hitGlowSizeMult = 1f;
+        p.underglow = TDB_ColorData.TDBblue4;
+        p.color = TDB_ColorData.TDBblue;
         RiftCascadeMineExplosion.spawnStandardRift(projectile, p);
 
         engine.spawnExplosion(point, nv, TDB_ColorData.TDBblue, 100f, 1.5f);
         //emp根据弹丸emp量获取
         float emp = projectile.getEmpAmount();
         //生成emp效果
-        for (int i = 0 ; i<20 ; i++)
+        for (int i = 0 ; i<10 ; i++)
         engine.spawnEmpArcPierceShields(projectile.getSource(), point, target, target,
                 //伤害类型为能量
                 DamageType.ENERGY,
-                100,
+                60,
                 emp, // emp
                 //最大范围
                 100000f,

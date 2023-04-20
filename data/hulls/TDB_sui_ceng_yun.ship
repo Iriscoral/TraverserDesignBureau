@@ -1,0 +1,202 @@
+{
+  "hullName": "TDB_sui_ceng_yun",
+  "hullId": "TDB_sui_ceng_yun",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/TDB_sui_ceng_yun/TDB_sui_ceng_yun.png",
+  "style": "TDB_TECH",
+  "height": 163,
+  "width": 146,
+  "center": [73, 75],
+  "collisionRadius": 133.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 117,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "ecm"
+  ],
+  "builtInWeapons": {
+    "WS0003": "TDB_scy_ld",
+    "WS0004": "TDB_scy_ld2",
+    "WS0005": "TDB_scy_pq",
+    "WS0006": "TDB_scy_pq",
+    "WS0007": "taclaser",
+    "y": "TDB_scy_you",
+    "z": "TDB_scy_zuo"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": 90,
+      "locations": [-29, 38]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": -90,
+      "locations": [-29, -38]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-35.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-35.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 26.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -26]
+    },
+    {
+      "id": "z",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 26.5]
+    },
+    {
+      "id": "y",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -26.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 224,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67.5, -0],
+      "length": 46.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-52.5, 44],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-52.5, -44],
+      "length": 16,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-49.5, 51],
+      "length": 25.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-49.5, -51],
+      "length": 25.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-67.5, -0],
+      "length": 0,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    -71, -5,
+    -74.5, -22,
+    -63.5, -23,
+    -50, -34,
+    -53.5, -39.5,
+    -57, -59.5,
+    -50.5, -66,
+    -24, -72,
+    -7.5, -71,
+    -10, -63.5,
+    -5.5, -52,
+    8, -39,
+    41, -31,
+    72, -30.5,
+    72.5, -23,
+    75, -20,
+    75, -12.5,
+    61.5, -11.5,
+    51, -3.5,
+    28.5, -3.5,
+    28.5, 3.5,
+    51, 3.5,
+    61.5, 11.5,
+    75, 12.5,
+    75, 20,
+    72.5, 23,
+    72, 30.5,
+    41, 31,
+    8, 39,
+    -5.5, 52,
+    -10, 63.5,
+    -7.5, 71,
+    -24, 72,
+    -50.5, 66,
+    -57, 59.5,
+    -53.5, 39.5,
+    -50, 34,
+    -63.5, 23,
+    -74.5, 22,
+    -71, 5
+  ]
+}

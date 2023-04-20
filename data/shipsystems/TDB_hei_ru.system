@@ -1,0 +1,29 @@
+{
+	"id":"TDB_hei_ru",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	"aiScript":"data.shipsystems.scripts.ai.TDB_alwaysuseAI",
+	
+	"statsScript":"data.shipsystems.scripts.TDB_hei_ru",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"jitterUnderColor":[0,157,255,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"aiHints":{
+		"threatRange":1000,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

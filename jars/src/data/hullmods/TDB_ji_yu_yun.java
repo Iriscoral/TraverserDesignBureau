@@ -3,6 +3,7 @@ package data.hullmods;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.campaign.skills.NeuralLinkScript;
+import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
@@ -13,15 +14,14 @@ import org.dark.shaders.distortion.RippleDistortion;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 
 import static data.utils.tdb.I18nUtil.easyRippleOut;
 
 @SuppressWarnings("ALL")
 public class TDB_ji_yu_yun extends BaseHullMod {
-    static boolean yq = true;
+    boolean ready = true;
+    private static final String id = "TDB_ji_yu_yun";
     public static String txt(String id) {
         return Global.getSettings().getString("hullmods", id);
     }
@@ -124,8 +124,8 @@ public class TDB_ji_yu_yun extends BaseHullMod {
 
     //本体相关
     private void advanceParent(final ShipAPI parent, java.util.List<ShipAPI> children) {
-		final CombatEngineAPI engine = Global.getCombatEngine();
-		ShipEngineControllerAPI ec = parent.getEngineController();//本体引擎控制
+        final CombatEngineAPI engine = Global.getCombatEngine();
+        ShipEngineControllerAPI ec = parent.getEngineController();//本体引擎控制
 
         float depCost = 0f;
         if (parent.getFleetMember() != null) {
@@ -133,7 +133,9 @@ public class TDB_ji_yu_yun extends BaseHullMod {
         }
 
         float crLoss = 1f * depCost;
-        if (parent.getHitpoints()<3000 && parent.getCurrentCR() >= crLoss) {
+
+        //当本体少于3k血量
+        if (parent.getHitpoints() < 3000 && parent.getCurrentCR() >= crLoss) {
             //parent.setHitpoints(1f);
             //ship.setCurrentCR(Math.max(0f, ship.getCurrentCR() - crLoss));
             if (parent.getFleetMember() != null) { // fleet member is fake during simulation, so this is fine
@@ -142,7 +144,7 @@ public class TDB_ji_yu_yun extends BaseHullMod {
             }
 
 
-            parent.setJitterUnder(parent,TDB_ColorData.TDBblue,5,6,4);
+            parent.setJitterUnder(parent, TDB_ColorData.TDBblue, 5, 6, 4);
 
             parent.getMutableStats().getHullDamageTakenMult().modifyMult("TDB_ji_yu_yun", 0.15f);
 
@@ -156,99 +158,127 @@ public class TDB_ji_yu_yun extends BaseHullMod {
 
             engine.addHitParticle(loc, lvel, size, 2f, MathUtils.getRandomNumberInRange(1f, 1.5f), TDB_ColorData.TDBblue4);
 
-            if (yq)
-            {
-                Global.getSoundPlayer().playSound("TDB_YQ", 1f, 1f, parent.getLocation(), parent.getVelocity());
-                float timeMult = parent.getMutableStats().getTimeMult().getModifiedValue();
-                Global.getCombatEngine().addFloatingTextAlways(parent.getLocation(), txt("JYY_1"),
-                        NeuralLinkScript.getFloatySize(parent) + 5f, TDB_ColorData.TDBred, parent, 5f, 3.2f / timeMult, 5f , 0f, 0f,
-                        1f);
-                yq = false;
-            }
-
-            if (parent.isRetreating())
-            {
-                engine.getCombatUI().addMessage(10,TDB_ColorData.TDBblue3 , parent ,txt("JYY_2") ,"(",parent.getHullSpec().getHullName(),")",parent.getName());
-                yq = true;
-            }
-
-
-            final Timer timer = new Timer();
-            timer.schedule(new TimerTask()
-            {
-                public void run()
-                {
-                    if(engine.isPaused())
-                    {
-                        try {
-                            Thread.sleep(100000000*50);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-                    }else
-                    {
-                        Thread.interrupted();
-                    }
-                    if (parent.isAlive())
-                    {
-
-                        Vector2f ship_loc = parent.getLocation();
-                        Vector2f vel = new Vector2f(parent.getVelocity());
-                        Vector2f Location = new Vector2f(parent.getLocation());
-                        //效果
-                        float radius = 400f;
-
-                        for(int i = -13; i < 34; ++i) {
-                            float size = MathUtils.getRandomNumberInRange(12f, 24f);
-                            float factor = MathUtils.getRandomNumberInRange(5f,15f);
-                            Vector2f vel3 = MathUtils.getPointOnCircumference((Vector2f)null, (float)i * 25f * factor, parent.getFacing() + 90f);
-                            Vector2f vel2 = MathUtils.getPointOnCircumference((Vector2f)null, (float)i * 25f * factor, parent.getFacing() + 90f);
-                            engine.addHitParticle(parent.getLocation(), vel3, size, 1f, 1f, TDB_ColorData.TDBblue4);
-                            engine.addSmoothParticle(parent.getLocation(), vel2, size, 1f, 1f, TDB_ColorData.TDBblue4);
-                        }
-
-                        MagicLensFlare.createSharpFlare(engine, parent, ship_loc, 10, 600, 0, TDB_ColorData.TDBblue, TDB_ColorData.TDBblue3);
-
-                        float lifetime = 0.8f;
-                        RippleDistortion Rip = new RippleDistortion();
-                        Rip.setLocation(Location);
-                        Rip.setIntensity(150f);
-                        Rip.setLifetime(lifetime);
-                        Rip.setFrameRate(60f / lifetime);
-                        Rip.setCurrentFrame(0.f);
-                        Rip.setSize(radius);
-                        Rip.fadeInSize(0.25f * lifetime);
-                        Rip.fadeOutIntensity(lifetime);
-                        Rip.flip(true);
-                        DistortionShader.addDistortion(Rip);
-
-                        //生成扭曲
-                        easyRippleOut(parent.getLocation(), vel, parent.getCollisionRadius() * 4f, 100f, 1f, 20f);
-                        MagicLensFlare.createSharpFlare(engine, parent, ship_loc, 19f, parent.getCollisionRadius() * 2, parent.getFacing() + 90f, TDB_ColorData.TDBblue, TDB_ColorData.TDBblue3);
-                        parent.setExtraAlphaMult(1f);
-                        parent.getLocation().set(0, -1000000f);
-                        parent.setRetreating(true, false);
-                    }
-                }
-            },3000);
         }
     }
 
-    public void advanceInCombat(ShipAPI ship, float amount) {
+    public void advanceInCombat(ShipAPI ship, final float amount) {
+        final ShipAPI parent = ship.getParentStation();
+        final CombatEngineAPI engine = Global.getCombatEngine();
+
         //检查是模块还是本体来决定激活哪一个效果
-        ShipAPI parent = ship.getParentStation();
 
-        if (parent != null) {
-            /*if (ship.getTravelDrive().isActive()) {
-
-            }*/
-            advanceChild(ship, parent);
-
+        if (!engine.getCustomData().containsKey(id)) {
+            engine.getCustomData().put(id, new HashMap<>());
         }
 
+        Map<ShipAPI, TDBState> shipsMap = (Map)engine.getCustomData().get(id);
+
+        if (parent != null) {
+            advanceChild(ship, parent);
+            float depCost = 0f;
+            if (parent.getFleetMember() != null) {
+                depCost = parent.getFleetMember().getDeployCost();
+            }
+
+            float crLoss = 1f * depCost;
+            if (engine.isPaused() || !engine.isEntityInPlay(ship) || !ship.isAlive()) {
+                if (!ship.isAlive()) {
+                    shipsMap.remove(ship);
+                }
+                return;
+            }
+            if (!shipsMap.containsKey(ship)) {
+                shipsMap.put(ship, new TDBState());
+            } else
+            {
+                TDBState data = shipsMap.get(ship);
+                if (!data.isActive && !data.done )
+                {
+                    data.isActive = true;
+                }
+                //当血量少于3k
+                if (parent.getHitpoints()<3000 && parent.getCurrentCR() >= crLoss)
+                {
+                    if (data.isActive)
+                    {
+                        if (ready)
+                        {
+                            float timeMult = parent.getMutableStats().getTimeMult().getModifiedValue();
+                            Global.getCombatEngine().addFloatingTextAlways(parent.getLocation(), txt("JYY_1"),
+                                    NeuralLinkScript.getFloatySize(parent) + 5f, TDB_ColorData.TDBred, parent, 5f, 3.2f / timeMult, 5f , 0f, 0f,
+                                    1f);
+                            Global.getSoundPlayer().playSound("TDB_YQ", 1f, 1f, parent.getLocation(), parent.getVelocity());
+                            this.ready = false;
+                        }
+                        //计时器
+                        data.clock += amount;
+                        if (data.clock >= 3) {
+                            data.isActive = false;
+                            data.done = true;
+                        }
+                    } else {
+                        //计时器，结束后舰船撤退
+                        if (parent.isAlive()) {
+
+                            Vector2f ship_loc = parent.getLocation();
+                            Vector2f vel = new Vector2f(parent.getVelocity());
+                            Vector2f Location = new Vector2f(parent.getLocation());
+                            //效果
+                            float radius = 400f;
+
+                            for (int i = -13; i < 34; ++i) {
+                                float size = MathUtils.getRandomNumberInRange(12f, 24f);
+                                float factor = MathUtils.getRandomNumberInRange(5f, 15f);
+                                Vector2f vel3 = MathUtils.getPointOnCircumference((Vector2f) null, (float) i * 25f * factor, parent.getFacing() + 90f);
+                                Vector2f vel2 = MathUtils.getPointOnCircumference((Vector2f) null, (float) i * 25f * factor, parent.getFacing() + 90f);
+                                engine.addHitParticle(parent.getLocation(), vel3, size, 1f, 1f, TDB_ColorData.TDBblue4);
+                                engine.addSmoothParticle(parent.getLocation(), vel2, size, 1f, 1f, TDB_ColorData.TDBblue4);
+                            }
+
+                            MagicLensFlare.createSharpFlare(engine, parent, ship_loc, 10, 600, 0, TDB_ColorData.TDBblue, TDB_ColorData.TDBblue3);
+
+                            float lifetime = 0.8f;
+                            RippleDistortion Rip = new RippleDistortion();
+                            Rip.setLocation(Location);
+                            Rip.setIntensity(150f);
+                            Rip.setLifetime(lifetime);
+                            Rip.setFrameRate(60f / lifetime);
+                            Rip.setCurrentFrame(0.f);
+                            Rip.setSize(radius);
+                            Rip.fadeInSize(0.25f * lifetime);
+                            Rip.fadeOutIntensity(lifetime);
+                            Rip.flip(true);
+                            DistortionShader.addDistortion(Rip);
+                            ready = true;
+
+                            //生成扭曲
+                            easyRippleOut(parent.getLocation(), vel, parent.getCollisionRadius() * 4f, 100f, 1f, 20f);
+                            MagicLensFlare.createSharpFlare(engine, parent, ship_loc, 19f, parent.getCollisionRadius() * 2, parent.getFacing() + 90f, TDB_ColorData.TDBblue, TDB_ColorData.TDBblue3);
+                            engine.getCombatUI().addMessage(10, TDB_ColorData.TDBblue3, parent, txt("JYY_2"), "(", parent.getHullSpec().getHullName(), ")", parent.getName());
+                            parent.setExtraAlphaMult(1f);
+                            parent.getLocation().set(0, -1000000f);
+                            parent.setRetreating(true, false);
+                        }
+                    }
+                }
+            }
+        }
         List<ShipAPI> children = ship.getChildModulesCopy();
         if (children != null && !children.isEmpty()) {
             advanceParent(ship, children);
+        }
+    }
+
+
+    private final static class TDBState {
+        boolean isActive;
+        boolean done;
+        float clock;
+
+        private TDBState() {
+            isActive = false;
+            done = false;
+            clock = 0f;
         }
     }
 

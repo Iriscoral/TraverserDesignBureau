@@ -55,7 +55,7 @@ public class TDB_qiong_ding extends BaseHullMod {
 
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
-        return (ship.getHullSpec().getHullId().startsWith("TDB_")) &&!ship.getVariant().getHullMods().contains("neural_interface");
+        return !ship.getVariant().getHullMods().contains("neural_interface");
     }
 
    /* public static String getNonDHullId(ShipHullSpecAPI spec) {

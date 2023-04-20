@@ -65,8 +65,8 @@ public class TDB_qiong_dong_G extends BaseHullMod {
 
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
         tooltip.addSectionHeading(txt("QIONG_DING_G_1"), Alignment.TMID, 4f);
-        tooltip.addPara(txt("QIONG_DING_G_1"), TDB_ColorData.TDBcolor1, 4f);
-        tooltip.addPara(txt("QIONG_DING_G_1"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("QIONG_DING_G_2"), TDB_ColorData.TDBcolor1, 4f);
+        tooltip.addPara(txt("QIONG_DING_G_3"), TDB_ColorData.TDBcolor1, 4f);
     }
 
 

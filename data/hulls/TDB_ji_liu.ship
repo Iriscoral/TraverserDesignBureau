@@ -13,11 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "TDB_ruo_ci_du_cheng",
+	"TDB_HeavyBallisticsIntegration",
     "TDB_zi_dong_jian_chuan"
-  ],
-  "builtInWings": [
-    "TDB_mi_san_guang",
-    "TDB_mi_san_guang"
   ],
   "builtInWeapons": {
     "WS0013": "TDB_hang_ji_deng_da",

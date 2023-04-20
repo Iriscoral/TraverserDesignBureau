@@ -8,6 +8,7 @@ public class TDB_ColorData {
 
     public static final Color TDBred = new Color(255, 0, 0, 255);
     public static final Color TDBred2 = new Color(252, 139, 139, 255);
+    public static final Color TDBred3 = new Color(143, 51, 51, 20);
     public static final Color TDBwhite = new Color(255, 255, 255, 200);
     public static final Color TDBpurplish_red = new Color(236, 2, 253);
     public static final Color TDBpurplish = new Color(143, 87, 252, 52);

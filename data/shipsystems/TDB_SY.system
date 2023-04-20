@@ -5,11 +5,6 @@
 	"aiScript":"data.shipsystems.scripts.ai.TDB_alwaysuseAI",
 	
 	"statsScript":"data.shipsystems.scripts.TDB_SY",
-
-	"useSound":"system_burn_drive_activate",
-	"loopSound":"system_burn_drive_loop",
-	"deactivateSound":"system_burn_drive_deactivate",
-	"outOfUsesSound":"engine_disabled",
 	
 	"aiHints":{
 		"activeSpeedIncrease":80,

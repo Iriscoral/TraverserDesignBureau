@@ -1,6 +1,7 @@
 trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
-TDB_ning_hua_shot_trail0,TDB_ning_hua_shot,TDB_trail_4,10,0,0,0.3,25,20,"[70,223,225]","[150,150,255]",1.0,200,400,0,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,false,false
-TDB_ning_hua_shot_trail1,TDB_ning_hua_shot,TDB_trail_4,9,0.1,0,0.3,15,10,"[150,150,230]","[150,150,210]",1.0,200,400,0,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,false,false
+TDB_ning_hua_shot_trail3,TDB_ning_hua_shot,TDB_trail_5,10,0,0.3,0.2,50,32,"[0,255,255]","[62,106,192]",0.3,200,50,20,0,0,TRUE,FALSE,TRUE,10,20,0.3,0,500,200,true,false
+TDB_ning_hua_shot_trail4,TDB_ning_hua_shot,TDB_trail_5,10,0,0.3,0.2,50,32,"[62,106,192]","[62,106,192]",0.3,200,50,20,0,0,TRUE,FALSE,TRUE,10,20,0.3,0,500,200,true,false
+TDB_ning_hua_shot_trail5,TDB_ning_hua_shot,TDB_trail_5,10,0,0.3,0.2,50,32,"[62,106,192]","[62,106,192]",0.3,200,50,20,0,0,TRUE,FALSE,TRUE,10,20,0.3,0,500,200,true,false
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 TDB_lian_yi_shot_trail0,TDB_lian_yi_shot,TDB_trail_3,1,0,0,0.2,60,30,"[200,55,255]","[200,55,255]",1.0,200,100,0,0,0,TRUE,TRUE,TRUE,0,0,0,0,0,0,false,false
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,

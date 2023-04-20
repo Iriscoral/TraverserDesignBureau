@@ -3,6 +3,7 @@
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
+	"onFireEffect":"data.weapons.TDB_cai_yu",
 	"collisionClassByFighter":"RAY_FIGHTER",
 	"length":100.0,
 	"hitGlowRadius":100,

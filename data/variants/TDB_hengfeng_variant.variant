@@ -9,7 +9,6 @@
   "permaMods": [],
   "hullMods": [
     "hardenedshieldemitter",
-    "fluxcoil"
   ],
   "weaponGroups": [
     {
@@ -66,7 +65,7 @@
   ],
   "modules": [],
   "wings": [
-    "TDB_fan_guang_yuan",
-    "TDB_fan_guang_yuan"
+    "TDB_man_fan_she",
+    "TDB_man_fan_she"
   ]
 }

@@ -21,7 +21,7 @@ public class TDB_RotateEveryFrameEffect implements EveryFrameWeaponEffectPlugin 
 
     static {
         ROTATE_SPEED.put("TDB_lei_da", 50f);
-        //ROTATE_SPEED.put("xxx", 256f);
+        ROTATE_SPEED.put("TDB_scy_ld2", 250f);
         //ROTATE_SPEED.put("xxx", 20f);
         //ROTATE_SPEED.put("武器id2", 转速f);
         //ROTATE_SPEED.put("武器id3", 转速f);

@@ -91,7 +91,7 @@ public class TDBModPlugin extends BaseModPlugin {
         }
     }
 
-    //ai内容调用
+    //导弹ai内容调用
     @Override
     public PluginPick<MissileAIPlugin> pickMissileAI(MissileAPI missile, ShipAPI launchingShip) {
         switch (missile.getProjectileSpecId()) {
@@ -105,6 +105,8 @@ public class TDBModPlugin extends BaseModPlugin {
                 return new PluginPick<MissileAIPlugin>(new TDB_hu_luo_bo(missile), CampaignPlugin.PickPriority.MOD_SPECIFIC);
             case "TDB_xiang_wei":
                 return new PluginPick<MissileAIPlugin>(new TDB_xiang_wei(missile), CampaignPlugin.PickPriority.MOD_SPECIFIC);
+            case "TDB_han_chao":
+                return new PluginPick<MissileAIPlugin>(new TDB_han_cao(missile), CampaignPlugin.PickPriority.MOD_SPECIFIC);
             default:
         }
         return null;

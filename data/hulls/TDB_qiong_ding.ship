@@ -4,7 +4,7 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/TDB_qiong_ding.png",
   "style": "TDB_TECH",
-  "height": 234,
+  "height": 240,
   "width": 200,
   "center": [100, 117],
   "collisionRadius": 182.5,
@@ -13,24 +13,20 @@
   "viewOffset": 0,
   "builtInMods": [
     "TDB_qiong_ding",
-	"TDB_HeavyBallisticsIntegration",
+    "TDB_HeavyBallisticsIntegration",
     "TDB_ruo_ci_du_cheng"
   ],
   "builtInWeapons": {
     "WS0008": "TDB_hang_ji_deng",
     "WS0009": "TDB_hang_ji_deng",
-    "WS0010": "TDB_hang_ji_deng",
-    "WS0011": "TDB_hang_ji_deng",
+    "WS0010": "TDB_hang_ji_deng_da",
+    "WS0011": "TDB_hang_ji_deng_da",
     "WS0012": "TDB_hang_ji_deng",
     "WS0013": "TDB_hang_ji_deng",
     "WS0014": "TDB_hang_ji_deng2",
     "WS0015": "TDB_hang_ji_deng2",
-    "WS0016": "TDB_hang_ji_deng2",
-    "WS0017": "TDB_hang_ji_deng2",
     "WS0018": "TDB_hang_ji_deng2",
-    "WS0019": "TDB_hang_ji_deng2",
-    "WS0020": "TDB_hang_ji_deng2",
-    "WS0021": "TDB_hang_ji_deng2"
+    "WS0019": "TDB_hang_ji_deng2"
   },
   "weaponSlots": [
     {
@@ -40,7 +36,7 @@
       "mount": "TURRET",
       "arc": 156,
       "angle": 40,
-      "locations": [15.5, 45.5]
+      "locations": [12.5, 36.5]
     },
     {
       "id": "WS0002",
@@ -49,7 +45,7 @@
       "mount": "TURRET",
       "arc": 156,
       "angle": -40,
-      "locations": [15.5, -45.5]
+      "locations": [12.5, -36.5]
     },
     {
       "id": "WS0003",
@@ -58,7 +54,7 @@
       "mount": "TURRET",
       "arc": 155,
       "angle": 116.5,
-      "locations": [-17, 20.5]
+      "locations": [-22, 23]
     },
     {
       "id": "WS0004",
@@ -67,7 +63,7 @@
       "mount": "TURRET",
       "arc": 155,
       "angle": -116.5,
-      "locations": [-17, -20.5]
+      "locations": [-22, -23]
     },
     {
       "id": "WS0005",
@@ -76,7 +72,7 @@
       "mount": "TURRET",
       "arc": 232,
       "angle": 0,
-      "locations": [55, -0]
+      "locations": [63.5, -0]
     },
     {
       "id": "WS0006",
@@ -115,24 +111,6 @@
       "locations": [-115.5, -14]
     },
     {
-      "id": "WS0010",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": 180,
-      "locations": [-102.5, 10]
-    },
-    {
-      "id": "WS0011",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": -180,
-      "locations": [-102.5, -10]
-    },
-    {
       "id": "WS0012",
       "size": "SMALL",
       "type": "DECORATIVE",
@@ -169,24 +147,6 @@
       "locations": [-103.5, -16.5]
     },
     {
-      "id": "WS0016",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": 180,
-      "locations": [-99.5, 7.5]
-    },
-    {
-      "id": "WS0017",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": -180,
-      "locations": [-99.5, -7.5]
-    },
-    {
       "id": "WS0018",
       "size": "SMALL",
       "type": "DECORATIVE",
@@ -205,24 +165,6 @@
       "locations": [39.5, -66.5]
     },
     {
-      "id": "WS0020",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": 0,
-      "locations": [33.5, 67.5]
-    },
-    {
-      "id": "WS0021",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": -0,
-      "locations": [33.5, -67.5]
-    },
-    {
       "id": "LB 1",
       "size": "LARGE",
       "type": "LAUNCH_BAY",
@@ -235,6 +177,24 @@
         -83.5, -9.5,
         -84, 9.5
       ]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [117.5, -34]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [117.5, 36]
     }
   ],
   "engineSlots": [
@@ -255,7 +215,7 @@
       "style": "TDB_TECH"
     },
     {
-      "location": [-33.5, 56.5],
+      "location": [-33.5, 56],
       "length": 28,
       "width": 9,
       "angle": 180,
@@ -263,7 +223,7 @@
       "style": "TDB_TECH"
     },
     {
-      "location": [-33.5, -56.5],
+      "location": [-33.5, -56],
       "length": 28,
       "width": 9,
       "angle": -180,
@@ -271,62 +231,48 @@
       "style": "TDB_TECH"
     },
     {
-      "location": [-33.5, 56.5],
-      "length": 28,
-      "width": 3,
+      "location": [-43.5, 44],
+      "length": 0,
+      "width": 8,
       "angle": 180,
-      "contrailSize": 3,
+      "contrailSize": 8,
       "style": "TDB_TECH2"
     },
     {
-      "location": [-33.5, -56.5],
-      "length": 28,
-      "width": 3,
+      "location": [-43.5, -44],
+      "length": 0,
+      "width": 8,
       "angle": -180,
-      "contrailSize": 3,
+      "contrailSize": 8,
       "style": "TDB_TECH2"
     }
   ],
   "bounds": [
-    -97.5, -10,
-    -105.5, -21.5,
-    -87.5, -30.5,
-    -44.5, -33.5,
-    -44, -51.5,
-    -35, -55.5,
-    -34.5, -60.5,
-    -50, -65.5,
-    -9, -72.5,
-    -9, -76.5,
-    11, -78.5,
-    31, -72.5,
-    32.5, -61.5,
-    50.5, -60.5,
-    61.5, -57.5,
-    67.5, -53,
-    84.5, -53.5,
-    110.5, -39,
-    110, -26.5,
-    86, -23,
-    86, 23,
-    110, 26.5,
-    110.5, 39,
-    84.5, 53.5,
-    67.5, 53,
-    61.5, 57.5,
-    50.5, 60.5,
-    32.5, 61.5,
-    31, 72.5,
-    11, 78.5,
-    -9, 76.5,
-    -9, 72.5,
-    -50, 65.5,
-    -34.5, 60.5,
-    -35, 55.5,
-    -44, 51.5,
-    -44.5, 33.5,
-    -87.5, 30.5,
-    -105.5, 21.5,
-    -97.5, 10
+    -103.5, -14.5,
+    -107, -29.5,
+    -45, -35,
+    -45, -51.5,
+    -33.5, -60,
+    -50, -72,
+    28, -73.5,
+    36, -62.5,
+    102, -54.5,
+    110.5, -46,
+    108, -25,
+    94.5, -23.5,
+    83.5, -7.5,
+    83.5, 7.5,
+    94.5, 23.5,
+    108, 25,
+    110.5, 46,
+    102, 54.5,
+    36, 62.5,
+    28, 73.5,
+    -50, 72,
+    -33.5, 60,
+    -45, 51.5,
+    -45, 35,
+    -107, 29.5,
+    -103.5, 14.5
   ]
 }

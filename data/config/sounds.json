@@ -1,7 +1,7 @@
 {
 
 	"TDB_yun_chui":[
-		{"file":"sounds/TDB_yun_chui.ogg","pitch":1,"volume":1.5},
+		{"file":"sounds/TDB_yun_chui.ogg","pitch":1,"volume":0.8},
 	],
 	"TDB_tai_yang_feng":[
 		{"file":"sounds/TDB_tai_yang_feng.ogg","pitch":1,"volume":0.7},
@@ -28,7 +28,7 @@
 	],
 	"TDB_pd":
 	[
-		{"file":"sounds/TDB_pd.ogg","pitch":2.0,"volume":0.3},
+		{"file":"sounds/TDB_pd.ogg","pitch":2.0,"volume":0.1},
 	],
 	"TDB_duan_hen":
 	[
@@ -40,7 +40,7 @@
 	],
 	"TDB_shao_miao":
 	[
-		{"file":"sounds/TDB_shao_miao.ogg","pitch":1,"volume":1},
+		{"file":"sounds/TDB_shao_miao.ogg","pitch":1,"volume":0.05},
 	],
 	"TDB_huan_liu":
 	[

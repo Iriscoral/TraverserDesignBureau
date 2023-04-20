@@ -15,7 +15,7 @@ import org.lwjgl.util.vector.Vector2f;
 
 public class TDB_SY extends BaseShipSystemScript {
 
-    private final IntervalUtil inte = new IntervalUtil(1f, 1f);
+    private final IntervalUtil inte = new IntervalUtil(1.5f, 1.5f);
     public static float RANGE = 1500f;
     public static float FLUX_THRESHOLD_INCREASE_PERCENT = -50f;
 

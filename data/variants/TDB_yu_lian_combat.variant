@@ -1,0 +1,26 @@
+{
+    "displayName": "Tombstone",
+    "fluxCapacitors": 16,
+    "fluxVents": 2,
+    "hullId": "TDB_yu_lian",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_yu_lian_combat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "TDB_cai_yu",
+                "WS0005": "TDB_cai_yu"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ioncannon"}
+        }
+    ]
+}

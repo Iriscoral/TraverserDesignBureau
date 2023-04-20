@@ -1,0 +1,20 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 9,
+    "fluxVents": 5,
+    "hullId": "TDB_chuan_yun",
+    "hullMods": [
+        "converted_hangar",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_chuan_yun_combat",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "gauss"}
+    }],
+    "wings": ["TDB_man_fan_she"]
+}

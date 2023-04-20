@@ -1,10 +1,8 @@
 {
-    "plugins":{
-    },
 	
     "designTypeColors":
 	{
-		"Under Construction":[163,0,0,255],
+		"U/C (If you see this, please report to the mod author)":[163,0,0,255],
 		"Traverser Design Bureau":[69,90,140,255],
 		"Overwatch Defense Network":[69,90,140,255],
 		"The Gap Dock [Unique]":[193,68,255,255],
@@ -42,5 +40,9 @@
 			"TDB_package":"graphics/icons/cargo/TDB_package.png",
 			"TDB_caaw_package":"graphics/icons/cargo/TDB_caaw_package.png",
 		},		
+	},
+	
+	"plugins": {
+		"TDB_CombatEveryFram":"data.scripts.TDBCombatEveryFram"
 	}
 }

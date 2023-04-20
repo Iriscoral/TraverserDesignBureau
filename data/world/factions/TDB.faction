@@ -62,6 +62,7 @@
 		"TDB_gu_yu",
 		"TDB_lang_chao",
 		"TDB_yun_cheng",
+		"TDB_sui_ceng_yun",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -79,6 +80,7 @@
 		"TDB_gu_yu",
 		"TDB_lang_chao",
 		"TDB_yun_cheng",
+		"TDB_sui_ceng_yun",
 		],
 	},
 	"knownFighters":{
@@ -153,6 +155,7 @@
 			"TDB_hang_kong",
 			"TDB_you_ji",
 			"TDB_Automated",
+			"TDB_cs",
 			"turretgyros",
 			"armoredweapons",
 			"augmentedengines",

@@ -2,16 +2,16 @@ id,type,text1,text2,text3,notes
 ,,,,,
 #星球/地图建筑描述,,,,,
 TDB_jdgdfy,CUSTOM,"One of the components of the Overwatch programme, this forms part of an interdiction network of small and medium-sized independent unmanned orbital defence platforms that can intercept enemy ships to some extent and make enemy operations on the ground extremely difficult.",,,
-TDB_planet1_description,CUSTOM,"The first and last base of the Traverser's Association, the home of the hopes of countless people. After the rebooting of the Mothership and through the efforts of the Traversers, the planet has been built into a habitable and well-defended fortress, protected by a coalition of unmanned and conventional fleets, and home to the core of the Association, the Traverser Design Bureau.",,"In addition to the Star Fortress that guards Intersection, there are countless defence platforms lined up neatly in near-Earth orbit, their flashing beacons and mounted turrets clearly visible as a net that surrounds the entire Intersection.
+TDB_planet1_description,CUSTOM,"The first and last base of the Traverser's Association, the home of the hopes of countless people. After the rebooting of the Mothership and through the efforts of the Traversers, the planet has been built into a habitable and well-defended fortress, protected by a coalition of unmanned and conventional fleets, and home to the core of the Association, the Traverser Design Bureau.",,"除了守卫着Intersection的星际要塞外，在近地轨道上还整齐的排列着数不清的防御平台，你能清楚的看见他们闪烁的信号灯与搭载炮台，如同一张大网将整个 Intersection 包围了起来。
 
-Below, in the darkness of night, the lights of the city decorate the planet like a starry sky, while farther away a special large platform seems to be casting a bright white glow towards the planet's backlight.",
-TDB_station,CUSTOM,"One of the key factors in the settlement of the Traversers' Association, this huge orbital fortress was once a Domain Explorarium mothership, now acts is the lifeblood of the Traveller Association. Most areas of the Mothership have been completely rebuilt or dismantled in numerous systematic constructions, now rendering it as an completely unrecognisable fortress.",,"The vast Star Fortress is both an important base for the Association's space forces and one of the key anchor points for ensuring the security and normalcy of Intersection's trade, with any military and civilian ships attempting to approach being scanned by its vast radar and communications arrays.
+下方处于黑夜中城市的灯光将整个星球点缀的如同星空般璀璨，而在较远处似乎有一台特殊的大号平台正向着星球背光面投射下皎白的光辉。",
+TDB_station,CUSTOM,"One of the key factors in the settlement of the Traversers' Association, this huge orbital fortress was once a Domain Explorarium mothership, now acts is the lifeblood of the Traveller Association. Most areas of the Mothership have been completely rebuilt or dismantled in numerous systematic constructions, now rendering it as an completely unrecognisable fortress.",,"巨大的星际要塞既是协会的太空力量的重要基地也是确保Intersection安全与贸易正常的重要锚点之一，任何企图靠近的军事与民用舰船都在其庞大的雷达与通讯阵列扫描。
 
-Association-owned manned ships patrolling the perimeter, along with unmanned ships, enthusiastically guide incoming and outgoing civilian ships, making the fortress bustling but not chaotic.",
-TDB_Survey_ship,CUSTOM,"An exploration mothership from the Domain period, long abandoned and quietly orbiting Indulge. The hull is in a state of disrepair and bears the message ""Dangerous area, do not approach"" written by the Traverser's Association.",,"Most of the equipment inside the mothership of this long-dormant Domain Mothership has been removed by the Association, leaving only the vacant dock with a large open area. Some of the warning lights and signs are still barely working, particularly on the passive energy harvesters",
+周围巡逻的协会所属载人舰船配合无人舰船热情的引导着来往的民用舰船入港与离去，使得整个要塞繁华却并不混乱。",
+TDB_Survey_ship,CUSTOM,"An exploration mothership from the Domain period, long abandoned and quietly orbiting Indulge. The hull is in a state of disrepair and bears the message ""Dangerous area, do not approach"" written by the Traverser's Association.",,这艘长眠于此的堪探母舰母舰内部的大部分设备已经被协会拆除，只剩下了空置的船坞与大面积的空旷区域。部分警示灯与警示牌依靠被动式能源收集器还在勉强的工作着。,
 ,,,,,
 #势力介绍,,,,,
-TDB,FACTION,"The Traverser's Association is a group of exiles from other worlds who set out to survive, having previously been part of a large mercenary group under the Independents. As they grew in power, they settled the system they had stumbled upon and built it into a true fortress by integrating the technologies and exploration of various worlds, creating this association of travellers and like-minded people. A central body, the Traveller Design Bureau, leads the way as an extremely pro-foreigner force that is hospitable but strictly disciplined. As long as you abide by their laws, you will be more than welcome.
+TDB,FACTION,"The Traverser's Association is a group of exiles from other worlds who banded together to survive, having previously been part of a large mercenary group under the Independents. As they grew in power, they settled the system they had stumbled upon and built it into a true fortress by integrating the technologies and exploration of various worlds, creating this association of travellers and like-minded people. A central body, the Traveller Design Bureau, leads the way as an extremely pro-foreigner force that is hospitable but strictly disciplined. As long as you abide by their laws, you will be more than welcome.
 
 What is clear is that the Bureau is now offering special warships and weapons to reputable clients.",,,
 ,,,,,
@@ -29,6 +29,13 @@ TDB_yuan_wei,SHIP,"The Iris class was originally a custom-built yacht for the Fi
 ""But this thing can take two anti-matter blasters and can do some pretty impressive battle damage in extreme cases."" So said the idle demon.
 
 The child of the Filderis family eventually also stepped into the cursed realm inherited from the bloodline, and one cannot help but wonder, while lamenting the transmutation of the timeline, what will happen next.",,,
+TDB_sui_ceng_yun,SHIP,"The Vixen Unmanned Vessel Countermeasure System is the crowning achievement of the Vixen programme, and its importance can be seen in the fact that it is directly named after the programme itself. The Fractocumulus-class was built as a destroyer entirely around this system.
+
+
+
+The huge Vixen countermeasures system and its supporting facilities take up most of the ship's space, making it less capable of carrying firepower than most other ships in the sector. But what it sacrifices in firepower, it gains a highly specialised anti-drone capability, with the Vixen being able to force false data and telemetry into any non-capital droneship within range to take complete control of the target drone ship for a certain period of time.
+
+",,,
 TDB_gugu,SHIP,"Appearing as nothing more than a Kite-Class shuttle in Traversers' Association paint, the sensors detected a missile mount modification similar to that of the Kite-Class, but the area that should have been the viewing dome returned an incomprehensible reading.
 
 A little bit of green and blue floats by in a trance, like the sound of an empty valley, the song is wispy, gentle and slightly husky. As you sing, you seem to hear another song resonating with it. When you try to track down the song, it drifts away into the starry sky with the wind.
@@ -133,6 +140,7 @@ TDB_hu_luo_bo2,WEAPON,"Built into the Sunshower-Class unmanned arsenal ship is a
 ,,,,,
 ＃技能描述,,,,,
 TDB_yq_gugu,SHIP_SYSTEM,Provides 20% maximum speed increase and shield damage reduction for friendly forces within 1000 units of themselves. If this ship is the flagship. the range of the system is increased to 1500 units.,,,
+TDB_hei_ru,SHIP_SYSTEM,Targets a non-capital unmanned ship within 1500 yards of itself and takes control the target ship for 30 seconds after briefly overloading it. If for any reason the system cannot continue to function then control is terminated.,,,
 TDB_targetingfeed,SHIP_SYSTEM,Activates a hyperspace accelerator to speed up the time flow of the ship.,,,
 TDB_san_se_jin,SHIP_SYSTEM,"Temporarily empowers the ship; greatly increases the maneuverability and maximum speed; weapon flux cost is reduced by 30%, incoming shield damage is reduced by 10%, and lastly ballistic and energy weapon damage is increased by 15%. At the end of the duration, releases an energy barrage; the higher final flux level, the more projectiles are fired.",,,
 TDB_ban_fei,SHIP_SYSTEM,The UAV mounted on both sides of the fuselage takes off to provide escort.,,,

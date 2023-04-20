@@ -1,0 +1,42 @@
+{
+    "displayName": "突袭",
+    "fluxCapacitors": 40,
+    "fluxVents": 30,
+    "hullId": "TDB_shuang_hen",
+    "hullMods": [
+        "targetingunit",
+        "missleracks",
+        "TDB_you_ji"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_shuang_hen_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "plasma",
+                "WS0002": "plasma"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "sabotpod",
+                "WS0007": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "heavyneedler"}
+        }
+    ],
+    "wings": [
+        "wasp_wing",
+        "xyphos_wing"
+    ]
+}

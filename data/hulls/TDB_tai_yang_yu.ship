@@ -13,10 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "TDB_ruo_ci_du_cheng",
+    "TDB_HeavyBallisticsIntegration",
     "TDB_zi_dong_jian_chuan"
-  ],
-  "builtInWings": [
-    "TDB_fan_guang_yuan"
   ],
   "builtInWeapons": {
     "WS0017": "TDB_tai_yang_yu_zuo_guang",

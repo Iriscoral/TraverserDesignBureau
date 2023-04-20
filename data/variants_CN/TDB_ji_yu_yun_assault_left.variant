@@ -1,0 +1,27 @@
+{
+    "displayName": "轰炸",
+    "fluxCapacitors": 18,
+    "fluxVents": 0,
+    "hullId": "TDB_ji_yu_yun_zuo",
+    "hullMods": ["frontshield"],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_ji_yu_yun_assault_left",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "TDB_han_chao"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "TDB_changkongpod"}
+        }
+    ],
+    "wings": [
+        "longbow_wing",
+        "trident_wing"
+    ]
+}

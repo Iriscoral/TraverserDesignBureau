@@ -3,12 +3,13 @@
   "hullId": "TDB_yu_lian",
   "displayName": "常规",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 18,
+  "fluxCapacitors": 11,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "hardenedshieldemitter",
+    "targetingunit"
   ],
   "weaponGroups": [
     {
@@ -23,16 +24,13 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "ioncannon"
+        "WS0003": "TDB_feng_zu"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "TDB_Focuspd",
-        "WS0002": "TDB_Focuspd"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

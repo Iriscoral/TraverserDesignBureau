@@ -17,12 +17,12 @@
 	},
 	"TDB_TECH2":{
 		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-		"contrailDuration":1.1,
-		"contrailWidthMult":0.8,
+		"contrailDuration":1.5,
+		"contrailWidthMult":4,
 		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
-		"contrailMinSeg":20, # min segment length, in pixels
+		"contrailMinSeg":5, # min segment length, in pixels
 		"contrailMaxSpeedMult":1f,
-		"contrailAngularVelocityMult":20f,
+		"contrailAngularVelocityMult":0f,
 		"contrailColor":[0,6,136,255],
 		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
 						

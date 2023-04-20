@@ -1,0 +1,40 @@
+{
+    "displayName": "压制",
+    "fluxCapacitors": 6,
+    "fluxVents": 0,
+    "hullId": "TDB_lang_chao",
+    "hullMods": [
+        "converted_hangar",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_lang_chao_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pilum",
+                "WS0004": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "TDB_yun_jian",
+                "WS0007": "TDB_yun_jian2",
+                "WS0008": "TDB_yun_jian",
+                "WS0009": "TDB_yun_jian2"
+            }
+        }
+    ],
+    "wings": ["TDB_mi_san_guang"]
+}

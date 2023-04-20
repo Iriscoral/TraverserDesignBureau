@@ -1,0 +1,38 @@
+{
+    "displayName": "Bomber",
+    "fluxCapacitors": 13,
+    "fluxVents": 0,
+    "hullId": "TDB_ji_yu_yun",
+    "hullMods": [
+        "TDB_hang_kong",
+        "heavyarmor",
+        "TDB_you_ji"
+    ],
+    "modules": [
+        {"WS0004": "TDB_ji_yu_yun_assault_left"},
+        {"WS0005": "TDB_ji_yu_yun_assault_right"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_ji_yu_yun_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "TDB_han_chao"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "TDB_changkongpod"}
+        }
+    ],
+    "wings": [
+        "longbow_wing",
+        "longbow_wing",
+        "trident_wing",
+        "trident_wing",
+        "trident_wing"
+    ]
+}

@@ -1,6 +1,4 @@
 {
-    "plugins":{
-    },
 	
     "designTypeColors":
 	{
@@ -42,5 +40,9 @@
 			"TDB_package":"graphics/icons/cargo/TDB_package.png",
 			"TDB_caaw_package":"graphics/icons/cargo/TDB_caaw_package.png",
 		},		
+	},
+	
+	"plugins": {
+		"TDB_CombatEveryFram":"data.scripts.TDBCombatEveryFram"
 	}
 }

@@ -1,0 +1,66 @@
+{
+  "hullName": "TDB_wei_guang_zheng",
+  "hullId": "TDB_wei_guang_zheng",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_wei_guang_zheng.png",
+  "style": "TDB_TECH",
+  "height": 46,
+  "width": 32,
+  "center": [16, 23],
+  "collisionRadius": 37.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [5.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, 3],
+      "length": 9.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-10.5, -3],
+      "length": 9.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -13, -12.5,
+    1, -13,
+    9.5, -8,
+    16.5, -6.5,
+    18, -2,
+    9.5, -1.5,
+    9.5, 1.5,
+    18, 2,
+    16.5, 6.5,
+    9.5, 8,
+    1, 13,
+    -13, 12.5
+  ]
+}

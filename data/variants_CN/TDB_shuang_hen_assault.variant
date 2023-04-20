@@ -1,0 +1,41 @@
+{
+    "displayName": "传统",
+    "fluxCapacitors": 40,
+    "fluxVents": 34,
+    "goalVariant": true,
+    "hullId": "TDB_shuang_hen",
+    "hullMods": [
+        "heavyarmor",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_shuang_hen_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_ning_hua",
+                "WS0002": "TDB_ning_hua"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "phasecl",
+                "WS0007": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "TDB_yun_chui"}
+        }
+    ],
+    "wings": [
+        "TDB_mi_san_guang",
+        "TDB_man_fan_she"
+    ]
+}

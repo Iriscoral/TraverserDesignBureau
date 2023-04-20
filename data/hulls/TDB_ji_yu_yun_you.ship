@@ -22,7 +22,8 @@
     "WS0007": "TDB_hang_ji_deng",
     "WS0008": "TDB_hang_ji_deng",
     "WS0009": "TDB_hang_ji_deng",
-    "WS0010": "TDB_hang_ji_deng"
+    "WS0010": "TDB_hang_ji_deng",
+    "WS0011": "TDB_han_chao"
   },
   "weaponSlots": [
     {
@@ -128,6 +129,15 @@
         55.5, -1,
         54.5, 17
       ]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0.5,
+      "locations": [34, 7.5]
     }
   ],
   "engineSlots": [

@@ -1,0 +1,20 @@
+{
+    "displayName": "压制",
+    "fluxCapacitors": 14,
+    "fluxVents": 10,
+    "hullId": "TDB_feng_ya",
+    "hullMods": [
+        "converted_hangar",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_feng_ya_combat",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "TDB_ning_hua"}
+    }],
+    "wings": ["TDB_mi_san_guang"]
+}

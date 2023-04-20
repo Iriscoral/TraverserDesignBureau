@@ -1,0 +1,17 @@
+{
+    "displayName": "牺牲",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "TDB_yun_cheng",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_yun_cheng_support",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "TDB_cai_yu"}
+    }],
+    "wings": ["broadsword_wing"]
+}

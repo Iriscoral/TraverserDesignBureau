@@ -1,0 +1,23 @@
+{
+    "displayName": "General",
+    "fluxCapacitors": 4,
+    "fluxVents": 0,
+    "hullId": "TDB_lang_chao",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_lang_chao_assault",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0002": "cyclone",
+            "WS0003": "sabotpod",
+            "WS0004": "sabotpod",
+            "WS0006": "TDB_yun_jian",
+            "WS0007": "TDB_yun_jian2",
+            "WS0008": "TDB_yun_jian",
+            "WS0009": "TDB_yun_jian2"
+        }
+    }]
+}

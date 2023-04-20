@@ -16,8 +16,9 @@
     "TDB_zi_dong_jian_chuan"
   ],
   "builtInWeapons": {
-    "WS0009": "TDB_hu_dun",
-    "WS0011": "TDB_hu_luo_bo"
+    "WS0009": "TDB_scy_ld",
+	"WS0012": "TDB_scy_ld2",
+	"WS0005": "TDB_luen2"
   },
   "weaponSlots": [
     {
@@ -57,15 +58,6 @@
       "locations": [31.5, -46.5]
     },
     {
-      "id": "WS0005",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "TURRET",
-      "arc": 184,
-      "angle": 112.5,
-      "locations": [-69.5, 52.5]
-    },
-    {
       "id": "WS0006",
       "size": "SMALL",
       "type": "ENERGY",
@@ -77,7 +69,7 @@
     {
       "id": "WS0007",
       "size": "LARGE",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 260,
       "angle": -1.5,
@@ -118,6 +110,24 @@
       "arc": 360,
       "angle": 0,
       "locations": [11.5, -0.5]
+    },
+	{
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-28.5, -0.5]
+    },
+	{
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-28.5, -0.5]
     }
   ],
   "engineSlots": [

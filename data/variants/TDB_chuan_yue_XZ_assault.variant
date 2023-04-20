@@ -1,0 +1,38 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 15,
+    "fluxVents": 5,
+    "hullId": "TDB_chuan_yue_XZ",
+    "hullMods": [
+        "targetingunit",
+        "heavyarmor",
+        "adaptive_coils",
+        "TDB_you_ji"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_chuan_yue_XZ_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "BN": "TDB_XZ",
+                "WS0001": "TDB_yun_ying_L",
+                "WS0002": "heavyneedler",
+                "WS0003": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0006": "mininglaser",
+                "WS0007": "mininglaser"
+            }
+        }
+    ]
+}

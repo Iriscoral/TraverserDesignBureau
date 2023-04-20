@@ -5,15 +5,10 @@
 	
 	"statsScript":"data.shipsystems.scripts.TDB_tuxi",
 	
-	"jitterColor":[0,52,125,80],
-    "jitterCopies":8,
-    "jitterRange":4,
-    "jitterRangeRadiusFraction":0.1,
-	
-	"jitterUnderColor":[0,157,255,155],
+	"jitterUnderColor":[27,209,245,155],
 	"jitterUnderCopies":25,
 	"jitterUnderMinRange":0,
-	"jitterUnderRange":7,
+	"jitterUnderRange":8,
 	"jitterUnderRangeRadiusFraction":0,
 	
 	"engineGlowColor":[120,177,255,255],

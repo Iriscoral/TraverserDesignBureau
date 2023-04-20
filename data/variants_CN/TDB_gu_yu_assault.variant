@@ -1,0 +1,33 @@
+{
+    "displayName": "围绕",
+    "fluxCapacitors": 27,
+    "fluxVents": 0,
+    "hullId": "TDB_gu_yu",
+    "hullMods": [
+        "safetyoverrides",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"goalVariant": true,
+    "variantId": "TDB_gu_yu_assault",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "ionbeam",
+            "WS0002": "phasecl",
+            "WS0005": "phasecl",
+            "WS0006": "TDB_yun_jian",
+            "WS0007": "TDB_yun_jian2",
+            "WS0008": "TDB_yun_jian",
+            "WS0009": "TDB_yun_jian2",
+            "WS0010": "TDB_yun_jian",
+            "WS0011": "TDB_yun_jian2"
+        }
+    }],
+    "wings": [
+        "longbow_wing",
+        "longbow_wing"
+    ]
+}

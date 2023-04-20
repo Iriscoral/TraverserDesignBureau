@@ -110,8 +110,8 @@ public class TDB_san_se_jin extends BaseShipSystemScript {
             stats.getShieldDamageTakenMult().modifyMult(id, 1f - (1f - 0.1f) * effectLevel);
 
             //实弹/能量武器伤害提升
-            stats.getEnergyWeaponDamageMult().modifyFlat(id, 0.20f * effectLevel);
-            stats.getBallisticWeaponDamageMult().modifyFlat(id, 0.20f * effectLevel);
+            stats.getEnergyWeaponDamageMult().modifyFlat(id, 0.6f * effectLevel);
+            stats.getBallisticWeaponDamageMult().modifyFlat(id, 0.6f * effectLevel);
 
             engine.addSmoothParticle(goldenPoint, I18nUtil.nv, MathUtils.getRandomNumberInRange(4f, 10f), 1f, MathUtils.getRandomNumberInRange(0.4f, 1f), TDB_ColorData.TDBblue4);
         }

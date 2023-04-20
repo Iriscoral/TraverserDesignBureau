@@ -5,30 +5,29 @@
   "type": "ENERGY",
   "size": "MEDIUM",
   "displayArcRadius": 450,
-  "turretSprite": "graphics/weapons/cai_yu_turret_base.png",
-  "turretGunSprite": "graphics/weapons/cai_yu_turret_recoil.png",
-  "hardpointSprite": "graphics/weapons/cai_yu_hardpoint_base.png",
-  "hardpointGunSprite": "graphics/weapons/cai_yu_hardpoint_recoil.png",
-  "renderAboveAllWeapons": 0,
+  "turretSprite": "graphics/weapons/TDB_lei_bao_yun_zen_turret_base.png",
+  "turretGunSprite": "graphics/weapons/TDB_lei_bao_yun_zen_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/TDB_lei_bao_yun_zen_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/TDB_lei_bao_yun_zen_hardpoint_recoil.png",
   "visualRecoil": 10,
   "renderHints": [
     RENDER_BARREL_BELOW
   ],
   "turretOffsets": [
-    20.5,
-    -5,
-    20.5,
-    4
+    35,
+    -4.5,
+    35,
+    3.5
   ],
   "turretAngleOffsets": [
     0,
     0
   ],
   "hardpointOffsets": [
-    40,
-    -3,
-    40,
-    3
+    43.5,
+    -4,
+    43.5,
+    4
   ],
   "hardpointAngleOffsets": [
     0,
@@ -50,6 +49,5 @@
       215
     ]
   },
-  "textureType": ROUGH,
   "fireSoundTwo": "hephaestus_fire"
 }
