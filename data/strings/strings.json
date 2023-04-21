@@ -118,9 +118,11 @@
         "MARKET_3":"No returns or sales are accepted here."
     },
     "skills": {
-        "SKILL_HF1":"% Kinetic damage to armour",
+        "SKILL_TXTHF1":"Greywind",
+        "SKILL_TXTHF2":"As compared to destruction, I still prefer creation.",
+        "SKILL_HF1":"% Shield damage taken",
         "SKILL_HF2":"% Damage to weapons and engines",
-        "SKILL_HF3":"% High Explosive damage to shields"
+        "SKILL_HF3":"% Hull damage taken"
     },
     "hullmods":{
 
@@ -241,6 +243,10 @@
 
         "Turret_1":"out of range",
         "Turret_2":"Ready",
+
+        "HEI_RU_1":"No target",
+        "HEI_RU_2":"Target unavailable",
+        "HEI_RU_3":"Ready",
 
         "TuXi":"Disorderly Offset Initiation",
         "WuQi":"Energy weapon damage increased by 15%, weapon range reduced by 50%",
